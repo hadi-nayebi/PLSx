@@ -12,4 +12,4 @@ __version__ = "0.1.0"
 # imports
 from setuptools import find_packages, setup
 
-setup(name="Plsx", version=__version__, packages=find_packages())
+setup(name="PLSx", version=__version__, packages=find_packages())

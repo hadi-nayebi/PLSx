@@ -5,8 +5,9 @@
 from unittest import TestCase
 from unittest import main as unittest_main
 
-from Flipper.database.sqlitedb import SqliteDB
 from sqlalchemy.engine.base import Engine
+
+from PLSx.database.sqlitedb import SqliteDB
 
 
 class TestSqliteDB(TestCase):

@@ -74,50 +74,50 @@
     },
     {
         "label": "SqliteDB",
-        "importPath": "Plsx.database.sqlitedb",
-        "description": "Plsx.database.sqlitedb",
+        "importPath": "PLSx.database.sqlitedb",
+        "description": "PLSx.database.sqlitedb",
         "isExtraImport": true,
-        "detail": "Plsx.database.sqlitedb",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "unittest",
-        "description": "unittest",
-        "isExtraImport": true,
-        "detail": "unittest",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "importPath": "unittest",
-        "description": "unittest",
-        "isExtraImport": true,
-        "detail": "unittest",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "unittest",
-        "description": "unittest",
-        "isExtraImport": true,
-        "detail": "unittest",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "importPath": "unittest",
-        "description": "unittest",
-        "isExtraImport": true,
-        "detail": "unittest",
+        "detail": "PLSx.database.sqlitedb",
         "documentation": {}
     },
     {
         "label": "SqliteDB",
-        "importPath": "Flipper.database.sqlitedb",
-        "description": "Flipper.database.sqlitedb",
+        "importPath": "PLSx.database.sqlitedb",
+        "description": "PLSx.database.sqlitedb",
         "isExtraImport": true,
-        "detail": "Flipper.database.sqlitedb",
+        "detail": "PLSx.database.sqlitedb",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
         "documentation": {}
     },
     {
@@ -155,10 +155,10 @@
     },
     {
         "label": "Database",
-        "importPath": "Plsx.database.database",
-        "description": "Plsx.database.database",
+        "importPath": "PLSx.database.database",
+        "description": "PLSx.database.database",
         "isExtraImport": true,
-        "detail": "Plsx.database.database",
+        "detail": "PLSx.database.database",
         "documentation": {}
     },
     {
@@ -180,82 +180,82 @@
     {
         "label": "root",
         "kind": 5,
-        "importPath": "Plsx.data_utils.load_uniprot",
-        "description": "Plsx.data_utils.load_uniprot",
+        "importPath": "PLSx.data_utils.load_uniprot",
+        "description": "PLSx.data_utils.load_uniprot",
         "peekOfCode": "root = Path(dirname(__file__)).parent.parent\n# define a local sqilte database\ndb = SqliteDB()\ndb.create(\"uniprot\")\n# list of species with full genome sequences, downloaded from NCBI\nspecies = pd.read_csv(root / \"data\" / \"genomes.csv\")\n# print(species[\"Size(Mb)\"].sum())\nEntrez.email = \"nayebiga@msu.edu\"\nfor name in species[\"#Organism Name\"]:\n    eSearch = Entrez.esearch(db=\"genome\", term=\"name\")",
-        "detail": "Plsx.data_utils.load_uniprot",
+        "detail": "PLSx.data_utils.load_uniprot",
         "documentation": {}
     },
     {
         "label": "db",
         "kind": 5,
-        "importPath": "Plsx.data_utils.load_uniprot",
-        "description": "Plsx.data_utils.load_uniprot",
+        "importPath": "PLSx.data_utils.load_uniprot",
+        "description": "PLSx.data_utils.load_uniprot",
         "peekOfCode": "db = SqliteDB()\ndb.create(\"uniprot\")\n# list of species with full genome sequences, downloaded from NCBI\nspecies = pd.read_csv(root / \"data\" / \"genomes.csv\")\n# print(species[\"Size(Mb)\"].sum())\nEntrez.email = \"nayebiga@msu.edu\"\nfor name in species[\"#Organism Name\"]:\n    eSearch = Entrez.esearch(db=\"genome\", term=\"name\")\n    res = Entrez.read(eSearch)\n    for k in res:",
-        "detail": "Plsx.data_utils.load_uniprot",
+        "detail": "PLSx.data_utils.load_uniprot",
         "documentation": {}
     },
     {
         "label": "species",
         "kind": 5,
-        "importPath": "Plsx.data_utils.load_uniprot",
-        "description": "Plsx.data_utils.load_uniprot",
+        "importPath": "PLSx.data_utils.load_uniprot",
+        "description": "PLSx.data_utils.load_uniprot",
         "peekOfCode": "species = pd.read_csv(root / \"data\" / \"genomes.csv\")\n# print(species[\"Size(Mb)\"].sum())\nEntrez.email = \"nayebiga@msu.edu\"\nfor name in species[\"#Organism Name\"]:\n    eSearch = Entrez.esearch(db=\"genome\", term=\"name\")\n    res = Entrez.read(eSearch)\n    for k in res:\n        print(k, \"=\", res[k])\n    break",
-        "detail": "Plsx.data_utils.load_uniprot",
+        "detail": "PLSx.data_utils.load_uniprot",
         "documentation": {}
     },
     {
         "label": "Entrez.email",
         "kind": 5,
-        "importPath": "Plsx.data_utils.load_uniprot",
-        "description": "Plsx.data_utils.load_uniprot",
+        "importPath": "PLSx.data_utils.load_uniprot",
+        "description": "PLSx.data_utils.load_uniprot",
         "peekOfCode": "Entrez.email = \"nayebiga@msu.edu\"\nfor name in species[\"#Organism Name\"]:\n    eSearch = Entrez.esearch(db=\"genome\", term=\"name\")\n    res = Entrez.read(eSearch)\n    for k in res:\n        print(k, \"=\", res[k])\n    break",
-        "detail": "Plsx.data_utils.load_uniprot",
+        "detail": "PLSx.data_utils.load_uniprot",
         "documentation": {}
     },
     {
         "label": "TestSqliteDB",
         "kind": 6,
-        "importPath": "Plsx.database.test.test_sqlitedb",
-        "description": "Plsx.database.test.test_sqlitedb",
+        "importPath": "PLSx.database.test.test_sqlitedb",
+        "description": "PLSx.database.test.test_sqlitedb",
         "peekOfCode": "class TestSqliteDB(TestCase):\n    \"\"\"Test items for SqliteDB class.\"\"\"\n    def test_create(self):\n        \"\"\"Test create.\"\"\"\n        db = SqliteDB()\n        db.create(\"test\")\n        self.assertIsInstance(db.engine, Engine)\n        self.assertEqual(db.table_name, \"test\")\n        db.engine.dispose()\nif __name__ == \"__main__\":",
-        "detail": "Plsx.database.test.test_sqlitedb",
+        "detail": "PLSx.database.test.test_sqlitedb",
         "documentation": {}
     },
     {
         "label": "Database",
         "kind": 6,
-        "importPath": "Plsx.database.database",
-        "description": "Plsx.database.database",
+        "importPath": "PLSx.database.database",
+        "description": "PLSx.database.database",
         "peekOfCode": "class Database(ABC):\n    \"\"\"Abstract base class for a database object that will store the data streamed from Pipeline objects\n    Args:\n        ABC (_type_): ABC base class\n    \"\"\"\n    def create(self, name: str) -> None:\n        \"\"\"Create a new database.\n        Args:\n            name (_type_): Name of the database\n        Returns:",
-        "detail": "Plsx.database.database",
+        "detail": "PLSx.database.database",
         "documentation": {}
     },
     {
         "label": "SqliteDB",
         "kind": 6,
-        "importPath": "Plsx.database.sqlitedb",
-        "description": "Plsx.database.sqlitedb",
+        "importPath": "PLSx.database.sqlitedb",
+        "description": "PLSx.database.sqlitedb",
         "peekOfCode": "class SqliteDB(Database):\n    \"\"\"SqliteDB subclass of Database abstract class\n    Args:\n        Database (ABC): abstract base class for database objects\n    \"\"\"\n    root = Path(dirname(__file__)).parent.parent\n    def __init__(self):\n        super().__init__()\n        self.engine = None\n    def create(self, name: str) -> None:",
-        "detail": "Plsx.database.sqlitedb",
+        "detail": "PLSx.database.sqlitedb",
         "documentation": {}
     },
     {
         "label": "DataLoader",
         "kind": 6,
-        "importPath": "Plsx.dataloader.dataloader",
-        "description": "Plsx.dataloader.dataloader",
+        "importPath": "PLSx.dataloader.dataloader",
+        "description": "PLSx.dataloader.dataloader",
         "peekOfCode": "class DataLoader(object):\n    \"\"\"Dataloader class maintains the training and testing data for the model.\"\"\"\n    root = Path(dirname(__file__)).parent.parent",
-        "detail": "Plsx.dataloader.dataloader",
+        "detail": "PLSx.dataloader.dataloader",
         "documentation": {}
     },
     {
         "label": "TestXXX",
         "kind": 6,
-        "importPath": "Plsx.utils.test.test_template",
-        "description": "Plsx.utils.test.test_template",
+        "importPath": "PLSx.utils.test.test_template",
+        "description": "PLSx.utils.test.test_template",
         "peekOfCode": "class TestXXX(TestCase):\n    \"\"\"Test items for XXX class.\"\"\"\n    pass\nif __name__ == \"__main__\":\n    unittest_main()",
-        "detail": "Plsx.utils.test.test_template",
+        "detail": "PLSx.utils.test.test_template",
         "documentation": {}
     },
     {
@@ -263,7 +263,7 @@
         "kind": 5,
         "importPath": "setup",
         "description": "setup",
-        "peekOfCode": "__version__ = \"0.1.0\"\n# from Plsx 0.1.0\n# run this command to update module\n# pip install -e .\n# imports\nfrom setuptools import find_packages, setup\nsetup(name=\"Plsx\", version=__version__, packages=find_packages())",
+        "peekOfCode": "__version__ = \"0.1.0\"\n# from Plsx 0.1.0\n# run this command to update module\n# pip install -e .\n# imports\nfrom setuptools import find_packages, setup\nsetup(name=\"PLSx\", version=__version__, packages=find_packages())",
         "detail": "setup",
         "documentation": {}
     }

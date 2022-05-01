@@ -4,7 +4,7 @@ from pathlib import Path
 import sqlalchemy
 from pandas import DataFrame
 
-from Plsx.database.database import Database
+from PLSx.database.database import Database
 
 
 class SqliteDB(Database):

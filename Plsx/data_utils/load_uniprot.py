@@ -9,7 +9,7 @@ from pathlib import Path
 import pandas as pd
 from Bio import Entrez
 
-from Plsx.database.sqlitedb import SqliteDB
+from PLSx.database.sqlitedb import SqliteDB
 
 root = Path(dirname(__file__)).parent.parent
 # define a local sqilte database
