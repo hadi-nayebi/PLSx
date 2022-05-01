@@ -16,6 +16,22 @@
         "documentation": {}
     },
     {
+        "label": "dirname",
+        "importPath": "os.path",
+        "description": "os.path",
+        "isExtraImport": true,
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
         "label": "Path",
         "importPath": "pathlib",
         "description": "pathlib",
@@ -222,6 +238,15 @@
         "description": "Plsx.database.sqlitedb",
         "peekOfCode": "class SqliteDB(Database):\n    \"\"\"SqliteDB subclass of Database abstract class\n    Args:\n        Database (ABC): abstract base class for database objects\n    \"\"\"\n    root = Path(dirname(__file__)).parent.parent\n    def __init__(self):\n        super().__init__()\n        self.engine = None\n    def create(self, name: str) -> None:",
         "detail": "Plsx.database.sqlitedb",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "kind": 6,
+        "importPath": "Plsx.dataloader.dataloader",
+        "description": "Plsx.dataloader.dataloader",
+        "peekOfCode": "class DataLoader(object):\n    \"\"\"Dataloader class maintains the training and testing data for the model.\"\"\"\n    root = Path(dirname(__file__)).parent.parent",
+        "detail": "Plsx.dataloader.dataloader",
         "documentation": {}
     },
     {
