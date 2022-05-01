@@ -1,0 +1,245 @@
+[
+    {
+        "label": "dirname",
+        "importPath": "os.path",
+        "description": "os.path",
+        "isExtraImport": true,
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "dirname",
+        "importPath": "os.path",
+        "description": "os.path",
+        "isExtraImport": true,
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "DataFrame",
+        "importPath": "pandas",
+        "description": "pandas",
+        "isExtraImport": true,
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "Entrez",
+        "importPath": "Bio",
+        "description": "Bio",
+        "isExtraImport": true,
+        "detail": "Bio",
+        "documentation": {}
+    },
+    {
+        "label": "SqliteDB",
+        "importPath": "Plsx.database.sqlitedb",
+        "description": "Plsx.database.sqlitedb",
+        "isExtraImport": true,
+        "detail": "Plsx.database.sqlitedb",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "SqliteDB",
+        "importPath": "Flipper.database.sqlitedb",
+        "description": "Flipper.database.sqlitedb",
+        "isExtraImport": true,
+        "detail": "Flipper.database.sqlitedb",
+        "documentation": {}
+    },
+    {
+        "label": "Engine",
+        "importPath": "sqlalchemy.engine.base",
+        "description": "sqlalchemy.engine.base",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.engine.base",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Database",
+        "importPath": "Plsx.database.database",
+        "description": "Plsx.database.database",
+        "isExtraImport": true,
+        "detail": "Plsx.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "find_packages",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "Plsx.data_utils.load_uniprot",
+        "description": "Plsx.data_utils.load_uniprot",
+        "peekOfCode": "root = Path(dirname(__file__)).parent.parent\n# define a local sqilte database\ndb = SqliteDB()\ndb.create(\"uniprot\")\n# list of species with full genome sequences, downloaded from NCBI\nspecies = pd.read_csv(root / \"data\" / \"genomes.csv\")\n# print(species[\"Size(Mb)\"].sum())\nEntrez.email = \"nayebiga@msu.edu\"\nfor name in species[\"#Organism Name\"]:\n    eSearch = Entrez.esearch(db=\"genome\", term=\"name\")",
+        "detail": "Plsx.data_utils.load_uniprot",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "Plsx.data_utils.load_uniprot",
+        "description": "Plsx.data_utils.load_uniprot",
+        "peekOfCode": "db = SqliteDB()\ndb.create(\"uniprot\")\n# list of species with full genome sequences, downloaded from NCBI\nspecies = pd.read_csv(root / \"data\" / \"genomes.csv\")\n# print(species[\"Size(Mb)\"].sum())\nEntrez.email = \"nayebiga@msu.edu\"\nfor name in species[\"#Organism Name\"]:\n    eSearch = Entrez.esearch(db=\"genome\", term=\"name\")\n    res = Entrez.read(eSearch)\n    for k in res:",
+        "detail": "Plsx.data_utils.load_uniprot",
+        "documentation": {}
+    },
+    {
+        "label": "species",
+        "kind": 5,
+        "importPath": "Plsx.data_utils.load_uniprot",
+        "description": "Plsx.data_utils.load_uniprot",
+        "peekOfCode": "species = pd.read_csv(root / \"data\" / \"genomes.csv\")\n# print(species[\"Size(Mb)\"].sum())\nEntrez.email = \"nayebiga@msu.edu\"\nfor name in species[\"#Organism Name\"]:\n    eSearch = Entrez.esearch(db=\"genome\", term=\"name\")\n    res = Entrez.read(eSearch)\n    for k in res:\n        print(k, \"=\", res[k])\n    break",
+        "detail": "Plsx.data_utils.load_uniprot",
+        "documentation": {}
+    },
+    {
+        "label": "Entrez.email",
+        "kind": 5,
+        "importPath": "Plsx.data_utils.load_uniprot",
+        "description": "Plsx.data_utils.load_uniprot",
+        "peekOfCode": "Entrez.email = \"nayebiga@msu.edu\"\nfor name in species[\"#Organism Name\"]:\n    eSearch = Entrez.esearch(db=\"genome\", term=\"name\")\n    res = Entrez.read(eSearch)\n    for k in res:\n        print(k, \"=\", res[k])\n    break",
+        "detail": "Plsx.data_utils.load_uniprot",
+        "documentation": {}
+    },
+    {
+        "label": "TestSqliteDB",
+        "kind": 6,
+        "importPath": "Plsx.database.test.test_sqlitedb",
+        "description": "Plsx.database.test.test_sqlitedb",
+        "peekOfCode": "class TestSqliteDB(TestCase):\n    \"\"\"Test items for SqliteDB class.\"\"\"\n    def test_create(self):\n        \"\"\"Test create.\"\"\"\n        db = SqliteDB()\n        db.create(\"test\")\n        self.assertIsInstance(db.engine, Engine)\n        self.assertEqual(db.table_name, \"test\")\n        db.engine.dispose()\nif __name__ == \"__main__\":",
+        "detail": "Plsx.database.test.test_sqlitedb",
+        "documentation": {}
+    },
+    {
+        "label": "Database",
+        "kind": 6,
+        "importPath": "Plsx.database.database",
+        "description": "Plsx.database.database",
+        "peekOfCode": "class Database(ABC):\n    \"\"\"Abstract base class for a database object that will store the data streamed from Pipeline objects\n    Args:\n        ABC (_type_): ABC base class\n    \"\"\"\n    def create(self, name: str) -> None:\n        \"\"\"Create a new database.\n        Args:\n            name (_type_): Name of the database\n        Returns:",
+        "detail": "Plsx.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "SqliteDB",
+        "kind": 6,
+        "importPath": "Plsx.database.sqlitedb",
+        "description": "Plsx.database.sqlitedb",
+        "peekOfCode": "class SqliteDB(Database):\n    \"\"\"SqliteDB subclass of Database abstract class\n    Args:\n        Database (ABC): abstract base class for database objects\n    \"\"\"\n    root = Path(dirname(__file__)).parent.parent\n    def __init__(self):\n        super().__init__()\n        self.engine = None\n    def create(self, name: str) -> None:",
+        "detail": "Plsx.database.sqlitedb",
+        "documentation": {}
+    },
+    {
+        "label": "TestXXX",
+        "kind": 6,
+        "importPath": "Plsx.utils.test.test_template",
+        "description": "Plsx.utils.test.test_template",
+        "peekOfCode": "class TestXXX(TestCase):\n    \"\"\"Test items for XXX class.\"\"\"\n    pass\nif __name__ == \"__main__\":\n    unittest_main()",
+        "detail": "Plsx.utils.test.test_template",
+        "documentation": {}
+    },
+    {
+        "label": "__version__",
+        "kind": 5,
+        "importPath": "setup",
+        "description": "setup",
+        "peekOfCode": "__version__ = \"0.1.0\"\n# from Plsx 0.1.0\n# run this command to update module\n# pip install -e .\n# imports\nfrom setuptools import find_packages, setup\nsetup(name=\"Plsx\", version=__version__, packages=find_packages())",
+        "detail": "setup",
+        "documentation": {}
+    }
+]
