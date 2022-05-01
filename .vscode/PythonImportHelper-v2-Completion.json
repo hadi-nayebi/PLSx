@@ -1,91 +1,34 @@
 [
     {
-        "label": "dirname",
-        "importPath": "os.path",
-        "description": "os.path",
+        "label": "TestCase",
+        "importPath": "unittest",
+        "description": "unittest",
         "isExtraImport": true,
-        "detail": "os.path",
+        "detail": "unittest",
         "documentation": {}
     },
     {
-        "label": "dirname",
-        "importPath": "os.path",
-        "description": "os.path",
+        "label": "main",
+        "importPath": "unittest",
+        "description": "unittest",
         "isExtraImport": true,
-        "detail": "os.path",
+        "detail": "unittest",
         "documentation": {}
     },
     {
-        "label": "dirname",
-        "importPath": "os.path",
-        "description": "os.path",
+        "label": "TestCase",
+        "importPath": "unittest",
+        "description": "unittest",
         "isExtraImport": true,
-        "detail": "os.path",
+        "detail": "unittest",
         "documentation": {}
     },
     {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
+        "label": "main",
+        "importPath": "unittest",
+        "description": "unittest",
         "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "pandas",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pandas",
-        "description": "pandas",
-        "detail": "pandas",
-        "documentation": {}
-    },
-    {
-        "label": "DataFrame",
-        "importPath": "pandas",
-        "description": "pandas",
-        "isExtraImport": true,
-        "detail": "pandas",
-        "documentation": {}
-    },
-    {
-        "label": "Entrez",
-        "importPath": "Bio",
-        "description": "Bio",
-        "isExtraImport": true,
-        "detail": "Bio",
-        "documentation": {}
-    },
-    {
-        "label": "SqliteDB",
-        "importPath": "PLSx.database.sqlitedb",
-        "description": "PLSx.database.sqlitedb",
-        "isExtraImport": true,
-        "detail": "PLSx.database.sqlitedb",
-        "documentation": {}
-    },
-    {
-        "label": "SqliteDB",
-        "importPath": "PLSx.database.sqlitedb",
-        "description": "PLSx.database.sqlitedb",
-        "isExtraImport": true,
-        "detail": "PLSx.database.sqlitedb",
+        "detail": "unittest",
         "documentation": {}
     },
     {
@@ -129,6 +72,22 @@
         "documentation": {}
     },
     {
+        "label": "SqliteDB",
+        "importPath": "PLSx.database.sqlitedb",
+        "description": "PLSx.database.sqlitedb",
+        "isExtraImport": true,
+        "detail": "PLSx.database.sqlitedb",
+        "documentation": {}
+    },
+    {
+        "label": "SqliteDB",
+        "importPath": "PLSx.database.sqlitedb",
+        "description": "PLSx.database.sqlitedb",
+        "isExtraImport": true,
+        "detail": "PLSx.database.sqlitedb",
+        "documentation": {}
+    },
+    {
         "label": "ABC",
         "importPath": "abc",
         "description": "abc",
@@ -145,6 +104,54 @@
         "documentation": {}
     },
     {
+        "label": "dirname",
+        "importPath": "os.path",
+        "description": "os.path",
+        "isExtraImport": true,
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "dirname",
+        "importPath": "os.path",
+        "description": "os.path",
+        "isExtraImport": true,
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "dirname",
+        "importPath": "os.path",
+        "description": "os.path",
+        "isExtraImport": true,
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
         "label": "sqlalchemy",
         "kind": 6,
         "isExtraImport": true,
@@ -154,11 +161,36 @@
         "documentation": {}
     },
     {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "DataFrame",
+        "importPath": "pandas",
+        "description": "pandas",
+        "isExtraImport": true,
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
         "label": "Database",
         "importPath": "PLSx.database.database",
         "description": "PLSx.database.database",
         "isExtraImport": true,
         "detail": "PLSx.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "Entrez",
+        "importPath": "Bio",
+        "description": "Bio",
+        "isExtraImport": true,
+        "detail": "Bio",
         "documentation": {}
     },
     {
@@ -178,39 +210,12 @@
         "documentation": {}
     },
     {
-        "label": "root",
-        "kind": 5,
-        "importPath": "PLSx.data_utils.load_uniprot",
-        "description": "PLSx.data_utils.load_uniprot",
-        "peekOfCode": "root = Path(dirname(__file__)).parent.parent\n# define a local sqilte database\ndb = SqliteDB()\ndb.create(\"uniprot\")\n# list of species with full genome sequences, downloaded from NCBI\nspecies = pd.read_csv(root / \"data\" / \"genomes.csv\")\n# print(species[\"Size(Mb)\"].sum())\nEntrez.email = \"nayebiga@msu.edu\"\nfor name in species[\"#Organism Name\"]:\n    eSearch = Entrez.esearch(db=\"genome\", term=\"name\")",
-        "detail": "PLSx.data_utils.load_uniprot",
-        "documentation": {}
-    },
-    {
-        "label": "db",
-        "kind": 5,
-        "importPath": "PLSx.data_utils.load_uniprot",
-        "description": "PLSx.data_utils.load_uniprot",
-        "peekOfCode": "db = SqliteDB()\ndb.create(\"uniprot\")\n# list of species with full genome sequences, downloaded from NCBI\nspecies = pd.read_csv(root / \"data\" / \"genomes.csv\")\n# print(species[\"Size(Mb)\"].sum())\nEntrez.email = \"nayebiga@msu.edu\"\nfor name in species[\"#Organism Name\"]:\n    eSearch = Entrez.esearch(db=\"genome\", term=\"name\")\n    res = Entrez.read(eSearch)\n    for k in res:",
-        "detail": "PLSx.data_utils.load_uniprot",
-        "documentation": {}
-    },
-    {
-        "label": "species",
-        "kind": 5,
-        "importPath": "PLSx.data_utils.load_uniprot",
-        "description": "PLSx.data_utils.load_uniprot",
-        "peekOfCode": "species = pd.read_csv(root / \"data\" / \"genomes.csv\")\n# print(species[\"Size(Mb)\"].sum())\nEntrez.email = \"nayebiga@msu.edu\"\nfor name in species[\"#Organism Name\"]:\n    eSearch = Entrez.esearch(db=\"genome\", term=\"name\")\n    res = Entrez.read(eSearch)\n    for k in res:\n        print(k, \"=\", res[k])\n    break",
-        "detail": "PLSx.data_utils.load_uniprot",
-        "documentation": {}
-    },
-    {
-        "label": "Entrez.email",
-        "kind": 5,
-        "importPath": "PLSx.data_utils.load_uniprot",
-        "description": "PLSx.data_utils.load_uniprot",
-        "peekOfCode": "Entrez.email = \"nayebiga@msu.edu\"\nfor name in species[\"#Organism Name\"]:\n    eSearch = Entrez.esearch(db=\"genome\", term=\"name\")\n    res = Entrez.read(eSearch)\n    for k in res:\n        print(k, \"=\", res[k])\n    break",
-        "detail": "PLSx.data_utils.load_uniprot",
+        "label": "TestXXX",
+        "kind": 6,
+        "importPath": "PLSx.data_utils.test.test_template",
+        "description": "PLSx.data_utils.test.test_template",
+        "peekOfCode": "class TestXXX(TestCase):\n    \"\"\"Test items for XXX class.\"\"\"\n    pass\nif __name__ == \"__main__\":\n    unittest_main()",
+        "detail": "PLSx.data_utils.test.test_template",
         "documentation": {}
     },
     {
@@ -241,6 +246,15 @@
         "documentation": {}
     },
     {
+        "label": "TestDataLoader",
+        "kind": 6,
+        "importPath": "PLSx.dataloader.test.test_dataloader",
+        "description": "PLSx.dataloader.test.test_dataloader",
+        "peekOfCode": "class TestDataLoader(TestCase):\n    \"\"\"Test items for DataLoader class.\"\"\"\n    pass\nif __name__ == \"__main__\":\n    unittest_main()",
+        "detail": "PLSx.dataloader.test.test_dataloader",
+        "documentation": {}
+    },
+    {
         "label": "DataLoader",
         "kind": 6,
         "importPath": "PLSx.dataloader.dataloader",
@@ -256,6 +270,42 @@
         "description": "PLSx.utils.test.test_template",
         "peekOfCode": "class TestXXX(TestCase):\n    \"\"\"Test items for XXX class.\"\"\"\n    pass\nif __name__ == \"__main__\":\n    unittest_main()",
         "detail": "PLSx.utils.test.test_template",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "archive.load_uniprot",
+        "description": "archive.load_uniprot",
+        "peekOfCode": "root = Path(dirname(__file__)).parent.parent\n# define a local sqilte database\ndb = SqliteDB()\ndb.create(\"uniprot\")\n# list of species with full genome sequences, downloaded from NCBI\nspecies = pd.read_csv(root / \"data\" / \"genomes.csv\")\n# print(species[\"Size(Mb)\"].sum())\nEntrez.email = \"nayebiga@msu.edu\"\nfor name in species[\"#Organism Name\"]:\n    eSearch = Entrez.esearch(db=\"genome\", term=\"name\")",
+        "detail": "archive.load_uniprot",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "archive.load_uniprot",
+        "description": "archive.load_uniprot",
+        "peekOfCode": "db = SqliteDB()\ndb.create(\"uniprot\")\n# list of species with full genome sequences, downloaded from NCBI\nspecies = pd.read_csv(root / \"data\" / \"genomes.csv\")\n# print(species[\"Size(Mb)\"].sum())\nEntrez.email = \"nayebiga@msu.edu\"\nfor name in species[\"#Organism Name\"]:\n    eSearch = Entrez.esearch(db=\"genome\", term=\"name\")\n    res = Entrez.read(eSearch)\n    for k in res:",
+        "detail": "archive.load_uniprot",
+        "documentation": {}
+    },
+    {
+        "label": "species",
+        "kind": 5,
+        "importPath": "archive.load_uniprot",
+        "description": "archive.load_uniprot",
+        "peekOfCode": "species = pd.read_csv(root / \"data\" / \"genomes.csv\")\n# print(species[\"Size(Mb)\"].sum())\nEntrez.email = \"nayebiga@msu.edu\"\nfor name in species[\"#Organism Name\"]:\n    eSearch = Entrez.esearch(db=\"genome\", term=\"name\")\n    res = Entrez.read(eSearch)\n    for k in res:\n        print(k, \"=\", res[k])\n    break",
+        "detail": "archive.load_uniprot",
+        "documentation": {}
+    },
+    {
+        "label": "Entrez.email",
+        "kind": 5,
+        "importPath": "archive.load_uniprot",
+        "description": "archive.load_uniprot",
+        "peekOfCode": "Entrez.email = \"nayebiga@msu.edu\"\nfor name in species[\"#Organism Name\"]:\n    eSearch = Entrez.esearch(db=\"genome\", term=\"name\")\n    res = Entrez.read(eSearch)\n    for k in res:\n        print(k, \"=\", res[k])\n    break",
+        "detail": "archive.load_uniprot",
         "documentation": {}
     },
     {

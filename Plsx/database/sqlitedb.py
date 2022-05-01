@@ -29,6 +29,6 @@ class SqliteDB(Database):
         Returns:
             None: returns None
         """
-        data_dir = str(self.root / "data")
+        data_dir = str(self.root / "data" / "db")
         self.table_name = name
         self.engine = sqlalchemy.create_engine(f"sqlite://{data_dir}/" + name + ".db")
