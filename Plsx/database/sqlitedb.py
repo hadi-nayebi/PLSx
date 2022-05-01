@@ -19,6 +19,8 @@ class SqliteDB(Database):
     def __init__(self):
         super().__init__()
         self.engine = None
+        self.table_name = None
+        self.db_dir = None
 
     def create(self, name: str) -> None:
         """Create a new database.
@@ -29,6 +31,6 @@ class SqliteDB(Database):
         Returns:
             None: returns None
         """
-        data_dir = str(self.root / "data" / "db")
+        self.db_dir = str(self.root / "data" / "db")
         self.table_name = name
-        self.engine = sqlalchemy.create_engine(f"sqlite://{data_dir}/" + name + ".db")
+        self.engine = sqlalchemy.create_engine(f"sqlite:///{self.db_dir}/" + name + ".db")

@@ -241,7 +241,7 @@
         "kind": 6,
         "importPath": "PLSx.database.sqlitedb",
         "description": "PLSx.database.sqlitedb",
-        "peekOfCode": "class SqliteDB(Database):\n    \"\"\"SqliteDB subclass of Database abstract class\n    Args:\n        Database (ABC): abstract base class for database objects\n    \"\"\"\n    root = Path(dirname(__file__)).parent.parent\n    def __init__(self):\n        super().__init__()\n        self.engine = None\n    def create(self, name: str) -> None:",
+        "peekOfCode": "class SqliteDB(Database):\n    \"\"\"SqliteDB subclass of Database abstract class\n    Args:\n        Database (ABC): abstract base class for database objects\n    \"\"\"\n    root = Path(dirname(__file__)).parent.parent\n    def __init__(self):\n        super().__init__()\n        self.engine = None\n        self.table_name = None",
         "detail": "PLSx.database.sqlitedb",
         "documentation": {}
     },
