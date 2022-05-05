@@ -64,6 +64,22 @@
         "documentation": {}
     },
     {
+        "label": "TestCase",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
         "label": "Engine",
         "importPath": "sqlalchemy.engine.base",
         "description": "sqlalchemy.engine.base",
@@ -128,6 +144,30 @@
         "documentation": {}
     },
     {
+        "label": "dirname",
+        "importPath": "os.path",
+        "description": "os.path",
+        "isExtraImport": true,
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
         "label": "Path",
         "importPath": "pathlib",
         "description": "pathlib",
@@ -161,6 +201,14 @@
         "documentation": {}
     },
     {
+        "label": "union",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "pandas",
         "kind": 6,
         "isExtraImport": true,
@@ -183,6 +231,240 @@
         "description": "PLSx.database.database",
         "isExtraImport": true,
         "detail": "PLSx.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "StringIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "patch",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "Tensor",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "cuda",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "cat",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "tensor",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "importPath": "PLSx.dataloader.dataloader",
+        "description": "PLSx.dataloader.dataloader",
+        "isExtraImport": true,
+        "detail": "PLSx.dataloader.dataloader",
+        "documentation": {}
+    },
+    {
+        "label": "system",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "array",
+        "importPath": "numpy",
+        "description": "numpy",
+        "isExtraImport": true,
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "arange",
+        "importPath": "numpy",
+        "description": "numpy",
+        "isExtraImport": true,
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "array",
+        "importPath": "numpy",
+        "description": "numpy",
+        "isExtraImport": true,
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "ndarray",
+        "importPath": "numpy",
+        "description": "numpy",
+        "isExtraImport": true,
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "read_fasta",
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "isExtraImport": true,
+        "detail": "PLSx.dataloader.utils",
+        "documentation": {}
+    },
+    {
+        "label": "read_json",
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "isExtraImport": true,
+        "detail": "PLSx.dataloader.utils",
+        "documentation": {}
+    },
+    {
+        "label": "write_fasta",
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "isExtraImport": true,
+        "detail": "PLSx.dataloader.utils",
+        "documentation": {}
+    },
+    {
+        "label": "write_json",
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "isExtraImport": true,
+        "detail": "PLSx.dataloader.utils",
+        "documentation": {}
+    },
+    {
+        "label": "read_json",
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "isExtraImport": true,
+        "detail": "PLSx.dataloader.utils",
+        "documentation": {}
+    },
+    {
+        "label": "Num",
+        "importPath": "ast",
+        "description": "ast",
+        "isExtraImport": true,
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "cycle",
+        "importPath": "itertools",
+        "description": "itertools",
+        "isExtraImport": true,
+        "detail": "itertools",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "choice",
+        "importPath": "numpy.random",
+        "description": "numpy.random",
+        "isExtraImport": true,
+        "detail": "numpy.random",
+        "documentation": {}
+    },
+    {
+        "label": "permutation",
+        "importPath": "numpy.random",
+        "description": "numpy.random",
+        "isExtraImport": true,
+        "detail": "numpy.random",
+        "documentation": {}
+    },
+    {
+        "label": "gzip",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "gzip",
+        "description": "gzip",
+        "detail": "gzip",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
         "documentation": {}
     },
     {
@@ -250,8 +532,17 @@
         "kind": 6,
         "importPath": "PLSx.dataloader.test.test_dataloader",
         "description": "PLSx.dataloader.test.test_dataloader",
-        "peekOfCode": "class TestDataLoader(TestCase):\n    \"\"\"Test items for DataLoader class.\"\"\"\n    pass\nif __name__ == \"__main__\":\n    unittest_main()",
+        "peekOfCode": "class TestDataLoader(TestCase):\n    \"\"\"Test items for DataLoader class.\"\"\"\n    @classmethod\n    def setUpClass(cls) -> None:\n        \"\"\"Set up class.\"\"\"\n        cls.dl = None\n        cls.device = device(\"cuda:0\" if cuda.is_available() else \"cpu\")\n        cls.DATASET_CL = \"cl_100\"\n        cls.DATASET_SS = \"ss_100\"\n        cls.DATASET_CLSS = \"clss_20\"",
         "detail": "PLSx.dataloader.test.test_dataloader",
+        "documentation": {}
+    },
+    {
+        "label": "TestUtils",
+        "kind": 6,
+        "importPath": "PLSx.dataloader.test.test_utils",
+        "description": "PLSx.dataloader.test.test_utils",
+        "peekOfCode": "class TestUtils(TestCase):\n    \"\"\"Test items for DataLoader utils.\"\"\"\n    root = Path(dirname(__file__)).parent.parent\n    def test_read_fasta(self):\n        \"\"\"Test read_fasta.\"\"\"\n        filename = self.root / \"test_data\" / \"test_read_fasta.fasta\"\n        data = read_fasta(filename)\n        self.assertEqual(len(data), 5)\n        self.assertIsInstance(data, dict)\n    def test_write_fasta(self):",
+        "detail": "PLSx.dataloader.test.test_utils",
         "documentation": {}
     },
     {
@@ -259,8 +550,53 @@
         "kind": 6,
         "importPath": "PLSx.dataloader.dataloader",
         "description": "PLSx.dataloader.dataloader",
-        "peekOfCode": "class DataLoader(object):\n    \"\"\"Dataloader class maintains the training and testing data for the model.\"\"\"\n    root = Path(dirname(__file__)).parent.parent",
+        "peekOfCode": "class DataLoader(object):\n    \"\"\"Dataloader class maintains the training and testing data for the model.\"\"\"\n    root = Path(dirname(__file__)).parent.parent\n    def __init__(self) -> None:\n        \"\"\"Initialize the DataLoader.\"\"\"\n        self._train_data = None\n        self._test_data = None\n        self.test_data_keys = None\n        self.test_data_transform = False\n        self.train_data_transform = False",
         "detail": "PLSx.dataloader.dataloader",
+        "documentation": {}
+    },
+    {
+        "label": "NumpyEncoder",
+        "kind": 6,
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "peekOfCode": "class NumpyEncoder(json.JSONEncoder):\n    \"\"\"Encoder for numpy arrays.\"\"\"\n    def default(self, obj) -> Any:\n        if isinstance(obj, ndarray):\n            return obj.tolist()\n        return json.JSONEncoder.default(self, obj)  # no test coverage for this function\ndef read_fasta(filename: Union[Path, str]) -> dict[str, str]:\n    \"\"\"Read fasta files and return a dict. (.fasta)\"\"\"\n    data_dict = {}\n    assert str(filename).endswith(\".fasta\"), \"File format must be .fasta\"",
+        "detail": "PLSx.dataloader.utils",
+        "documentation": {}
+    },
+    {
+        "label": "read_fasta",
+        "kind": 2,
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "peekOfCode": "def read_fasta(filename: Union[Path, str]) -> dict[str, str]:\n    \"\"\"Read fasta files and return a dict. (.fasta)\"\"\"\n    data_dict = {}\n    assert str(filename).endswith(\".fasta\"), \"File format must be .fasta\"\n    with open(filename, \"r\") as file:\n        for line in file.readlines():\n            if line.startswith(\">\"):\n                key = line.strip()[1:]\n                data_dict[key] = \"\"\n            else:",
+        "detail": "PLSx.dataloader.utils",
+        "documentation": {}
+    },
+    {
+        "label": "write_fasta",
+        "kind": 2,
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "peekOfCode": "def write_fasta(data: dict, filename: Union[Path, str], line_size: int = 60) -> None:\n    \"\"\"Write fasta files from a dict. (.fasta)\"\"\"\n    assert str(filename).endswith(\".fasta\"), \"File format must be .fasta\"\n    with open(filename, \"w\") as file:\n        for key, item in data.items():\n            file.write(f\">{key}\\n\")\n            seq = item[:]\n            while len(seq) > line_size:\n                file.write(f\"{seq[:line_size]}\\n\")\n                seq = seq[line_size:]",
+        "detail": "PLSx.dataloader.utils",
+        "documentation": {}
+    },
+    {
+        "label": "read_json",
+        "kind": 2,
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "peekOfCode": "def read_json(filename: Union[Path, str]) -> dict[str, Any]:\n    \"\"\"Read json files and return a dict. (.json, .json.gz)\"\"\"\n    if isinstance(filename, Path):\n        filename = str(filename)\n    if filename.endswith(\".json.gz\"):\n        with gzip.open(filename, \"r\") as file:\n            json_bytes = file.read()\n            json_str = json_bytes.decode(\"utf-8\")\n            return json.loads(json_str)\n    elif filename.endswith(\".json\"):",
+        "detail": "PLSx.dataloader.utils",
+        "documentation": {}
+    },
+    {
+        "label": "write_json",
+        "kind": 2,
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "peekOfCode": "def write_json(\n    data: Union[dict, str], filename: Union[Path, str], encoding=None, pretty=False\n) -> None:\n    \"\"\"Write json file from a dict, encoding numpy arrays. (.json, .json.gz)\"\"\"\n    if isinstance(filename, Path):\n        filename = str(filename)\n    # stting up the encoding\n    if encoding is not None:\n        if encoding == \"numpy\":\n            encoding = NumpyEncoder",
+        "detail": "PLSx.dataloader.utils",
         "documentation": {}
     },
     {
