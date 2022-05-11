@@ -217,6 +217,14 @@
         "documentation": {}
     },
     {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "pandas",
         "kind": 6,
         "isExtraImport": true,
@@ -509,7 +517,7 @@
         "documentation": {}
     },
     {
-        "label": "path",
+        "label": "include",
         "importPath": "django.urls",
         "description": "django.urls",
         "isExtraImport": true,
@@ -517,7 +525,7 @@
         "documentation": {}
     },
     {
-        "label": "include",
+        "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
         "isExtraImport": true,
@@ -541,11 +549,11 @@
         "documentation": {}
     },
     {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
         "isExtraImport": true,
-        "detail": "django.apps",
+        "detail": "django.db",
         "documentation": {}
     },
     {
@@ -557,6 +565,22 @@
         "documentation": {}
     },
     {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
         "label": "TestCase",
         "importPath": "django.test",
         "description": "django.test",
@@ -565,19 +589,19 @@
         "documentation": {}
     },
     {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
         "label": "HttpResponse",
         "importPath": "django.http",
         "description": "django.http",
         "isExtraImport": true,
         "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
         "documentation": {}
     },
     {
@@ -753,7 +777,7 @@
         "kind": 5,
         "importPath": "PLSxView.PLSxView.settings",
         "description": "PLSxView.PLSxView.settings",
-        "peekOfCode": "SECRET_KEY = \"django-insecure-x5mh@i71sq4@vcbvaqt2+kkx-ybb8fhgwz)0!3dp1t0psdkx&6\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",",
+        "peekOfCode": "SECRET_KEY = \"django-insecure-x5mh@i71sq4@vcbvaqt2+kkx-ybb8fhgwz)0!3dp1t0psdkx&6\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"dataView.apps.DataviewConfig\",\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",",
         "detail": "PLSxView.PLSxView.settings",
         "documentation": {}
     },
@@ -762,7 +786,7 @@
         "kind": 5,
         "importPath": "PLSxView.PLSxView.settings",
         "description": "PLSxView.PLSxView.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"dataView.apps.DataviewConfig\",\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",",
         "detail": "PLSxView.PLSxView.settings",
         "documentation": {}
     },
@@ -771,7 +795,7 @@
         "kind": 5,
         "importPath": "PLSxView.PLSxView.settings",
         "description": "PLSxView.PLSxView.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n]",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"dataView.apps.DataviewConfig\",\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",",
         "detail": "PLSxView.PLSxView.settings",
         "documentation": {}
     },
@@ -780,7 +804,7 @@
         "kind": 5,
         "importPath": "PLSxView.PLSxView.settings",
         "description": "PLSxView.PLSxView.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n]\nMIDDLEWARE = [\n    \"django.middleware.security.SecurityMiddleware\",",
+        "peekOfCode": "INSTALLED_APPS = [\n    \"dataView.apps.DataviewConfig\",\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n]\nMIDDLEWARE = [",
         "detail": "PLSxView.PLSxView.settings",
         "documentation": {}
     },
@@ -816,7 +840,7 @@
         "kind": 5,
         "importPath": "PLSxView.PLSxView.settings",
         "description": "PLSxView.PLSxView.settings",
-        "peekOfCode": "WSGI_APPLICATION = \"PLSxView.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/4.0/ref/settings/#databases\nDATABASES = {\"default\": {\"ENGINE\": \"django.db.backends.sqlite3\", \"NAME\": BASE_DIR / \"db.sqlite3\",}}\n# Password validation\n# https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\"NAME\": \"django.contrib.auth.password_validation.UserAttributeSimilarityValidator\",},\n    {\"NAME\": \"django.contrib.auth.password_validation.MinimumLengthValidator\",},\n    {\"NAME\": \"django.contrib.auth.password_validation.CommonPasswordValidator\",},",
+        "peekOfCode": "WSGI_APPLICATION = \"PLSxView.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/4.0/ref/settings/#databases\nDATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\n# Password validation",
         "detail": "PLSxView.PLSxView.settings",
         "documentation": {}
     },
@@ -825,7 +849,7 @@
         "kind": 5,
         "importPath": "PLSxView.PLSxView.settings",
         "description": "PLSxView.PLSxView.settings",
-        "peekOfCode": "DATABASES = {\"default\": {\"ENGINE\": \"django.db.backends.sqlite3\", \"NAME\": BASE_DIR / \"db.sqlite3\",}}\n# Password validation\n# https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\"NAME\": \"django.contrib.auth.password_validation.UserAttributeSimilarityValidator\",},\n    {\"NAME\": \"django.contrib.auth.password_validation.MinimumLengthValidator\",},\n    {\"NAME\": \"django.contrib.auth.password_validation.CommonPasswordValidator\",},\n    {\"NAME\": \"django.contrib.auth.password_validation.NumericPasswordValidator\",},\n]\n# Internationalization",
+        "peekOfCode": "DATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
         "detail": "PLSxView.PLSxView.settings",
         "documentation": {}
     },
@@ -834,7 +858,7 @@
         "kind": 5,
         "importPath": "PLSxView.PLSxView.settings",
         "description": "PLSxView.PLSxView.settings",
-        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\"NAME\": \"django.contrib.auth.password_validation.UserAttributeSimilarityValidator\",},\n    {\"NAME\": \"django.contrib.auth.password_validation.MinimumLengthValidator\",},\n    {\"NAME\": \"django.contrib.auth.password_validation.CommonPasswordValidator\",},\n    {\"NAME\": \"django.contrib.auth.password_validation.NumericPasswordValidator\",},\n]\n# Internationalization\n# https://docs.djangoproject.com/en/4.0/topics/i18n/\nLANGUAGE_CODE = \"en-us\"\nTIME_ZONE = \"UTC\"",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.UserAttributeSimilarityValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.MinimumLengthValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.CommonPasswordValidator\",\n    },",
         "detail": "PLSxView.PLSxView.settings",
         "documentation": {}
     },
@@ -843,7 +867,7 @@
         "kind": 5,
         "importPath": "PLSxView.PLSxView.settings",
         "description": "PLSxView.PLSxView.settings",
-        "peekOfCode": "LANGUAGE_CODE = \"en-us\"\nTIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "peekOfCode": "LANGUAGE_CODE = \"en-us\"\nTIME_ZONE = \"EST\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
         "detail": "PLSxView.PLSxView.settings",
         "documentation": {}
     },
@@ -852,7 +876,7 @@
         "kind": 5,
         "importPath": "PLSxView.PLSxView.settings",
         "description": "PLSxView.PLSxView.settings",
-        "peekOfCode": "TIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "peekOfCode": "TIME_ZONE = \"EST\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
         "detail": "PLSxView.PLSxView.settings",
         "documentation": {}
     },
@@ -911,12 +935,39 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "PLSxView.dataView.migrations.0001_initial",
+        "description": "PLSxView.dataView.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Annotations',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('uniprot_id', models.CharField(max_length=20)),",
+        "detail": "PLSxView.dataView.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
         "label": "DataviewConfig",
         "kind": 6,
         "importPath": "PLSxView.dataView.apps",
         "description": "PLSxView.dataView.apps",
         "peekOfCode": "class DataviewConfig(AppConfig):\n    default_auto_field = \"django.db.models.BigAutoField\"\n    name = \"dataView\"",
         "detail": "PLSxView.dataView.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Protein",
+        "kind": 6,
+        "importPath": "PLSxView.dataView.models",
+        "description": "PLSxView.dataView.models",
+        "peekOfCode": "class Protein(models.Model):\n    \"\"\"\n    A class to represent a protein.\"\"\"\n    uniprot_id = models.CharField(max_length=20, unique=True, primary_key=True)\n    sequence = models.TextField()\n    secondary_structure = models.TextField()\n    def __str__(self):\n        \"\"\"Return the string representation of the protein.\"\"\"\n        return f\"{self.uniprot_id} -> \\nAAS: {self.sequence}\\nSSS: {self.secondary_structure}\"\nclass Annotations(models.Model):",
+        "detail": "PLSxView.dataView.models",
+        "documentation": {}
+    },
+    {
+        "label": "Annotations",
+        "kind": 6,
+        "importPath": "PLSxView.dataView.models",
+        "description": "PLSxView.dataView.models",
+        "peekOfCode": "class Annotations(models.Model):\n    \"\"\"\n    A class to represent annotations.\"\"\"\n    uniprot_id = models.CharField(max_length=20)\n    annotation = models.TextField()\n    start = models.IntegerField()\n    end = models.IntegerField()",
+        "detail": "PLSxView.dataView.models",
         "documentation": {}
     },
     {
