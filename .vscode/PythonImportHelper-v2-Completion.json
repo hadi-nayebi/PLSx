@@ -605,6 +605,14 @@
         "documentation": {}
     },
     {
+        "label": "loader",
+        "importPath": "django.template",
+        "description": "django.template",
+        "isExtraImport": true,
+        "detail": "django.template",
+        "documentation": {}
+    },
+    {
         "label": "sys",
         "kind": 6,
         "isExtraImport": true,
@@ -840,7 +848,7 @@
         "kind": 5,
         "importPath": "PLSxView.PLSxView.settings",
         "description": "PLSxView.PLSxView.settings",
-        "peekOfCode": "WSGI_APPLICATION = \"PLSxView.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/4.0/ref/settings/#databases\nDATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\n# Password validation",
+        "peekOfCode": "WSGI_APPLICATION = \"PLSxView.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/4.0/ref/settings/#databases\nDATABASES = {\"default\": {\"ENGINE\": \"django.db.backends.sqlite3\", \"NAME\": BASE_DIR / \"db.sqlite3\",}}\n# Password validation\n# https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\"NAME\": \"django.contrib.auth.password_validation.UserAttributeSimilarityValidator\",},\n    {\"NAME\": \"django.contrib.auth.password_validation.MinimumLengthValidator\",},\n    {\"NAME\": \"django.contrib.auth.password_validation.CommonPasswordValidator\",},",
         "detail": "PLSxView.PLSxView.settings",
         "documentation": {}
     },
@@ -849,7 +857,7 @@
         "kind": 5,
         "importPath": "PLSxView.PLSxView.settings",
         "description": "PLSxView.PLSxView.settings",
-        "peekOfCode": "DATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "peekOfCode": "DATABASES = {\"default\": {\"ENGINE\": \"django.db.backends.sqlite3\", \"NAME\": BASE_DIR / \"db.sqlite3\",}}\n# Password validation\n# https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\"NAME\": \"django.contrib.auth.password_validation.UserAttributeSimilarityValidator\",},\n    {\"NAME\": \"django.contrib.auth.password_validation.MinimumLengthValidator\",},\n    {\"NAME\": \"django.contrib.auth.password_validation.CommonPasswordValidator\",},\n    {\"NAME\": \"django.contrib.auth.password_validation.NumericPasswordValidator\",},\n]\n# Internationalization",
         "detail": "PLSxView.PLSxView.settings",
         "documentation": {}
     },
@@ -858,7 +866,7 @@
         "kind": 5,
         "importPath": "PLSxView.PLSxView.settings",
         "description": "PLSxView.PLSxView.settings",
-        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.UserAttributeSimilarityValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.MinimumLengthValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.CommonPasswordValidator\",\n    },",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\"NAME\": \"django.contrib.auth.password_validation.UserAttributeSimilarityValidator\",},\n    {\"NAME\": \"django.contrib.auth.password_validation.MinimumLengthValidator\",},\n    {\"NAME\": \"django.contrib.auth.password_validation.CommonPasswordValidator\",},\n    {\"NAME\": \"django.contrib.auth.password_validation.NumericPasswordValidator\",},\n]\n# Internationalization\n# https://docs.djangoproject.com/en/4.0/topics/i18n/\nLANGUAGE_CODE = \"en-us\"\nTIME_ZONE = \"EST\"",
         "detail": "PLSxView.PLSxView.settings",
         "documentation": {}
     },
@@ -939,7 +947,7 @@
         "kind": 6,
         "importPath": "PLSxView.dataView.migrations.0001_initial",
         "description": "PLSxView.dataView.migrations.0001_initial",
-        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Annotations',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('uniprot_id', models.CharField(max_length=20)),",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = []\n    operations = [\n        migrations.CreateModel(\n            name=\"Annotations\",\n            fields=[\n                (\n                    \"id\",\n                    models.BigAutoField(",
         "detail": "PLSxView.dataView.migrations.0001_initial",
         "documentation": {}
     },
@@ -957,7 +965,7 @@
         "kind": 6,
         "importPath": "PLSxView.dataView.models",
         "description": "PLSxView.dataView.models",
-        "peekOfCode": "class Protein(models.Model):\n    \"\"\"\n    A class to represent a protein.\"\"\"\n    uniprot_id = models.CharField(max_length=20, unique=True, primary_key=True)\n    sequence = models.TextField()\n    secondary_structure = models.TextField()\n    def __str__(self):\n        \"\"\"Return the string representation of the protein.\"\"\"\n        return f\"{self.uniprot_id} -> \\nAAS: {self.sequence}\\nSSS: {self.secondary_structure}\"\nclass Annotations(models.Model):",
+        "peekOfCode": "class Protein(models.Model):\n    \"\"\"\n    A class to represent a protein.\"\"\"\n    uniprot_id = models.CharField(max_length=20, unique=True, primary_key=True)\n    sequence = models.TextField()\n    secondary_structure = models.TextField(blank=True)\n    def __str__(self):\n        \"\"\"Return the string representation of the protein.\"\"\"\n        return f\"{self.uniprot_id} -> \\nAAS: {self.sequence}\\nSSS: {self.secondary_structure}\"\nclass Annotations(models.Model):",
         "detail": "PLSxView.dataView.models",
         "documentation": {}
     },
@@ -975,7 +983,7 @@
         "kind": 5,
         "importPath": "PLSxView.dataView.urls",
         "description": "PLSxView.dataView.urls",
-        "peekOfCode": "urlpatterns = [\n    path(\"\", views.index, name=\"index\"),\n]",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", views.index, name=\"index\"),\n    path(\"protein/<str:uniprot_id>\", views.protein, name=\"protein\"),\n]",
         "detail": "PLSxView.dataView.urls",
         "documentation": {}
     },
@@ -984,7 +992,16 @@
         "kind": 2,
         "importPath": "PLSxView.dataView.views",
         "description": "PLSxView.dataView.views",
-        "peekOfCode": "def index(request):\n    return HttpResponse(\"Data View\")",
+        "peekOfCode": "def index(request):\n    protein_list = Protein.objects.order_by(\"uniprot_id\")\n    context = {\"protein_list\": protein_list}\n    return render(request, \"dataView/index.html\", context)\ndef protein(request, uniprot_id):\n    return HttpResponse(\"Protein View: {}\".format(uniprot_id))",
+        "detail": "PLSxView.dataView.views",
+        "documentation": {}
+    },
+    {
+        "label": "protein",
+        "kind": 2,
+        "importPath": "PLSxView.dataView.views",
+        "description": "PLSxView.dataView.views",
+        "peekOfCode": "def protein(request, uniprot_id):\n    return HttpResponse(\"Protein View: {}\".format(uniprot_id))",
         "detail": "PLSxView.dataView.views",
         "documentation": {}
     },
