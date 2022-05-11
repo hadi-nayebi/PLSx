@@ -517,6 +517,22 @@
         "documentation": {}
     },
     {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "get_wsgi_application",
         "importPath": "django.core.wsgi",
         "description": "django.core.wsgi",
@@ -554,6 +570,14 @@
         "description": "django.shortcuts",
         "isExtraImport": true,
         "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
         "documentation": {}
     },
     {
@@ -873,7 +897,7 @@
         "kind": 5,
         "importPath": "PLSxView.PLSxView.urls",
         "description": "PLSxView.PLSxView.urls",
-        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n]",
+        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path(\"dataview/\", include(\"dataView.urls\")),\n]",
         "detail": "PLSxView.PLSxView.urls",
         "documentation": {}
     },
@@ -893,6 +917,24 @@
         "description": "PLSxView.dataView.apps",
         "peekOfCode": "class DataviewConfig(AppConfig):\n    default_auto_field = \"django.db.models.BigAutoField\"\n    name = \"dataView\"",
         "detail": "PLSxView.dataView.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "PLSxView.dataView.urls",
+        "description": "PLSxView.dataView.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", views.index, name=\"index\"),\n]",
+        "detail": "PLSxView.dataView.urls",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "PLSxView.dataView.views",
+        "description": "PLSxView.dataView.views",
+        "peekOfCode": "def index(request):\n    return HttpResponse(\"Data View\")",
+        "detail": "PLSxView.dataView.views",
         "documentation": {}
     },
     {
