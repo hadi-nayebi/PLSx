@@ -129,6 +129,10 @@ dmypy.json
 .pyre/
 *models/
 
+# vscode
+.vscode/
+
+# custom
 /notebooks/wandb/
 /wandb/
 /data/
