@@ -7,6 +7,8 @@ from pathlib import Path
 from unittest import TestCase
 from unittest import main as unittest_main
 
+from torch.nn import Sequential
+
 from PLSx.autoencoder.architecture import Architecture, Layer, Unit
 from PLSx.dataloader.utils import read_json
 
@@ -27,11 +29,14 @@ class TestArchitecture(TestCase):
         architecture = Architecture()
         architecture.build(architecture_json_file)
         # raise warning if units are built already
-        # keys = list(architecture.components.keys())
+        keys = list(architecture.components.keys())
         # config = read_json(architecture_json_file)["components"][keys[0]]
         # with self.assertWarns(Warning):
         #     architecture.components[keys[0]].build(config)
         model = architecture.get_model()
+        self.assertIsInstance(model, dict)
+        self.assertEqual(len(model), len(architecture.components))
+        self.assertIsInstance(model[keys[0]], Sequential)
         # test with str
         architecture = Architecture()
         architecture.build(str(architecture_json_file))
