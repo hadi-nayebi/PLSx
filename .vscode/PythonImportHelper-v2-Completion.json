@@ -267,11 +267,83 @@
         "documentation": {}
     },
     {
+        "label": "Layer",
+        "importPath": "PLSx.autoencoder.architecture",
+        "description": "PLSx.autoencoder.architecture",
+        "isExtraImport": true,
+        "detail": "PLSx.autoencoder.architecture",
+        "documentation": {}
+    },
+    {
+        "label": "Unit",
+        "importPath": "PLSx.autoencoder.architecture",
+        "description": "PLSx.autoencoder.architecture",
+        "isExtraImport": true,
+        "detail": "PLSx.autoencoder.architecture",
+        "documentation": {}
+    },
+    {
         "label": "Architecture",
         "importPath": "PLSx.autoencoder.architecture",
         "description": "PLSx.autoencoder.architecture",
         "isExtraImport": true,
         "detail": "PLSx.autoencoder.architecture",
+        "documentation": {}
+    },
+    {
+        "label": "read_json",
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "isExtraImport": true,
+        "detail": "PLSx.dataloader.utils",
+        "documentation": {}
+    },
+    {
+        "label": "read_json",
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "isExtraImport": true,
+        "detail": "PLSx.dataloader.utils",
+        "documentation": {}
+    },
+    {
+        "label": "read_fasta",
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "isExtraImport": true,
+        "detail": "PLSx.dataloader.utils",
+        "documentation": {}
+    },
+    {
+        "label": "read_json",
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "isExtraImport": true,
+        "detail": "PLSx.dataloader.utils",
+        "documentation": {}
+    },
+    {
+        "label": "write_fasta",
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "isExtraImport": true,
+        "detail": "PLSx.dataloader.utils",
+        "documentation": {}
+    },
+    {
+        "label": "write_json",
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "isExtraImport": true,
+        "detail": "PLSx.dataloader.utils",
+        "documentation": {}
+    },
+    {
+        "label": "read_json",
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "isExtraImport": true,
+        "detail": "PLSx.dataloader.utils",
         "documentation": {}
     },
     {
@@ -480,54 +552,6 @@
         "description": "torch.nn.init",
         "isExtraImport": true,
         "detail": "torch.nn.init",
-        "documentation": {}
-    },
-    {
-        "label": "read_json",
-        "importPath": "PLSx.dataloader.utils",
-        "description": "PLSx.dataloader.utils",
-        "isExtraImport": true,
-        "detail": "PLSx.dataloader.utils",
-        "documentation": {}
-    },
-    {
-        "label": "read_fasta",
-        "importPath": "PLSx.dataloader.utils",
-        "description": "PLSx.dataloader.utils",
-        "isExtraImport": true,
-        "detail": "PLSx.dataloader.utils",
-        "documentation": {}
-    },
-    {
-        "label": "read_json",
-        "importPath": "PLSx.dataloader.utils",
-        "description": "PLSx.dataloader.utils",
-        "isExtraImport": true,
-        "detail": "PLSx.dataloader.utils",
-        "documentation": {}
-    },
-    {
-        "label": "write_fasta",
-        "importPath": "PLSx.dataloader.utils",
-        "description": "PLSx.dataloader.utils",
-        "isExtraImport": true,
-        "detail": "PLSx.dataloader.utils",
-        "documentation": {}
-    },
-    {
-        "label": "write_json",
-        "importPath": "PLSx.dataloader.utils",
-        "description": "PLSx.dataloader.utils",
-        "isExtraImport": true,
-        "detail": "PLSx.dataloader.utils",
-        "documentation": {}
-    },
-    {
-        "label": "read_json",
-        "importPath": "PLSx.dataloader.utils",
-        "description": "PLSx.dataloader.utils",
-        "isExtraImport": true,
-        "detail": "PLSx.dataloader.utils",
         "documentation": {}
     },
     {
@@ -1024,7 +1048,7 @@
         "kind": 6,
         "importPath": "PLSx.autoencoder.test.test_architecture",
         "description": "PLSx.autoencoder.test.test_architecture",
-        "peekOfCode": "class TestArchitecture(TestCase):\n    \"\"\"Test items for Architecture class.\"\"\"\n    root = Path(dirname(__file__)).parent.parent.parent\n    def test_architecture(self):\n        \"\"\"Test architecture.\"\"\"\n        architecture_json_file = (\n            self.root / \"config\" / \"architecture_sample.json\"\n        )  # TODO: include all types of layers in the file\n        assert architecture_json_file.exists(), f\"{architecture_json_file} does not exist.\"\n        architecture = Architecture()",
+        "peekOfCode": "class TestArchitecture(TestCase):\n    \"\"\"Test items for Architecture class.\"\"\"\n    root = Path(dirname(__file__)).parent.parent\n    def test_architecture(self):\n        \"\"\"Test architecture.\"\"\"\n        architecture_json_file = (\n            self.root / \"test_data\" / \"architecture_sample.json\"\n        )  # TODO: include all types of layers in the file\n        self.assertTrue(\n            architecture_json_file.exists(), f\"{architecture_json_file} does not exist.\"",
         "detail": "PLSx.autoencoder.test.test_architecture",
         "documentation": {}
     },

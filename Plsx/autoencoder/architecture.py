@@ -186,13 +186,13 @@ class Unit(BaseModel):
         """Add layer to the unit."""
         # needs extra work
         raise NotImplementedError
-        self.layers.append(layer)
+        # self.layers.append(layer)
 
     def insert_layer(self, layer: Layer, index: int) -> None:
         """Insert layer at index."""
         # needs extra work
         raise NotImplementedError
-        self.layers.insert(index, layer)
+        # self.layers.insert(index, layer)
 
     def input_shape(self) -> int:
         """Return the input shape."""
