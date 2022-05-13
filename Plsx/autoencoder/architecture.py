@@ -25,15 +25,6 @@ from torch.nn.init import kaiming_normal_, xavier_normal_
 from PLSx.dataloader.utils import read_json
 
 
-def init_weights(m: BaseModel, layer: Module) -> None:
-    # check if m has init attributes
-    if hasattr(m, "init"):
-        if m.init == "xavier":
-            xavier_normal_(layer.weight)
-        elif m.init == "he":
-            kaiming_normal_(layer.weight)
-
-
 def get_activation(activation: str) -> Module:
     """Return the activation function."""
     if activation == "ReLU":
@@ -64,6 +55,14 @@ class Layer(BaseModel):
         """Make the layer."""
         raise NotImplementedError
 
+    def init_weights(self) -> None:
+        # check if m has init attributes
+        if hasattr(self, "init"):
+            if self.init == "xavier":
+                xavier_normal_(self.layer.weight)
+            elif self.init == "he":
+                kaiming_normal_(self.layer.weight)
+
 
 class _Linear(Layer):
     """Linear class."""
@@ -77,10 +76,11 @@ class _Linear(Layer):
     def make(self) -> Generator[Module]:
         """Make the linear layer. As a generator yields layers."""
         assert self.type == "Linear"
-        layer = Linear(self.in_features, self.out_features, bias=self.bias)
-        init_weights(self, layer)
-        yield layer
-        yield get_activation(self.activation)
+        self.layer = Linear(self.in_features, self.out_features, bias=self.bias)
+        self.init_weights()
+        yield self.layer
+        self.activation_layer = get_activation(self.activation)
+        yield self.activation_layer
 
 
 class _Conv1d(Layer):
@@ -96,10 +96,11 @@ class _Conv1d(Layer):
     def make(self) -> Generator[Module]:
         """Make the conv1d layer. As a generator yields layers."""
         assert self.type == "Conv1d"
-        layer = Conv1d(self.in_features, self.out_features, self.kernel, padding=self.padding)
-        init_weights(self, layer)
-        yield layer
-        yield get_activation(self.activation)
+        self.layer = Conv1d(self.in_features, self.out_features, self.kernel, padding=self.padding)
+        self.init_weights()
+        yield self.layer
+        self.activation_layer = get_activation(self.activation)
+        yield self.activation_layer
 
 
 class _MaxPool1d(Layer):
@@ -110,8 +111,8 @@ class _MaxPool1d(Layer):
     def make(self) -> Generator[Module]:
         """Make the maxpool1d layer. As a generator yields layers."""
         assert self.type == "MaxPool1d"
-        layer = MaxPool1d(self.kernel)
-        yield layer
+        self.layer = MaxPool1d(self.kernel)
+        yield self.layer
 
 
 class _Flatten(Layer):
@@ -120,8 +121,8 @@ class _Flatten(Layer):
     def make(self) -> Generator[Module]:
         """Make the flatten layer. As a generator yields layers."""
         assert self.type == "Flatten"
-        layer = Flatten()
-        yield layer
+        self.layer = Flatten()
+        yield self.layer
 
 
 class _Unflatten(Layer):
@@ -133,8 +134,8 @@ class _Unflatten(Layer):
     def make(self) -> Generator[Module]:
         """Make the unflatten layer. As a generator yields layers."""
         assert self.type == "Unflatten"
-        layer = Unflatten(1, (self.in_features, self.out_features))
-        yield layer
+        self.layer = Unflatten(1, (self.in_features, self.out_features))
+        yield self.layer
 
 
 class _ConvTranspose1d(Layer):
@@ -150,12 +151,13 @@ class _ConvTranspose1d(Layer):
     def make(self) -> Generator[Module]:
         """Make the convtranspose1d layer. As a generator yields layers."""
         assert self.type == "ConvTranspose1d"
-        layer = ConvTranspose1d(
+        self.layer = ConvTranspose1d(
             self.in_features, self.out_features, self.kernel, padding=self.padding
         )
-        init_weights(self, layer)
-        yield layer
-        yield get_activation(self.activation)
+        self.init_weights()
+        yield self.layer
+        self.activation_layer = get_activation(self.activation)
+        yield self.activation_layer
 
 
 class Unit(BaseModel):

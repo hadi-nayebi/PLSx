@@ -2,8 +2,6 @@
 # coding: utf-8
 
 """Unit test for Architecture."""
-from os.path import dirname
-from pathlib import Path
 from unittest import TestCase
 from unittest import main as unittest_main
 
@@ -11,12 +9,13 @@ from torch.nn import Sequential
 
 from PLSx.autoencoder.architecture import Architecture, Layer, Unit
 from PLSx.dataloader.utils import read_json
+from PLSx.utils.file_manager import get_root
 
 
 class TestArchitecture(TestCase):
     """Test items for Architecture class."""
 
-    root = Path(dirname(__file__)).parent.parent
+    root = get_root(__file__, retrace=2)
 
     def test_architecture(self):
         """Test architecture."""
@@ -37,6 +36,10 @@ class TestArchitecture(TestCase):
         self.assertIsInstance(model, dict)
         self.assertEqual(len(model), len(architecture.components))
         self.assertIsInstance(model[keys[0]], Sequential)
+        # test model reference
+        self.assertEqual(
+            list(model[keys[0]].children())[0], architecture.components[keys[0]].layers[0].layer
+        )
         # test with str
         architecture = Architecture()
         architecture.build(str(architecture_json_file))

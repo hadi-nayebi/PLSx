@@ -27,110 +27,6 @@
         "documentation": {}
     },
     {
-        "label": "dirname",
-        "importPath": "os.path",
-        "description": "os.path",
-        "isExtraImport": true,
-        "detail": "os.path",
-        "documentation": {}
-    },
-    {
-        "label": "dirname",
-        "importPath": "os.path",
-        "description": "os.path",
-        "isExtraImport": true,
-        "detail": "os.path",
-        "documentation": {}
-    },
-    {
-        "label": "dirname",
-        "importPath": "os.path",
-        "description": "os.path",
-        "isExtraImport": true,
-        "detail": "os.path",
-        "documentation": {}
-    },
-    {
-        "label": "dirname",
-        "importPath": "os.path",
-        "description": "os.path",
-        "isExtraImport": true,
-        "detail": "os.path",
-        "documentation": {}
-    },
-    {
-        "label": "dirname",
-        "importPath": "os.path",
-        "description": "os.path",
-        "isExtraImport": true,
-        "detail": "os.path",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
         "label": "TestCase",
         "importPath": "unittest",
         "description": "unittest",
@@ -467,11 +363,83 @@
         "documentation": {}
     },
     {
+        "label": "get_root",
+        "importPath": "PLSx.utils.file_manager",
+        "description": "PLSx.utils.file_manager",
+        "isExtraImport": true,
+        "detail": "PLSx.utils.file_manager",
+        "documentation": {}
+    },
+    {
         "label": "Generator",
         "importPath": "collections.abc",
         "description": "collections.abc",
         "isExtraImport": true,
         "detail": "collections.abc",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
         "documentation": {}
     },
     {
@@ -656,6 +624,38 @@
         "description": "abc",
         "isExtraImport": true,
         "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "dirname",
+        "importPath": "os.path",
+        "description": "os.path",
+        "isExtraImport": true,
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "dirname",
+        "importPath": "os.path",
+        "description": "os.path",
+        "isExtraImport": true,
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "dirname",
+        "importPath": "os.path",
+        "description": "os.path",
+        "isExtraImport": true,
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "dirname",
+        "importPath": "os.path",
+        "description": "os.path",
+        "isExtraImport": true,
+        "detail": "os.path",
         "documentation": {}
     },
     {
@@ -1056,7 +1056,7 @@
         "kind": 6,
         "importPath": "PLSx.autoencoder.test.test_architecture",
         "description": "PLSx.autoencoder.test.test_architecture",
-        "peekOfCode": "class TestArchitecture(TestCase):\n    \"\"\"Test items for Architecture class.\"\"\"\n    root = Path(dirname(__file__)).parent.parent\n    def test_architecture(self):\n        \"\"\"Test architecture.\"\"\"\n        architecture_json_file = (\n            self.root / \"test_data\" / \"architecture_sample.json\"\n        )  # TODO: include all types of layers in the file\n        self.assertTrue(\n            architecture_json_file.exists(), f\"{architecture_json_file} does not exist.\"",
+        "peekOfCode": "class TestArchitecture(TestCase):\n    \"\"\"Test items for Architecture class.\"\"\"\n    root = get_root(__file__, retrace=2)\n    def test_architecture(self):\n        \"\"\"Test architecture.\"\"\"\n        architecture_json_file = (\n            self.root / \"test_data\" / \"architecture_sample.json\"\n        )  # TODO: include all types of layers in the file\n        self.assertTrue(\n            architecture_json_file.exists(), f\"{architecture_json_file} does not exist.\"",
         "detail": "PLSx.autoencoder.test.test_architecture",
         "documentation": {}
     },
@@ -1083,7 +1083,7 @@
         "kind": 6,
         "importPath": "PLSx.autoencoder.architecture",
         "description": "PLSx.autoencoder.architecture",
-        "peekOfCode": "class Layer(BaseModel):\n    \"\"\"Layer class defines blueprint for building layers of a model.\"\"\"\n    type: str\n    class Config:\n        extra = Extra.allow\n    def make(self) -> Generator[Module]:\n        \"\"\"Make the layer.\"\"\"\n        raise NotImplementedError\nclass _Linear(Layer):\n    \"\"\"Linear class.\"\"\"",
+        "peekOfCode": "class Layer(BaseModel):\n    \"\"\"Layer class defines blueprint for building layers of a model.\"\"\"\n    type: str\n    class Config:\n        extra = Extra.allow\n    def make(self) -> Generator[Module]:\n        \"\"\"Make the layer.\"\"\"\n        raise NotImplementedError\n    def init_weights(self) -> None:\n        # check if m has init attributes",
         "detail": "PLSx.autoencoder.architecture",
         "documentation": {}
     },
@@ -1110,7 +1110,7 @@
         "kind": 6,
         "importPath": "PLSx.autoencoder.architecture",
         "description": "PLSx.autoencoder.architecture",
-        "peekOfCode": "class _MaxPool1d(Layer):\n    \"\"\"MaxPool1d class.\"\"\"\n    kernel: int\n    def make(self) -> Generator[Module]:\n        \"\"\"Make the maxpool1d layer. As a generator yields layers.\"\"\"\n        assert self.type == \"MaxPool1d\"\n        layer = MaxPool1d(self.kernel)\n        yield layer\nclass _Flatten(Layer):\n    \"\"\"Flatten class.\"\"\"",
+        "peekOfCode": "class _MaxPool1d(Layer):\n    \"\"\"MaxPool1d class.\"\"\"\n    kernel: int\n    def make(self) -> Generator[Module]:\n        \"\"\"Make the maxpool1d layer. As a generator yields layers.\"\"\"\n        assert self.type == \"MaxPool1d\"\n        self.layer = MaxPool1d(self.kernel)\n        yield self.layer\nclass _Flatten(Layer):\n    \"\"\"Flatten class.\"\"\"",
         "detail": "PLSx.autoencoder.architecture",
         "documentation": {}
     },
@@ -1119,7 +1119,7 @@
         "kind": 6,
         "importPath": "PLSx.autoencoder.architecture",
         "description": "PLSx.autoencoder.architecture",
-        "peekOfCode": "class _Flatten(Layer):\n    \"\"\"Flatten class.\"\"\"\n    def make(self) -> Generator[Module]:\n        \"\"\"Make the flatten layer. As a generator yields layers.\"\"\"\n        assert self.type == \"Flatten\"\n        layer = Flatten()\n        yield layer\nclass _Unflatten(Layer):\n    \"\"\"Unflatten class.\"\"\"\n    in_features: int",
+        "peekOfCode": "class _Flatten(Layer):\n    \"\"\"Flatten class.\"\"\"\n    def make(self) -> Generator[Module]:\n        \"\"\"Make the flatten layer. As a generator yields layers.\"\"\"\n        assert self.type == \"Flatten\"\n        self.layer = Flatten()\n        yield self.layer\nclass _Unflatten(Layer):\n    \"\"\"Unflatten class.\"\"\"\n    in_features: int",
         "detail": "PLSx.autoencoder.architecture",
         "documentation": {}
     },
@@ -1128,7 +1128,7 @@
         "kind": 6,
         "importPath": "PLSx.autoencoder.architecture",
         "description": "PLSx.autoencoder.architecture",
-        "peekOfCode": "class _Unflatten(Layer):\n    \"\"\"Unflatten class.\"\"\"\n    in_features: int\n    out_features: int\n    def make(self) -> Generator[Module]:\n        \"\"\"Make the unflatten layer. As a generator yields layers.\"\"\"\n        assert self.type == \"Unflatten\"\n        layer = Unflatten(1, (self.in_features, self.out_features))\n        yield layer\nclass _ConvTranspose1d(Layer):",
+        "peekOfCode": "class _Unflatten(Layer):\n    \"\"\"Unflatten class.\"\"\"\n    in_features: int\n    out_features: int\n    def make(self) -> Generator[Module]:\n        \"\"\"Make the unflatten layer. As a generator yields layers.\"\"\"\n        assert self.type == \"Unflatten\"\n        self.layer = Unflatten(1, (self.in_features, self.out_features))\n        yield self.layer\nclass _ConvTranspose1d(Layer):",
         "detail": "PLSx.autoencoder.architecture",
         "documentation": {}
     },
@@ -1219,15 +1219,6 @@
         "importPath": "PLSx.autoencoder.architecture",
         "description": "PLSx.autoencoder.architecture",
         "peekOfCode": "class Architecture(object):\n    \"\"\"\n    The Architecture object provides the model arch params.\n    \"\"\"\n    def __init__(self) -> None:\n        self.name: str = None\n        self.type: str = None\n        self.components: dict[str, Unit] = {}\n        self.connections: list[tuple[str, str]] = []\n    def build(self, src: Union[str, Path]) -> None:",
-        "detail": "PLSx.autoencoder.architecture",
-        "documentation": {}
-    },
-    {
-        "label": "init_weights",
-        "kind": 2,
-        "importPath": "PLSx.autoencoder.architecture",
-        "description": "PLSx.autoencoder.architecture",
-        "peekOfCode": "def init_weights(m: BaseModel, layer: Module) -> None:\n    # check if m has init attributes\n    if hasattr(m, \"init\"):\n        if m.init == \"xavier\":\n            xavier_normal_(layer.weight)\n        elif m.init == \"he\":\n            kaiming_normal_(layer.weight)\ndef get_activation(activation: str) -> Module:\n    \"\"\"Return the activation function.\"\"\"\n    if activation == \"ReLU\":",
         "detail": "PLSx.autoencoder.architecture",
         "documentation": {}
     },
@@ -1391,6 +1382,15 @@
         "description": "PLSx.utils.custom_dataclasses",
         "peekOfCode": "def nested_deco(*args, **kwargs):\n    \"\"\"decorator for assigning nested dict to nested dataclass\"\"\"\n    def wrapper(check_class):\n        # passing class to investigate\n        check_class = dataclass(check_class, **kwargs)\n        o_init = check_class.__init__\n        def __init__(self, *args, **kwargs):\n            # getting class fields to filter extra keys\n            class_fields = {f.name for f in fields(check_class)}\n            for key in list(kwargs.keys()):",
         "detail": "PLSx.utils.custom_dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "get_root",
+        "kind": 2,
+        "importPath": "PLSx.utils.file_manager",
+        "description": "PLSx.utils.file_manager",
+        "peekOfCode": "def get_root(file, retrace=0):\n    \"\"\"Get the root path.\"\"\"\n    return Path(file).resolve().parents[retrace]",
+        "detail": "PLSx.utils.file_manager",
         "documentation": {}
     },
     {
