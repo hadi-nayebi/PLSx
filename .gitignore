@@ -130,7 +130,7 @@ dmypy.json
 *models/
 
 # vscode
-.vscode/
+# .vscode/
 
 # custom
 /notebooks/wandb/
