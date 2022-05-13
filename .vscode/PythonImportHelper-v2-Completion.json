@@ -1,252 +1,573 @@
 [
     {
-        "label": "TestCase",
-        "importPath": "unittest",
-        "description": "unittest",
-        "isExtraImport": true,
-        "detail": "unittest",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "importPath": "unittest",
-        "description": "unittest",
-        "isExtraImport": true,
-        "detail": "unittest",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "unittest",
-        "description": "unittest",
-        "isExtraImport": true,
-        "detail": "unittest",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "importPath": "unittest",
-        "description": "unittest",
-        "isExtraImport": true,
-        "detail": "unittest",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "unittest",
-        "description": "unittest",
-        "isExtraImport": true,
-        "detail": "unittest",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "importPath": "unittest",
-        "description": "unittest",
-        "isExtraImport": true,
-        "detail": "unittest",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "unittest",
-        "description": "unittest",
-        "isExtraImport": true,
-        "detail": "unittest",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "importPath": "unittest",
-        "description": "unittest",
-        "isExtraImport": true,
-        "detail": "unittest",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "unittest",
-        "description": "unittest",
-        "isExtraImport": true,
-        "detail": "unittest",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "importPath": "unittest",
-        "description": "unittest",
-        "isExtraImport": true,
-        "detail": "unittest",
-        "documentation": {}
-    },
-    {
-        "label": "Engine",
-        "importPath": "sqlalchemy.engine.base",
-        "description": "sqlalchemy.engine.base",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.engine.base",
-        "documentation": {}
-    },
-    {
-        "label": "SqliteDB",
-        "importPath": "PLSx.database.sqlitedb",
-        "description": "PLSx.database.sqlitedb",
-        "isExtraImport": true,
-        "detail": "PLSx.database.sqlitedb",
-        "documentation": {}
-    },
-    {
-        "label": "SqliteDB",
-        "importPath": "PLSx.database.sqlitedb",
-        "description": "PLSx.database.sqlitedb",
-        "isExtraImport": true,
-        "detail": "PLSx.database.sqlitedb",
-        "documentation": {}
-    },
-    {
-        "label": "ABC",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "abstractmethod",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "dirname",
-        "importPath": "os.path",
-        "description": "os.path",
-        "isExtraImport": true,
-        "detail": "os.path",
-        "documentation": {}
-    },
-    {
-        "label": "dirname",
-        "importPath": "os.path",
-        "description": "os.path",
-        "isExtraImport": true,
-        "detail": "os.path",
-        "documentation": {}
-    },
-    {
-        "label": "dirname",
-        "importPath": "os.path",
-        "description": "os.path",
-        "isExtraImport": true,
-        "detail": "os.path",
-        "documentation": {}
-    },
-    {
-        "label": "dirname",
-        "importPath": "os.path",
-        "description": "os.path",
-        "isExtraImport": true,
-        "detail": "os.path",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "sqlalchemy",
+        "label": "argparse",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "detail": "sqlalchemy",
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
         "documentation": {}
     },
     {
-        "label": "union",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "pandas",
+        "label": "re",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "pandas",
-        "description": "pandas",
-        "detail": "pandas",
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
         "documentation": {}
     },
     {
-        "label": "DataFrame",
-        "importPath": "pandas",
-        "description": "pandas",
+        "label": "subprocess",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "pandas",
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
         "documentation": {}
     },
     {
-        "label": "Database",
-        "importPath": "PLSx.database.database",
-        "description": "PLSx.database.database",
+        "label": "dirname",
+        "importPath": "os.path",
+        "description": "os.path",
         "isExtraImport": true,
-        "detail": "PLSx.database.database",
+        "detail": "os.path",
         "documentation": {}
     },
     {
-        "label": "StringIO",
-        "importPath": "io",
-        "description": "io",
+        "label": "dirname",
+        "importPath": "os.path",
+        "description": "os.path",
         "isExtraImport": true,
-        "detail": "io",
+        "detail": "os.path",
         "documentation": {}
     },
     {
-        "label": "patch",
-        "importPath": "unittest.mock",
-        "description": "unittest.mock",
+        "label": "dirname",
+        "importPath": "os.path",
+        "description": "os.path",
         "isExtraImport": true,
-        "detail": "unittest.mock",
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "dirname",
+        "importPath": "os.path",
+        "description": "os.path",
+        "isExtraImport": true,
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "dirname",
+        "importPath": "os.path",
+        "description": "os.path",
+        "isExtraImport": true,
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "Sequential",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "ELU",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "Conv1d",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "ConvTranspose1d",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "Flatten",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "Linear",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "LogSoftmax",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "MaxPool1d",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "Module",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "ReLU",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "Sequential",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "Sigmoid",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "Softmax",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "Tanh",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "Unflatten",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "Architecture",
+        "importPath": "PLSx.autoencoder.architecture",
+        "description": "PLSx.autoencoder.architecture",
+        "isExtraImport": true,
+        "detail": "PLSx.autoencoder.architecture",
+        "documentation": {}
+    },
+    {
+        "label": "Layer",
+        "importPath": "PLSx.autoencoder.architecture",
+        "description": "PLSx.autoencoder.architecture",
+        "isExtraImport": true,
+        "detail": "PLSx.autoencoder.architecture",
+        "documentation": {}
+    },
+    {
+        "label": "Unit",
+        "importPath": "PLSx.autoencoder.architecture",
+        "description": "PLSx.autoencoder.architecture",
+        "isExtraImport": true,
+        "detail": "PLSx.autoencoder.architecture",
+        "documentation": {}
+    },
+    {
+        "label": "Architecture",
+        "importPath": "PLSx.autoencoder.architecture",
+        "description": "PLSx.autoencoder.architecture",
+        "isExtraImport": true,
+        "detail": "PLSx.autoencoder.architecture",
+        "documentation": {}
+    },
+    {
+        "label": "read_json",
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "isExtraImport": true,
+        "detail": "PLSx.dataloader.utils",
+        "documentation": {}
+    },
+    {
+        "label": "read_json",
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "isExtraImport": true,
+        "detail": "PLSx.dataloader.utils",
+        "documentation": {}
+    },
+    {
+        "label": "read_fasta",
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "isExtraImport": true,
+        "detail": "PLSx.dataloader.utils",
+        "documentation": {}
+    },
+    {
+        "label": "read_json",
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "isExtraImport": true,
+        "detail": "PLSx.dataloader.utils",
+        "documentation": {}
+    },
+    {
+        "label": "write_fasta",
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "isExtraImport": true,
+        "detail": "PLSx.dataloader.utils",
+        "documentation": {}
+    },
+    {
+        "label": "write_json",
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "isExtraImport": true,
+        "detail": "PLSx.dataloader.utils",
+        "documentation": {}
+    },
+    {
+        "label": "read_json",
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "isExtraImport": true,
+        "detail": "PLSx.dataloader.utils",
+        "documentation": {}
+    },
+    {
+        "label": "Generator",
+        "importPath": "collections.abc",
+        "description": "collections.abc",
+        "isExtraImport": true,
+        "detail": "collections.abc",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Extra",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "kaiming_normal_",
+        "importPath": "torch.nn.init",
+        "description": "torch.nn.init",
+        "isExtraImport": true,
+        "detail": "torch.nn.init",
+        "documentation": {}
+    },
+    {
+        "label": "xavier_normal_",
+        "importPath": "torch.nn.init",
+        "description": "torch.nn.init",
+        "isExtraImport": true,
+        "detail": "torch.nn.init",
+        "documentation": {}
+    },
+    {
+        "label": "Module",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
         "documentation": {}
     },
     {
@@ -298,11 +619,126 @@
         "documentation": {}
     },
     {
+        "label": "Engine",
+        "importPath": "sqlalchemy.engine.base",
+        "description": "sqlalchemy.engine.base",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.engine.base",
+        "documentation": {}
+    },
+    {
+        "label": "SqliteDB",
+        "importPath": "PLSx.database.sqlitedb",
+        "description": "PLSx.database.sqlitedb",
+        "isExtraImport": true,
+        "detail": "PLSx.database.sqlitedb",
+        "documentation": {}
+    },
+    {
+        "label": "SqliteDB",
+        "importPath": "PLSx.database.sqlitedb",
+        "description": "PLSx.database.sqlitedb",
+        "isExtraImport": true,
+        "detail": "PLSx.database.sqlitedb",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "union",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "DataFrame",
+        "importPath": "pandas",
+        "description": "pandas",
+        "isExtraImport": true,
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "Database",
+        "importPath": "PLSx.database.database",
+        "description": "PLSx.database.database",
+        "isExtraImport": true,
+        "detail": "PLSx.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "StringIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "patch",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
         "label": "DataLoader",
         "importPath": "PLSx.dataloader.dataloader",
         "description": "PLSx.dataloader.dataloader",
         "isExtraImport": true,
         "detail": "PLSx.dataloader.dataloader",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
         "documentation": {}
     },
     {
@@ -346,46 +782,6 @@
         "documentation": {}
     },
     {
-        "label": "read_fasta",
-        "importPath": "PLSx.dataloader.utils",
-        "description": "PLSx.dataloader.utils",
-        "isExtraImport": true,
-        "detail": "PLSx.dataloader.utils",
-        "documentation": {}
-    },
-    {
-        "label": "read_json",
-        "importPath": "PLSx.dataloader.utils",
-        "description": "PLSx.dataloader.utils",
-        "isExtraImport": true,
-        "detail": "PLSx.dataloader.utils",
-        "documentation": {}
-    },
-    {
-        "label": "write_fasta",
-        "importPath": "PLSx.dataloader.utils",
-        "description": "PLSx.dataloader.utils",
-        "isExtraImport": true,
-        "detail": "PLSx.dataloader.utils",
-        "documentation": {}
-    },
-    {
-        "label": "write_json",
-        "importPath": "PLSx.dataloader.utils",
-        "description": "PLSx.dataloader.utils",
-        "isExtraImport": true,
-        "detail": "PLSx.dataloader.utils",
-        "documentation": {}
-    },
-    {
-        "label": "read_json",
-        "importPath": "PLSx.dataloader.utils",
-        "description": "PLSx.dataloader.utils",
-        "isExtraImport": true,
-        "detail": "PLSx.dataloader.utils",
-        "documentation": {}
-    },
-    {
         "label": "Num",
         "importPath": "ast",
         "description": "ast",
@@ -399,38 +795,6 @@
         "description": "itertools",
         "isExtraImport": true,
         "detail": "itertools",
-        "documentation": {}
-    },
-    {
-        "label": "Tuple",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
         "documentation": {}
     },
     {
@@ -468,6 +832,175 @@
         "documentation": {}
     },
     {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "fields",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "is_dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "Undefined",
+        "importPath": "dataclasses_json",
+        "description": "dataclasses_json",
+        "isExtraImport": true,
+        "detail": "dataclasses_json",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass_json",
+        "importPath": "dataclasses_json",
+        "description": "dataclasses_json",
+        "isExtraImport": true,
+        "detail": "dataclasses_json",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "loader",
+        "importPath": "django.template",
+        "description": "django.template",
+        "isExtraImport": true,
+        "detail": "django.template",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
         "label": "Entrez",
         "importPath": "Bio",
         "description": "Bio",
@@ -489,6 +1022,231 @@
         "description": "setuptools",
         "isExtraImport": true,
         "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "version_pattern",
+        "kind": 5,
+        "importPath": ".venv.bin.publish",
+        "description": ".venv.bin.publish",
+        "peekOfCode": "version_pattern = r'\\d\\.\\d\\.\\d'\nparser = argparse.ArgumentParser()\nparser.add_argument('version', help='a SEMVER string X.Y.Z')\nargs = parser.parse_args()\nif not re.match(version_pattern, args.version):\n    print('argument must be SEMVER string in format X.Y.Z')\nelse:\n    with open('setup.py') as fp:\n        old_setupfile = fp.read()\n    new_setupfile = re.sub(f\"version='{version_pattern}'\",",
+        "detail": ".venv.bin.publish",
+        "documentation": {}
+    },
+    {
+        "label": "parser",
+        "kind": 5,
+        "importPath": ".venv.bin.publish",
+        "description": ".venv.bin.publish",
+        "peekOfCode": "parser = argparse.ArgumentParser()\nparser.add_argument('version', help='a SEMVER string X.Y.Z')\nargs = parser.parse_args()\nif not re.match(version_pattern, args.version):\n    print('argument must be SEMVER string in format X.Y.Z')\nelse:\n    with open('setup.py') as fp:\n        old_setupfile = fp.read()\n    new_setupfile = re.sub(f\"version='{version_pattern}'\",\n                           f\"version='{args.version}'\", old_setupfile)",
+        "detail": ".venv.bin.publish",
+        "documentation": {}
+    },
+    {
+        "label": "args",
+        "kind": 5,
+        "importPath": ".venv.bin.publish",
+        "description": ".venv.bin.publish",
+        "peekOfCode": "args = parser.parse_args()\nif not re.match(version_pattern, args.version):\n    print('argument must be SEMVER string in format X.Y.Z')\nelse:\n    with open('setup.py') as fp:\n        old_setupfile = fp.read()\n    new_setupfile = re.sub(f\"version='{version_pattern}'\",\n                           f\"version='{args.version}'\", old_setupfile)\n    with open('setup.py', 'w') as fp:\n        print(new_setupfile, file=fp)",
+        "detail": ".venv.bin.publish",
+        "documentation": {}
+    },
+    {
+        "label": "TestArchitecture",
+        "kind": 6,
+        "importPath": "PLSx.autoencoder.test.test_architecture",
+        "description": "PLSx.autoencoder.test.test_architecture",
+        "peekOfCode": "class TestArchitecture(TestCase):\n    \"\"\"Test items for Architecture class.\"\"\"\n    root = Path(dirname(__file__)).parent.parent\n    def test_architecture(self):\n        \"\"\"Test architecture.\"\"\"\n        architecture_json_file = (\n            self.root / \"test_data\" / \"architecture_sample.json\"\n        )  # TODO: include all types of layers in the file\n        self.assertTrue(\n            architecture_json_file.exists(), f\"{architecture_json_file} does not exist.\"",
+        "detail": "PLSx.autoencoder.test.test_architecture",
+        "documentation": {}
+    },
+    {
+        "label": "TestAutoencoder",
+        "kind": 6,
+        "importPath": "PLSx.autoencoder.test.test_autoencoder",
+        "description": "PLSx.autoencoder.test.test_autoencoder",
+        "peekOfCode": "class TestAutoencoder(TestCase):\n    \"\"\"Test items for Autoencoder class.\"\"\"\n    pass\nif __name__ == \"__main__\":\n    unittest_main()",
+        "detail": "PLSx.autoencoder.test.test_autoencoder",
+        "documentation": {}
+    },
+    {
+        "label": "TestLSTMAutoencoder",
+        "kind": 6,
+        "importPath": "PLSx.autoencoder.test.test_lstm_autoencoder",
+        "description": "PLSx.autoencoder.test.test_lstm_autoencoder",
+        "peekOfCode": "class TestLSTMAutoencoder(TestCase):\n    \"\"\"Test items for LSTMAutoencoder class.\"\"\"\n    pass\nif __name__ == \"__main__\":\n    unittest_main()",
+        "detail": "PLSx.autoencoder.test.test_lstm_autoencoder",
+        "documentation": {}
+    },
+    {
+        "label": "Layer",
+        "kind": 6,
+        "importPath": "PLSx.autoencoder.architecture",
+        "description": "PLSx.autoencoder.architecture",
+        "peekOfCode": "class Layer(BaseModel):\n    \"\"\"Layer class defines blueprint for building layers of a model.\"\"\"\n    type: str\n    class Config:\n        extra = Extra.allow\n    def make(self) -> Generator[Module]:\n        \"\"\"Make the layer.\"\"\"\n        raise NotImplementedError\nclass _Linear(Layer):\n    \"\"\"Linear class.\"\"\"",
+        "detail": "PLSx.autoencoder.architecture",
+        "documentation": {}
+    },
+    {
+        "label": "_Linear",
+        "kind": 6,
+        "importPath": "PLSx.autoencoder.architecture",
+        "description": "PLSx.autoencoder.architecture",
+        "peekOfCode": "class _Linear(Layer):\n    \"\"\"Linear class.\"\"\"\n    in_features: int\n    out_features: int\n    init: Optional[str] = \"xavier\"\n    bias: Optional[bool] = False\n    activation: Optional[str] = \"Tanh\"\n    def make(self) -> Generator[Module]:\n        \"\"\"Make the linear layer. As a generator yields layers.\"\"\"\n        assert self.type == \"Linear\"",
+        "detail": "PLSx.autoencoder.architecture",
+        "documentation": {}
+    },
+    {
+        "label": "_Conv1d",
+        "kind": 6,
+        "importPath": "PLSx.autoencoder.architecture",
+        "description": "PLSx.autoencoder.architecture",
+        "peekOfCode": "class _Conv1d(Layer):\n    \"\"\"Conv1d class.\"\"\"\n    in_features: int\n    out_features: int\n    kernel: int\n    padding: Optional[Union[int, str]] = 0\n    init: Optional[str] = \"xavier\"\n    activation: Optional[str] = \"Tanh\"\n    def make(self) -> Generator[Module]:\n        \"\"\"Make the conv1d layer. As a generator yields layers.\"\"\"",
+        "detail": "PLSx.autoencoder.architecture",
+        "documentation": {}
+    },
+    {
+        "label": "_MaxPool1d",
+        "kind": 6,
+        "importPath": "PLSx.autoencoder.architecture",
+        "description": "PLSx.autoencoder.architecture",
+        "peekOfCode": "class _MaxPool1d(Layer):\n    \"\"\"MaxPool1d class.\"\"\"\n    kernel: int\n    def make(self) -> Generator[Module]:\n        \"\"\"Make the maxpool1d layer. As a generator yields layers.\"\"\"\n        assert self.type == \"MaxPool1d\"\n        layer = MaxPool1d(self.kernel)\n        yield layer\nclass _Flatten(Layer):\n    \"\"\"Flatten class.\"\"\"",
+        "detail": "PLSx.autoencoder.architecture",
+        "documentation": {}
+    },
+    {
+        "label": "_Flatten",
+        "kind": 6,
+        "importPath": "PLSx.autoencoder.architecture",
+        "description": "PLSx.autoencoder.architecture",
+        "peekOfCode": "class _Flatten(Layer):\n    \"\"\"Flatten class.\"\"\"\n    def make(self) -> Generator[Module]:\n        \"\"\"Make the flatten layer. As a generator yields layers.\"\"\"\n        assert self.type == \"Flatten\"\n        layer = Flatten()\n        yield layer\nclass _Unflatten(Layer):\n    \"\"\"Unflatten class.\"\"\"\n    in_features: int",
+        "detail": "PLSx.autoencoder.architecture",
+        "documentation": {}
+    },
+    {
+        "label": "_Unflatten",
+        "kind": 6,
+        "importPath": "PLSx.autoencoder.architecture",
+        "description": "PLSx.autoencoder.architecture",
+        "peekOfCode": "class _Unflatten(Layer):\n    \"\"\"Unflatten class.\"\"\"\n    in_features: int\n    out_features: int\n    def make(self) -> Generator[Module]:\n        \"\"\"Make the unflatten layer. As a generator yields layers.\"\"\"\n        assert self.type == \"Unflatten\"\n        layer = Unflatten(1, (self.in_features, self.out_features))\n        yield layer\nclass _ConvTranspose1d(Layer):",
+        "detail": "PLSx.autoencoder.architecture",
+        "documentation": {}
+    },
+    {
+        "label": "_ConvTranspose1d",
+        "kind": 6,
+        "importPath": "PLSx.autoencoder.architecture",
+        "description": "PLSx.autoencoder.architecture",
+        "peekOfCode": "class _ConvTranspose1d(Layer):\n    \"\"\"ConvTranspose1d class.\"\"\"\n    in_features: int\n    out_features: int\n    kernel: int\n    padding: Optional[Union[int, str]] = 0\n    init: Optional[str] = \"he\"\n    activation: Optional[str] = \"ReLU\"\n    def make(self) -> Generator[Module]:\n        \"\"\"Make the convtranspose1d layer. As a generator yields layers.\"\"\"",
+        "detail": "PLSx.autoencoder.architecture",
+        "documentation": {}
+    },
+    {
+        "label": "Unit",
+        "kind": 6,
+        "importPath": "PLSx.autoencoder.architecture",
+        "description": "PLSx.autoencoder.architecture",
+        "peekOfCode": "class Unit(BaseModel):\n    \"\"\"Unit class defines blueprint for building units of a model.\"\"\"\n    layers: list[Layer] = []\n    class Config:\n        arbitrary_types_allowed = True\n    def build(self, config: list[dict[str, Union[str, int, bool]]]) -> None:\n        \"\"\"Creates layers by type and appends to its layers list.\"\"\"\n        if len(self.layers) == 0:\n            if len(config) > 0:\n                for layer in config:",
+        "detail": "PLSx.autoencoder.architecture",
+        "documentation": {}
+    },
+    {
+        "label": "Vectorizer",
+        "kind": 6,
+        "importPath": "PLSx.autoencoder.architecture",
+        "description": "PLSx.autoencoder.architecture",
+        "peekOfCode": "class Vectorizer(Unit):\n    \"\"\"Vectorizer class.\"\"\"\nclass Devectorizer(Unit):\n    \"\"\"Devectorizer class.\"\"\"\nclass Encoder(Unit):\n    \"\"\"Encoder class.\"\"\"\nclass Decoder(Unit):\n    \"\"\"Decoder class.\"\"\"\nclass SSDecoder(Unit):\n    \"\"\"SSDecoder class.\"\"\"",
+        "detail": "PLSx.autoencoder.architecture",
+        "documentation": {}
+    },
+    {
+        "label": "Devectorizer",
+        "kind": 6,
+        "importPath": "PLSx.autoencoder.architecture",
+        "description": "PLSx.autoencoder.architecture",
+        "peekOfCode": "class Devectorizer(Unit):\n    \"\"\"Devectorizer class.\"\"\"\nclass Encoder(Unit):\n    \"\"\"Encoder class.\"\"\"\nclass Decoder(Unit):\n    \"\"\"Decoder class.\"\"\"\nclass SSDecoder(Unit):\n    \"\"\"SSDecoder class.\"\"\"\nclass Classifier(Unit):\n    \"\"\"Classifier class.\"\"\"",
+        "detail": "PLSx.autoencoder.architecture",
+        "documentation": {}
+    },
+    {
+        "label": "Encoder",
+        "kind": 6,
+        "importPath": "PLSx.autoencoder.architecture",
+        "description": "PLSx.autoencoder.architecture",
+        "peekOfCode": "class Encoder(Unit):\n    \"\"\"Encoder class.\"\"\"\nclass Decoder(Unit):\n    \"\"\"Decoder class.\"\"\"\nclass SSDecoder(Unit):\n    \"\"\"SSDecoder class.\"\"\"\nclass Classifier(Unit):\n    \"\"\"Classifier class.\"\"\"\nclass Discriminator(Unit):\n    \"\"\"Discriminator class.\"\"\"",
+        "detail": "PLSx.autoencoder.architecture",
+        "documentation": {}
+    },
+    {
+        "label": "Decoder",
+        "kind": 6,
+        "importPath": "PLSx.autoencoder.architecture",
+        "description": "PLSx.autoencoder.architecture",
+        "peekOfCode": "class Decoder(Unit):\n    \"\"\"Decoder class.\"\"\"\nclass SSDecoder(Unit):\n    \"\"\"SSDecoder class.\"\"\"\nclass Classifier(Unit):\n    \"\"\"Classifier class.\"\"\"\nclass Discriminator(Unit):\n    \"\"\"Discriminator class.\"\"\"\nclass Architecture(object):\n    \"\"\"",
+        "detail": "PLSx.autoencoder.architecture",
+        "documentation": {}
+    },
+    {
+        "label": "SSDecoder",
+        "kind": 6,
+        "importPath": "PLSx.autoencoder.architecture",
+        "description": "PLSx.autoencoder.architecture",
+        "peekOfCode": "class SSDecoder(Unit):\n    \"\"\"SSDecoder class.\"\"\"\nclass Classifier(Unit):\n    \"\"\"Classifier class.\"\"\"\nclass Discriminator(Unit):\n    \"\"\"Discriminator class.\"\"\"\nclass Architecture(object):\n    \"\"\"\n    The Architecture object provides the model arch params.\n    \"\"\"",
+        "detail": "PLSx.autoencoder.architecture",
+        "documentation": {}
+    },
+    {
+        "label": "Classifier",
+        "kind": 6,
+        "importPath": "PLSx.autoencoder.architecture",
+        "description": "PLSx.autoencoder.architecture",
+        "peekOfCode": "class Classifier(Unit):\n    \"\"\"Classifier class.\"\"\"\nclass Discriminator(Unit):\n    \"\"\"Discriminator class.\"\"\"\nclass Architecture(object):\n    \"\"\"\n    The Architecture object provides the model arch params.\n    \"\"\"\n    def __init__(self) -> None:\n        self.name: str = None",
+        "detail": "PLSx.autoencoder.architecture",
+        "documentation": {}
+    },
+    {
+        "label": "Discriminator",
+        "kind": 6,
+        "importPath": "PLSx.autoencoder.architecture",
+        "description": "PLSx.autoencoder.architecture",
+        "peekOfCode": "class Discriminator(Unit):\n    \"\"\"Discriminator class.\"\"\"\nclass Architecture(object):\n    \"\"\"\n    The Architecture object provides the model arch params.\n    \"\"\"\n    def __init__(self) -> None:\n        self.name: str = None\n        self.type: str = None\n        self.components: dict[str, Unit] = {}",
+        "detail": "PLSx.autoencoder.architecture",
+        "documentation": {}
+    },
+    {
+        "label": "Architecture",
+        "kind": 6,
+        "importPath": "PLSx.autoencoder.architecture",
+        "description": "PLSx.autoencoder.architecture",
+        "peekOfCode": "class Architecture(object):\n    \"\"\"\n    The Architecture object provides the model arch params.\n    \"\"\"\n    def __init__(self) -> None:\n        self.name: str = None\n        self.type: str = None\n        self.components: dict[str, Unit] = {}\n        self.connections: list[tuple[str, str]] = []\n    def build(self, src: Union[str, Path]) -> None:",
+        "detail": "PLSx.autoencoder.architecture",
+        "documentation": {}
+    },
+    {
+        "label": "init_weights",
+        "kind": 2,
+        "importPath": "PLSx.autoencoder.architecture",
+        "description": "PLSx.autoencoder.architecture",
+        "peekOfCode": "def init_weights(m: BaseModel, layer: Module) -> None:\n    # check if m has init attributes\n    if hasattr(m, \"init\"):\n        if m.init == \"xavier\":\n            xavier_normal_(layer.weight)\n        elif m.init == \"he\":\n            kaiming_normal_(layer.weight)\ndef get_activation(activation: str) -> Module:\n    \"\"\"Return the activation function.\"\"\"\n    if activation == \"ReLU\":",
+        "detail": "PLSx.autoencoder.architecture",
+        "documentation": {}
+    },
+    {
+        "label": "get_activation",
+        "kind": 2,
+        "importPath": "PLSx.autoencoder.architecture",
+        "description": "PLSx.autoencoder.architecture",
+        "peekOfCode": "def get_activation(activation: str) -> Module:\n    \"\"\"Return the activation function.\"\"\"\n    if activation == \"ReLU\":\n        return ReLU()\n    elif activation == \"ELU\":\n        return ELU()\n    elif activation == \"Sigmoid\":\n        return Sigmoid()\n    elif activation == \"Tanh\":\n        return Tanh()",
+        "detail": "PLSx.autoencoder.architecture",
+        "documentation": {}
+    },
+    {
+        "label": "Auttoencoder",
+        "kind": 6,
+        "importPath": "PLSx.autoencoder.autoencoder",
+        "description": "PLSx.autoencoder.autoencoder",
+        "peekOfCode": "class Auttoencoder(Module):\n    \"\"\"Autoencoder class\"\"\"\n    def __init__(self, architecture: Architecture):\n        \"\"\"Initialize the Autoencoder.\"\"\"\n        super(Auttoencoder, self).__init__()\n        self.architecture = architecture",
+        "detail": "PLSx.autoencoder.autoencoder",
         "documentation": {}
     },
     {
@@ -606,6 +1364,285 @@
         "description": "PLSx.utils.test.test_template",
         "peekOfCode": "class TestXXX(TestCase):\n    \"\"\"Test items for XXX class.\"\"\"\n    pass\nif __name__ == \"__main__\":\n    unittest_main()",
         "detail": "PLSx.utils.test.test_template",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultVal",
+        "kind": 6,
+        "importPath": "PLSx.utils.custom_dataclasses",
+        "description": "PLSx.utils.custom_dataclasses",
+        "peekOfCode": "class DefaultVal:  # -> https://stackoverflow.com/users/2128545/mikeschneeberger\n    val: Any\n@dataclass\nclass NoneRefersDefault:  # -> https://stackoverflow.com/users/2128545/mikeschneeberger\n    def __post_init__(self):\n        for field in fields(self):\n            # if a field of this data class defines a default value of type\n            # `DefaultVal`, then use its value in case the field after\n            # initialization has either not changed or is None.\n            if isinstance(field.default, DefaultVal):",
+        "detail": "PLSx.utils.custom_dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "NoneRefersDefault",
+        "kind": 6,
+        "importPath": "PLSx.utils.custom_dataclasses",
+        "description": "PLSx.utils.custom_dataclasses",
+        "peekOfCode": "class NoneRefersDefault:  # -> https://stackoverflow.com/users/2128545/mikeschneeberger\n    def __post_init__(self):\n        for field in fields(self):\n            # if a field of this data class defines a default value of type\n            # `DefaultVal`, then use its value in case the field after\n            # initialization has either not changed or is None.\n            if isinstance(field.default, DefaultVal):\n                field_val = getattr(self, field.name)\n                if isinstance(field_val, DefaultVal) or field_val is None:\n                    setattr(self, field.name, field.default.val)",
+        "detail": "PLSx.utils.custom_dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "nested_deco",
+        "kind": 2,
+        "importPath": "PLSx.utils.custom_dataclasses",
+        "description": "PLSx.utils.custom_dataclasses",
+        "peekOfCode": "def nested_deco(*args, **kwargs):\n    \"\"\"decorator for assigning nested dict to nested dataclass\"\"\"\n    def wrapper(check_class):\n        # passing class to investigate\n        check_class = dataclass(check_class, **kwargs)\n        o_init = check_class.__init__\n        def __init__(self, *args, **kwargs):\n            # getting class fields to filter extra keys\n            class_fields = {f.name for f in fields(check_class)}\n            for key in list(kwargs.keys()):",
+        "detail": "PLSx.utils.custom_dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "PLSxView.PLSxView.asgi",
+        "description": "PLSxView.PLSxView.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "PLSxView.PLSxView.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "PLSxView.PLSxView.settings",
+        "description": "PLSxView.PLSxView.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = \"django-insecure-x5mh@i71sq4@vcbvaqt2+kkx-ybb8fhgwz)0!3dp1t0psdkx&6\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "PLSxView.PLSxView.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "PLSxView.PLSxView.settings",
+        "description": "PLSxView.PLSxView.settings",
+        "peekOfCode": "SECRET_KEY = \"django-insecure-x5mh@i71sq4@vcbvaqt2+kkx-ybb8fhgwz)0!3dp1t0psdkx&6\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"dataView.apps.DataviewConfig\",\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",",
+        "detail": "PLSxView.PLSxView.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "PLSxView.PLSxView.settings",
+        "description": "PLSxView.PLSxView.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"dataView.apps.DataviewConfig\",\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",",
+        "detail": "PLSxView.PLSxView.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "PLSxView.PLSxView.settings",
+        "description": "PLSxView.PLSxView.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"dataView.apps.DataviewConfig\",\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",",
+        "detail": "PLSxView.PLSxView.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "PLSxView.PLSxView.settings",
+        "description": "PLSxView.PLSxView.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    \"dataView.apps.DataviewConfig\",\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n]\nMIDDLEWARE = [",
+        "detail": "PLSxView.PLSxView.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "PLSxView.PLSxView.settings",
+        "description": "PLSxView.PLSxView.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    \"django.middleware.security.SecurityMiddleware\",\n    \"django.contrib.sessions.middleware.SessionMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    \"django.middleware.csrf.CsrfViewMiddleware\",\n    \"django.contrib.auth.middleware.AuthenticationMiddleware\",\n    \"django.contrib.messages.middleware.MessageMiddleware\",\n    \"django.middleware.clickjacking.XFrameOptionsMiddleware\",\n]\nROOT_URLCONF = \"PLSxView.urls\"",
+        "detail": "PLSxView.PLSxView.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "PLSxView.PLSxView.settings",
+        "description": "PLSxView.PLSxView.settings",
+        "peekOfCode": "ROOT_URLCONF = \"PLSxView.urls\"\nTEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",",
+        "detail": "PLSxView.PLSxView.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "PLSxView.PLSxView.settings",
+        "description": "PLSxView.PLSxView.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",\n                \"django.contrib.auth.context_processors.auth\",",
+        "detail": "PLSxView.PLSxView.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "PLSxView.PLSxView.settings",
+        "description": "PLSxView.PLSxView.settings",
+        "peekOfCode": "WSGI_APPLICATION = \"PLSxView.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/4.0/ref/settings/#databases\nDATABASES = {\"default\": {\"ENGINE\": \"django.db.backends.sqlite3\", \"NAME\": BASE_DIR / \"db.sqlite3\",}}\n# Password validation\n# https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\"NAME\": \"django.contrib.auth.password_validation.UserAttributeSimilarityValidator\",},\n    {\"NAME\": \"django.contrib.auth.password_validation.MinimumLengthValidator\",},\n    {\"NAME\": \"django.contrib.auth.password_validation.CommonPasswordValidator\",},",
+        "detail": "PLSxView.PLSxView.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "PLSxView.PLSxView.settings",
+        "description": "PLSxView.PLSxView.settings",
+        "peekOfCode": "DATABASES = {\"default\": {\"ENGINE\": \"django.db.backends.sqlite3\", \"NAME\": BASE_DIR / \"db.sqlite3\",}}\n# Password validation\n# https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\"NAME\": \"django.contrib.auth.password_validation.UserAttributeSimilarityValidator\",},\n    {\"NAME\": \"django.contrib.auth.password_validation.MinimumLengthValidator\",},\n    {\"NAME\": \"django.contrib.auth.password_validation.CommonPasswordValidator\",},\n    {\"NAME\": \"django.contrib.auth.password_validation.NumericPasswordValidator\",},\n]\n# Internationalization",
+        "detail": "PLSxView.PLSxView.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "PLSxView.PLSxView.settings",
+        "description": "PLSxView.PLSxView.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\"NAME\": \"django.contrib.auth.password_validation.UserAttributeSimilarityValidator\",},\n    {\"NAME\": \"django.contrib.auth.password_validation.MinimumLengthValidator\",},\n    {\"NAME\": \"django.contrib.auth.password_validation.CommonPasswordValidator\",},\n    {\"NAME\": \"django.contrib.auth.password_validation.NumericPasswordValidator\",},\n]\n# Internationalization\n# https://docs.djangoproject.com/en/4.0/topics/i18n/\nLANGUAGE_CODE = \"en-us\"\nTIME_ZONE = \"EST\"",
+        "detail": "PLSxView.PLSxView.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "PLSxView.PLSxView.settings",
+        "description": "PLSxView.PLSxView.settings",
+        "peekOfCode": "LANGUAGE_CODE = \"en-us\"\nTIME_ZONE = \"EST\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "PLSxView.PLSxView.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "PLSxView.PLSxView.settings",
+        "description": "PLSxView.PLSxView.settings",
+        "peekOfCode": "TIME_ZONE = \"EST\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "PLSxView.PLSxView.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "PLSxView.PLSxView.settings",
+        "description": "PLSxView.PLSxView.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "PLSxView.PLSxView.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "PLSxView.PLSxView.settings",
+        "description": "PLSxView.PLSxView.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "PLSxView.PLSxView.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "PLSxView.PLSxView.settings",
+        "description": "PLSxView.PLSxView.settings",
+        "peekOfCode": "STATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "PLSxView.PLSxView.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "PLSxView.PLSxView.settings",
+        "description": "PLSxView.PLSxView.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "PLSxView.PLSxView.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "PLSxView.PLSxView.urls",
+        "description": "PLSxView.PLSxView.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path(\"dataview/\", include(\"dataView.urls\")),\n]",
+        "detail": "PLSxView.PLSxView.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "PLSxView.PLSxView.wsgi",
+        "description": "PLSxView.PLSxView.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "PLSxView.PLSxView.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "PLSxView.dataView.migrations.0001_initial",
+        "description": "PLSxView.dataView.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = []\n    operations = [\n        migrations.CreateModel(\n            name=\"Annotations\",\n            fields=[\n                (\n                    \"id\",\n                    models.BigAutoField(",
+        "detail": "PLSxView.dataView.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "DataviewConfig",
+        "kind": 6,
+        "importPath": "PLSxView.dataView.apps",
+        "description": "PLSxView.dataView.apps",
+        "peekOfCode": "class DataviewConfig(AppConfig):\n    default_auto_field = \"django.db.models.BigAutoField\"\n    name = \"dataView\"",
+        "detail": "PLSxView.dataView.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Protein",
+        "kind": 6,
+        "importPath": "PLSxView.dataView.models",
+        "description": "PLSxView.dataView.models",
+        "peekOfCode": "class Protein(models.Model):\n    \"\"\"\n    A class to represent a protein.\"\"\"\n    uniprot_id = models.CharField(max_length=20, unique=True, primary_key=True)\n    sequence = models.TextField()\n    secondary_structure = models.TextField(blank=True)\n    def __str__(self):\n        \"\"\"Return the string representation of the protein.\"\"\"\n        return f\"{self.uniprot_id} -> \\nAAS: {self.sequence}\\nSSS: {self.secondary_structure}\"\nclass Annotations(models.Model):",
+        "detail": "PLSxView.dataView.models",
+        "documentation": {}
+    },
+    {
+        "label": "Annotations",
+        "kind": 6,
+        "importPath": "PLSxView.dataView.models",
+        "description": "PLSxView.dataView.models",
+        "peekOfCode": "class Annotations(models.Model):\n    \"\"\"\n    A class to represent annotations.\"\"\"\n    uniprot_id = models.CharField(max_length=20)\n    annotation = models.TextField()\n    start = models.IntegerField()\n    end = models.IntegerField()",
+        "detail": "PLSxView.dataView.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "PLSxView.dataView.urls",
+        "description": "PLSxView.dataView.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", views.index, name=\"index\"),\n    path(\"protein/<str:uniprot_id>\", views.protein, name=\"protein\"),\n]",
+        "detail": "PLSxView.dataView.urls",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "PLSxView.dataView.views",
+        "description": "PLSxView.dataView.views",
+        "peekOfCode": "def index(request):\n    protein_list = Protein.objects.order_by(\"uniprot_id\")\n    context = {\"protein_list\": protein_list}\n    return render(request, \"dataView/index.html\", context)\ndef protein(request, uniprot_id):\n    return HttpResponse(\"Protein View: {}\".format(uniprot_id))",
+        "detail": "PLSxView.dataView.views",
+        "documentation": {}
+    },
+    {
+        "label": "protein",
+        "kind": 2,
+        "importPath": "PLSxView.dataView.views",
+        "description": "PLSxView.dataView.views",
+        "peekOfCode": "def protein(request, uniprot_id):\n    return HttpResponse(\"Protein View: {}\".format(uniprot_id))",
+        "detail": "PLSxView.dataView.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "PLSxView.manage",
+        "description": "PLSxView.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault(\"DJANGO_SETTINGS_MODULE\", \"PLSxView.settings\")\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "PLSxView.manage",
         "documentation": {}
     },
     {
