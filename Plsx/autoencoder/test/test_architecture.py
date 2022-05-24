@@ -5,7 +5,7 @@
 from unittest import TestCase
 from unittest import main as unittest_main
 
-from torch.nn import Sequential
+from torch.nn import Module, Sequential
 
 from PLSx.autoencoder.architecture import Architecture, Layer, Unit
 from PLSx.dataloader.utils import read_json
@@ -32,13 +32,15 @@ class TestArchitecture(TestCase):
         # config = read_json(architecture_json_file)["components"][keys[0]]
         # with self.assertWarns(Warning):
         #     architecture.components[keys[0]].build(config)
-        model = architecture.get_model()
-        self.assertIsInstance(model, dict)
-        self.assertEqual(len(model), len(architecture.components))
-        self.assertIsInstance(model[keys[0]], Sequential)
+        architecture.get_model()
+        self.assertTrue(architecture.is_built)
+        self.assertTrue(
+            all([isinstance(architecture.components[key].unit, Sequential) for key in keys])
+        )
         # test model reference
         self.assertEqual(
-            list(model[keys[0]].children())[0], architecture.components[keys[0]].layers[0].layer
+            list(architecture.components[keys[0]].unit.children())[0],
+            architecture.components[keys[0]].layers[0].layer,
         )
         # test with str
         architecture = Architecture()
@@ -71,6 +73,20 @@ class TestArchitecture(TestCase):
         unit = Unit()
         self.assertRaises(NotImplementedError, unit.add_layer, layer)
         self.assertRaises(NotImplementedError, unit.insert_layer, layer, 1)
+
+    def test_params(self):
+        """Test architecture errors."""
+        architecture_json_file = self.root / "test_data" / "architecture_sample.json"
+        self.assertTrue(
+            architecture_json_file.exists(), f"{architecture_json_file} does not exist."
+        )
+        architecture = Architecture()
+        architecture.build(architecture_json_file)
+        self.assertTrue(architecture.d0, 21)
+        self.assertTrue(architecture.d1, 8)
+        self.assertTrue(architecture.dn, 10)
+        self.assertTrue(architecture.w, 20)
+        self.assertTrue(architecture.ds, 9)
 
 
 if __name__ == "__main__":

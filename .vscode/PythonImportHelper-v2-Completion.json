@@ -563,6 +563,14 @@
         "documentation": {}
     },
     {
+        "label": "device",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
         "label": "randperm",
         "importPath": "torch",
         "description": "torch",
@@ -572,14 +580,6 @@
     },
     {
         "label": "tensor",
-        "importPath": "torch",
-        "description": "torch",
-        "isExtraImport": true,
-        "detail": "torch",
-        "documentation": {}
-    },
-    {
-        "label": "device",
         "importPath": "torch",
         "description": "torch",
         "isExtraImport": true,
@@ -1671,7 +1671,7 @@
         "kind": 6,
         "importPath": "PLSx.utils.custom_argparser",
         "description": "PLSx.utils.custom_argparser",
-        "peekOfCode": "class TrainSessionArgParser(DefaultParser):\n    \"\"\"Set description, options, and flags for TrainSession.\"\"\"\n    def __init__(self) -> None:\n        \"\"\"Define instance variables, collect arguments.\"\"\"\n        super().__init__(\"Train a protein sequence autoencoder\")\n    def _initialize(self) -> None:\n        self.parser.add_argument(\n            \"-n\", \"--model_name\", type=str, help=\"Model Name\", required=True\n        )\n        # self.parser.add_argument(\"-dss\", \"--dataset_ss\", type=str, help=\"Dataset_ss\", default=\"\")",
+        "peekOfCode": "class TrainSessionArgParser(DefaultParser):\n    \"\"\"Set description, options, and flags for TrainSession.\"\"\"\n    def __init__(self) -> None:\n        \"\"\"Define instance variables, collect arguments.\"\"\"\n        super().__init__(\"Train a protein sequence autoencoder\")\n    def _initialize(self) -> None:\n        self.parser.add_argument(\"-n\", \"--model_name\", type=str, help=\"Model Name\", required=True)\n        # self.parser.add_argument(\"-dss\", \"--dataset_ss\", type=str, help=\"Dataset_ss\", default=\"\")\n        # self.parser.add_argument(\n        #     \"-dclss\", \"--dataset_clss\", type=str, help=\"Dataset_clss\", default=\"\"",
         "detail": "PLSx.utils.custom_argparser",
         "documentation": {}
     },
@@ -1734,7 +1734,7 @@
         "kind": 2,
         "importPath": "PLSx.utils.seq_utils",
         "description": "PLSx.utils.seq_utils",
-        "peekOfCode": "def ndx_to_seq(seq: Tensor, keys: str = \"aa_keys\") -> str:\n    \"\"\"Convert a sequence of indices to a sequence of amino acids.\"\"\"\n    # TODO use numpy array instead of torch tensor\n    if not isinstance(seq, Tensor):\n        seq = tensor(seq)\n    return \"\".join([KEYS[keys][i] for i in seq.long()])\ndef split_input_vals(\n    input_vals: Tensor, input_keys: str, w: int\n) -> Tuple[Tensor, Tensor]:\n    target_vals_ss = None",
+        "peekOfCode": "def ndx_to_seq(seq: Tensor, keys: str = \"aa_keys\") -> str:\n    \"\"\"Convert a sequence of indices to a sequence of amino acids.\"\"\"\n    # TODO use numpy array instead of torch tensor\n    if not isinstance(seq, Tensor):\n        seq = tensor(seq)\n    return \"\".join([KEYS[keys][i] for i in seq.long()])\ndef split_input_vals(input_vals: Tensor, input_keys: str, w: int) -> Tuple[Tensor, Tensor]:\n    target_vals_ss = None\n    target_vals_cl = None\n    if len(input_keys) == 3:",
         "detail": "PLSx.utils.seq_utils",
         "documentation": {}
     },
@@ -1743,7 +1743,7 @@
         "kind": 2,
         "importPath": "PLSx.utils.seq_utils",
         "description": "PLSx.utils.seq_utils",
-        "peekOfCode": "def split_input_vals(\n    input_vals: Tensor, input_keys: str, w: int\n) -> Tuple[Tensor, Tensor]:\n    target_vals_ss = None\n    target_vals_cl = None\n    if len(input_keys) == 3:\n        if input_keys[1] == \"S\":\n            target_vals_ss = input_vals[:, w:-w].long()\n        elif input_keys[2] == \"S\":\n            target_vals_ss = input_vals[:, -w:].long()",
+        "peekOfCode": "def split_input_vals(input_vals: Tensor, input_keys: str, w: int) -> Tuple[Tensor, Tensor]:\n    target_vals_ss = None\n    target_vals_cl = None\n    if len(input_keys) == 3:\n        if input_keys[1] == \"S\":\n            target_vals_ss = input_vals[:, w:-w].long()\n        elif input_keys[2] == \"S\":\n            target_vals_ss = input_vals[:, -w:].long()\n        if input_keys[1] == \"C\":\n            target_vals_cl = input_vals[:, w:-w].mean(axis=1).reshape((-1, 1))",
         "detail": "PLSx.utils.seq_utils",
         "documentation": {}
     },
