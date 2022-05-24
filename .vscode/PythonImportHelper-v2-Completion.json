@@ -435,6 +435,14 @@
         "documentation": {}
     },
     {
+        "label": "all",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
         "label": "cat",
         "importPath": "torch",
         "description": "torch",
@@ -460,14 +468,6 @@
     },
     {
         "label": "randint",
-        "importPath": "torch",
-        "description": "torch",
-        "isExtraImport": true,
-        "detail": "torch",
-        "documentation": {}
-    },
-    {
-        "label": "all",
         "importPath": "torch",
         "description": "torch",
         "isExtraImport": true,
@@ -779,6 +779,22 @@
         "documentation": {}
     },
     {
+        "label": "one_hot",
+        "importPath": "torch.nn.functional",
+        "description": "torch.nn.functional",
+        "isExtraImport": true,
+        "detail": "torch.nn.functional",
+        "documentation": {}
+    },
+    {
+        "label": "unfold",
+        "importPath": "torch.nn.functional",
+        "description": "torch.nn.functional",
+        "isExtraImport": true,
+        "detail": "torch.nn.functional",
+        "documentation": {}
+    },
+    {
         "label": "add_noise",
         "importPath": "PLSx.utils.seq_utils",
         "description": "PLSx.utils.seq_utils",
@@ -800,22 +816,6 @@
         "description": "PLSx.utils.seq_utils",
         "isExtraImport": true,
         "detail": "PLSx.utils.seq_utils",
-        "documentation": {}
-    },
-    {
-        "label": "one_hot",
-        "importPath": "torch.nn.functional",
-        "description": "torch.nn.functional",
-        "isExtraImport": true,
-        "detail": "torch.nn.functional",
-        "documentation": {}
-    },
-    {
-        "label": "unfold",
-        "importPath": "torch.nn.functional",
-        "description": "torch.nn.functional",
-        "isExtraImport": true,
-        "detail": "torch.nn.functional",
         "documentation": {}
     },
     {
