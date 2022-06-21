@@ -1,7 +1,7 @@
+import sqlite3
 from os.path import dirname
 from pathlib import Path
 
-import sqlalchemy
 from pandas import DataFrame
 
 from PLSx.database.database import Database
@@ -33,4 +33,4 @@ class SqliteDB(Database):
         """
         self.db_dir = str(self.root / "data" / "db")
         self.table_name = name
-        self.engine = sqlalchemy.create_engine(f"sqlite:///{self.db_dir}/" + name + ".db")
+        self.engine = sqlite3.connect(self.db_dir / f"{name}.db")

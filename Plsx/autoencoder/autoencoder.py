@@ -40,3 +40,17 @@ class Autoencoder(Module):
             one_hot_input, Tensor
         ), f"expected Tensor type, received {type(one_hot_input)}"
         return self.architecture.forward(one_hot_input)
+
+    def train(self, input_vals: Tensor, device, input_noise=0.0, input_keys="A--", **kwargs):
+        """Train the Autoencoder."""
+        # transform input
+        input_ndx, target_vals_ss, target_vals_cl, one_hot_input = self.transform_input(
+            input_vals, device, input_noise, input_keys
+        )
+        kwargs["input_ndx"] = input_ndx
+        kwargs["target_vals_ss"] = target_vals_ss
+        kwargs["target_vals_cl"] = target_vals_cl
+        kwargs["one_hot_input"] = one_hot_input
+        kwargs["device"] = device
+        kwargs["input_keys"] = input_keys
+        self.architecture.train(**kwargs)
