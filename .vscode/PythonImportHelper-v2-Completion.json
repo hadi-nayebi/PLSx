@@ -9,6 +9,14 @@
         "documentation": {}
     },
     {
+        "label": "ArgumentParser",
+        "importPath": "argparse",
+        "description": "argparse",
+        "isExtraImport": true,
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
         "label": "re",
         "kind": 6,
         "isExtraImport": true,
@@ -155,6 +163,46 @@
         "documentation": {}
     },
     {
+        "label": "TestCase",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "Module",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
         "label": "Sequential",
         "importPath": "torch.nn",
         "description": "torch.nn",
@@ -275,6 +323,14 @@
         "documentation": {}
     },
     {
+        "label": "Module",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
         "label": "Architecture",
         "importPath": "PLSx.autoencoder.architecture",
         "description": "PLSx.autoencoder.architecture",
@@ -307,6 +363,14 @@
         "documentation": {}
     },
     {
+        "label": "Architecture",
+        "importPath": "PLSx.autoencoder.architecture",
+        "description": "PLSx.autoencoder.architecture",
+        "isExtraImport": true,
+        "detail": "PLSx.autoencoder.architecture",
+        "documentation": {}
+    },
+    {
         "label": "read_json",
         "importPath": "PLSx.dataloader.utils",
         "description": "PLSx.dataloader.utils",
@@ -316,6 +380,14 @@
     },
     {
         "label": "read_json",
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "isExtraImport": true,
+        "detail": "PLSx.dataloader.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_pfam_ids",
         "importPath": "PLSx.dataloader.utils",
         "description": "PLSx.dataloader.utils",
         "isExtraImport": true,
@@ -371,11 +443,235 @@
         "documentation": {}
     },
     {
+        "label": "get_root",
+        "importPath": "PLSx.utils.file_manager",
+        "description": "PLSx.utils.file_manager",
+        "isExtraImport": true,
+        "detail": "PLSx.utils.file_manager",
+        "documentation": {}
+    },
+    {
+        "label": "get_root",
+        "importPath": "PLSx.utils.file_manager",
+        "description": "PLSx.utils.file_manager",
+        "isExtraImport": true,
+        "detail": "PLSx.utils.file_manager",
+        "documentation": {}
+    },
+    {
+        "label": "get_root",
+        "importPath": "PLSx.utils.file_manager",
+        "description": "PLSx.utils.file_manager",
+        "isExtraImport": true,
+        "detail": "PLSx.utils.file_manager",
+        "documentation": {}
+    },
+    {
+        "label": "get_root",
+        "importPath": "PLSx.utils.file_manager",
+        "description": "PLSx.utils.file_manager",
+        "isExtraImport": true,
+        "detail": "PLSx.utils.file_manager",
+        "documentation": {}
+    },
+    {
+        "label": "get_root",
+        "importPath": "PLSx.utils.file_manager",
+        "description": "PLSx.utils.file_manager",
+        "isExtraImport": true,
+        "detail": "PLSx.utils.file_manager",
+        "documentation": {}
+    },
+    {
+        "label": "Tensor",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "all",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "cat",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "eq",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "rand",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "randint",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "Tensor",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "transpose",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "Tensor",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "Tensor",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "cuda",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "cat",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "tensor",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "Tensor",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "cat",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "randperm",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "tensor",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "Autoencoder",
+        "importPath": "PLSx.autoencoder.autoencoder",
+        "description": "PLSx.autoencoder.autoencoder",
+        "isExtraImport": true,
+        "detail": "PLSx.autoencoder.autoencoder",
+        "documentation": {}
+    },
+    {
         "label": "Generator",
         "importPath": "collections.abc",
         "description": "collections.abc",
         "isExtraImport": true,
         "detail": "collections.abc",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
         "documentation": {}
     },
     {
@@ -459,6 +755,14 @@
         "documentation": {}
     },
     {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Tuple",
         "importPath": "typing",
         "description": "typing",
@@ -499,6 +803,30 @@
         "documentation": {}
     },
     {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "BaseModel",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -531,59 +859,43 @@
         "documentation": {}
     },
     {
-        "label": "Module",
-        "importPath": "torch",
-        "description": "torch",
+        "label": "one_hot",
+        "importPath": "torch.nn.functional",
+        "description": "torch.nn.functional",
         "isExtraImport": true,
-        "detail": "torch",
+        "detail": "torch.nn.functional",
         "documentation": {}
     },
     {
-        "label": "Tensor",
-        "importPath": "torch",
-        "description": "torch",
+        "label": "unfold",
+        "importPath": "torch.nn.functional",
+        "description": "torch.nn.functional",
         "isExtraImport": true,
-        "detail": "torch",
+        "detail": "torch.nn.functional",
         "documentation": {}
     },
     {
-        "label": "cuda",
-        "importPath": "torch",
-        "description": "torch",
+        "label": "add_noise",
+        "importPath": "PLSx.utils.seq_utils",
+        "description": "PLSx.utils.seq_utils",
         "isExtraImport": true,
-        "detail": "torch",
+        "detail": "PLSx.utils.seq_utils",
         "documentation": {}
     },
     {
-        "label": "device",
-        "importPath": "torch",
-        "description": "torch",
+        "label": "slide_window",
+        "importPath": "PLSx.utils.seq_utils",
+        "description": "PLSx.utils.seq_utils",
         "isExtraImport": true,
-        "detail": "torch",
+        "detail": "PLSx.utils.seq_utils",
         "documentation": {}
     },
     {
-        "label": "cat",
-        "importPath": "torch",
-        "description": "torch",
+        "label": "split_input_vals",
+        "importPath": "PLSx.utils.seq_utils",
+        "description": "PLSx.utils.seq_utils",
         "isExtraImport": true,
-        "detail": "torch",
-        "documentation": {}
-    },
-    {
-        "label": "device",
-        "importPath": "torch",
-        "description": "torch",
-        "isExtraImport": true,
-        "detail": "torch",
-        "documentation": {}
-    },
-    {
-        "label": "tensor",
-        "importPath": "torch",
-        "description": "torch",
-        "isExtraImport": true,
-        "detail": "torch",
+        "detail": "PLSx.utils.seq_utils",
         "documentation": {}
     },
     {
@@ -627,60 +939,52 @@
         "documentation": {}
     },
     {
-        "label": "dirname",
-        "importPath": "os.path",
-        "description": "os.path",
-        "isExtraImport": true,
-        "detail": "os.path",
-        "documentation": {}
-    },
-    {
-        "label": "dirname",
-        "importPath": "os.path",
-        "description": "os.path",
-        "isExtraImport": true,
-        "detail": "os.path",
-        "documentation": {}
-    },
-    {
-        "label": "dirname",
-        "importPath": "os.path",
-        "description": "os.path",
-        "isExtraImport": true,
-        "detail": "os.path",
-        "documentation": {}
-    },
-    {
-        "label": "dirname",
-        "importPath": "os.path",
-        "description": "os.path",
-        "isExtraImport": true,
-        "detail": "os.path",
-        "documentation": {}
-    },
-    {
-        "label": "sqlalchemy",
+        "label": "sqlite3",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "detail": "sqlalchemy",
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
         "documentation": {}
     },
     {
-        "label": "union",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "dirname",
+        "importPath": "os.path",
+        "description": "os.path",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
+        "detail": "os.path",
         "documentation": {}
     },
     {
-        "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "dirname",
+        "importPath": "os.path",
+        "description": "os.path",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "dirname",
+        "importPath": "os.path",
+        "description": "os.path",
+        "isExtraImport": true,
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "dirname",
+        "importPath": "os.path",
+        "description": "os.path",
+        "isExtraImport": true,
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "dirname",
+        "importPath": "os.path",
+        "description": "os.path",
+        "isExtraImport": true,
+        "detail": "os.path",
         "documentation": {}
     },
     {
@@ -709,6 +1013,39 @@
         "documentation": {}
     },
     {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "system",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "system",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "DataPrep",
+        "importPath": "PLSx.dataloader.data_prep",
+        "description": "PLSx.dataloader.data_prep",
+        "isExtraImport": true,
+        "detail": "PLSx.dataloader.data_prep",
+        "documentation": {}
+    },
+    {
         "label": "StringIO",
         "importPath": "io",
         "description": "io",
@@ -730,23 +1067,6 @@
         "description": "PLSx.dataloader.dataloader",
         "isExtraImport": true,
         "detail": "PLSx.dataloader.dataloader",
-        "documentation": {}
-    },
-    {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
-        "documentation": {}
-    },
-    {
-        "label": "system",
-        "importPath": "os",
-        "description": "os",
-        "isExtraImport": true,
-        "detail": "os",
         "documentation": {}
     },
     {
@@ -782,6 +1102,31 @@
         "documentation": {}
     },
     {
+        "label": "xml.etree.ElementTree",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "xml.etree.ElementTree",
+        "description": "xml.etree.ElementTree",
+        "detail": "xml.etree.ElementTree",
+        "documentation": {}
+    },
+    {
+        "label": "SeqIO",
+        "importPath": "Bio",
+        "description": "Bio",
+        "isExtraImport": true,
+        "detail": "Bio",
+        "documentation": {}
+    },
+    {
+        "label": "Entrez",
+        "importPath": "Bio",
+        "description": "Bio",
+        "isExtraImport": true,
+        "detail": "Bio",
+        "documentation": {}
+    },
+    {
         "label": "Num",
         "importPath": "ast",
         "description": "ast",
@@ -814,6 +1159,14 @@
         "documentation": {}
     },
     {
+        "label": "choice",
+        "importPath": "numpy.random",
+        "description": "numpy.random",
+        "isExtraImport": true,
+        "detail": "numpy.random",
+        "documentation": {}
+    },
+    {
         "label": "gzip",
         "kind": 6,
         "isExtraImport": true,
@@ -829,6 +1182,55 @@
         "importPath": "json",
         "description": "json",
         "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "union",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "TrainSessionArgParser",
+        "importPath": "PLSx.utils.custom_argparser",
+        "description": "PLSx.utils.custom_argparser",
+        "isExtraImport": true,
+        "detail": "PLSx.utils.custom_argparser",
+        "documentation": {}
+    },
+    {
+        "label": "CustomArgParser",
+        "importPath": "PLSx.utils.custom_argparser",
+        "description": "PLSx.utils.custom_argparser",
+        "isExtraImport": true,
+        "detail": "PLSx.utils.custom_argparser",
+        "documentation": {}
+    },
+    {
+        "label": "TrainSessionArgParser",
+        "importPath": "PLSx.utils.custom_argparser",
+        "description": "PLSx.utils.custom_argparser",
+        "isExtraImport": true,
+        "detail": "PLSx.utils.custom_argparser",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
         "documentation": {}
     },
     {
@@ -992,23 +1394,6 @@
         "documentation": {}
     },
     {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
-        "documentation": {}
-    },
-    {
-        "label": "Entrez",
-        "importPath": "Bio",
-        "description": "Bio",
-        "isExtraImport": true,
-        "detail": "Bio",
-        "documentation": {}
-    },
-    {
         "label": "find_packages",
         "importPath": "setuptools",
         "description": "setuptools",
@@ -1065,7 +1450,7 @@
         "kind": 6,
         "importPath": "PLSx.autoencoder.test.test_autoencoder",
         "description": "PLSx.autoencoder.test.test_autoencoder",
-        "peekOfCode": "class TestAutoencoder(TestCase):\n    \"\"\"Test items for Autoencoder class.\"\"\"\n    pass\nif __name__ == \"__main__\":\n    unittest_main()",
+        "peekOfCode": "class TestAutoencoder(TestCase):\n    \"\"\"Test items for Autoencoder class.\"\"\"\n    root = get_root(__file__, retrace=2)\n    def test_init(self):\n        \"\"\"Test init.\"\"\"\n        architecture_json_file = self.root / \"test_data\" / \"architecture_sample.json\"\n        architecture = Architecture()\n        architecture.build(architecture_json_file)\n        ae = Autoencoder(architecture=architecture)\n        self.assertIsInstance(ae, Autoencoder)",
         "detail": "PLSx.autoencoder.test.test_autoencoder",
         "documentation": {}
     },
@@ -1146,7 +1531,7 @@
         "kind": 6,
         "importPath": "PLSx.autoencoder.architecture",
         "description": "PLSx.autoencoder.architecture",
-        "peekOfCode": "class Unit(BaseModel):\n    \"\"\"Unit class defines blueprint for building units of a model.\"\"\"\n    layers: list[Layer] = []\n    class Config:\n        arbitrary_types_allowed = True\n    def build(self, config: list[dict[str, Union[str, int, bool]]]) -> None:\n        \"\"\"Creates layers by type and appends to its layers list.\"\"\"\n        if len(self.layers) == 0:\n            if len(config) > 0:\n                for layer in config:",
+        "peekOfCode": "class Unit(BaseModel):\n    \"\"\"Unit class defines blueprint for building units of a model.\"\"\"\n    layers: list[Layer] = []\n    unit: Module = None\n    class Config:\n        arbitrary_types_allowed = True\n    def build(self, config: list[dict[str, Union[str, int, bool]]]) -> None:\n        \"\"\"Creates layers by type and appends to its layers list.\"\"\"\n        if len(self.layers) == 0:\n            if len(config) > 0:",
         "detail": "PLSx.autoencoder.architecture",
         "documentation": {}
     },
@@ -1155,7 +1540,7 @@
         "kind": 6,
         "importPath": "PLSx.autoencoder.architecture",
         "description": "PLSx.autoencoder.architecture",
-        "peekOfCode": "class Vectorizer(Unit):\n    \"\"\"Vectorizer class.\"\"\"\nclass Devectorizer(Unit):\n    \"\"\"Devectorizer class.\"\"\"\nclass Encoder(Unit):\n    \"\"\"Encoder class.\"\"\"\nclass Decoder(Unit):\n    \"\"\"Decoder class.\"\"\"\nclass SSDecoder(Unit):\n    \"\"\"SSDecoder class.\"\"\"",
+        "peekOfCode": "class Vectorizer(Unit):\n    \"\"\"Vectorizer class.\"\"\"\n    def forward(self, **kwargs) -> Tensor:\n        \"\"\"Forward pass.\"\"\"\n        x = kwargs[\"x\"].reshape((-1, kwargs[\"d0\"]))\n        return self.unit.forward(x)\nclass Devectorizer(Unit):\n    \"\"\"Devectorizer class.\"\"\"\nclass Encoder(Unit):\n    \"\"\"Encoder class.\"\"\"",
         "detail": "PLSx.autoencoder.architecture",
         "documentation": {}
     },
@@ -1164,7 +1549,7 @@
         "kind": 6,
         "importPath": "PLSx.autoencoder.architecture",
         "description": "PLSx.autoencoder.architecture",
-        "peekOfCode": "class Devectorizer(Unit):\n    \"\"\"Devectorizer class.\"\"\"\nclass Encoder(Unit):\n    \"\"\"Encoder class.\"\"\"\nclass Decoder(Unit):\n    \"\"\"Decoder class.\"\"\"\nclass SSDecoder(Unit):\n    \"\"\"SSDecoder class.\"\"\"\nclass Classifier(Unit):\n    \"\"\"Classifier class.\"\"\"",
+        "peekOfCode": "class Devectorizer(Unit):\n    \"\"\"Devectorizer class.\"\"\"\nclass Encoder(Unit):\n    \"\"\"Encoder class.\"\"\"\n    def forward(self, **kwargs) -> Tensor:\n        \"\"\"Forward pass.\"\"\"\n        x = transpose(kwargs[\"x\"].reshape(-1, kwargs[\"w\"], kwargs[\"d1\"]), 1, 2)\n        return self.unit.forward(x)\nclass Decoder(Unit):\n    \"\"\"Decoder class.\"\"\"",
         "detail": "PLSx.autoencoder.architecture",
         "documentation": {}
     },
@@ -1173,7 +1558,7 @@
         "kind": 6,
         "importPath": "PLSx.autoencoder.architecture",
         "description": "PLSx.autoencoder.architecture",
-        "peekOfCode": "class Encoder(Unit):\n    \"\"\"Encoder class.\"\"\"\nclass Decoder(Unit):\n    \"\"\"Decoder class.\"\"\"\nclass SSDecoder(Unit):\n    \"\"\"SSDecoder class.\"\"\"\nclass Classifier(Unit):\n    \"\"\"Classifier class.\"\"\"\nclass Discriminator(Unit):\n    \"\"\"Discriminator class.\"\"\"",
+        "peekOfCode": "class Encoder(Unit):\n    \"\"\"Encoder class.\"\"\"\n    def forward(self, **kwargs) -> Tensor:\n        \"\"\"Forward pass.\"\"\"\n        x = transpose(kwargs[\"x\"].reshape(-1, kwargs[\"w\"], kwargs[\"d1\"]), 1, 2)\n        return self.unit.forward(x)\nclass Decoder(Unit):\n    \"\"\"Decoder class.\"\"\"\n    def forward(self, **kwargs) -> Tensor:\n        \"\"\"Forward pass.\"\"\"",
         "detail": "PLSx.autoencoder.architecture",
         "documentation": {}
     },
@@ -1182,7 +1567,7 @@
         "kind": 6,
         "importPath": "PLSx.autoencoder.architecture",
         "description": "PLSx.autoencoder.architecture",
-        "peekOfCode": "class Decoder(Unit):\n    \"\"\"Decoder class.\"\"\"\nclass SSDecoder(Unit):\n    \"\"\"SSDecoder class.\"\"\"\nclass Classifier(Unit):\n    \"\"\"Classifier class.\"\"\"\nclass Discriminator(Unit):\n    \"\"\"Discriminator class.\"\"\"\nclass Architecture(object):\n    \"\"\"",
+        "peekOfCode": "class Decoder(Unit):\n    \"\"\"Decoder class.\"\"\"\n    def forward(self, **kwargs) -> Tensor:\n        \"\"\"Forward pass.\"\"\"\n        x = self.unit.forward(kwargs[\"x\"])\n        x = transpose(x, 1, 2).reshape(-1, kwargs[\"d1\"])\n        return x\nclass SSDecoder(Unit):\n    \"\"\"SSDecoder class.\"\"\"\n    def forward(self, **kwargs) -> Tensor:",
         "detail": "PLSx.autoencoder.architecture",
         "documentation": {}
     },
@@ -1191,7 +1576,7 @@
         "kind": 6,
         "importPath": "PLSx.autoencoder.architecture",
         "description": "PLSx.autoencoder.architecture",
-        "peekOfCode": "class SSDecoder(Unit):\n    \"\"\"SSDecoder class.\"\"\"\nclass Classifier(Unit):\n    \"\"\"Classifier class.\"\"\"\nclass Discriminator(Unit):\n    \"\"\"Discriminator class.\"\"\"\nclass Architecture(object):\n    \"\"\"\n    The Architecture object provides the model arch params.\n    \"\"\"",
+        "peekOfCode": "class SSDecoder(Unit):\n    \"\"\"SSDecoder class.\"\"\"\n    def forward(self, **kwargs) -> Tensor:\n        \"\"\"Forward pass.\"\"\"\n        x = self.unit.forward(kwargs[\"x\"])\n        x = transpose(x, 1, 2).reshape(-1, kwargs[\"ds\"])\n        return x\nclass Classifier(Unit):\n    \"\"\"Classifier class.\"\"\"\nclass Discriminator(Unit):",
         "detail": "PLSx.autoencoder.architecture",
         "documentation": {}
     },
@@ -1209,7 +1594,7 @@
         "kind": 6,
         "importPath": "PLSx.autoencoder.architecture",
         "description": "PLSx.autoencoder.architecture",
-        "peekOfCode": "class Discriminator(Unit):\n    \"\"\"Discriminator class.\"\"\"\nclass Architecture(object):\n    \"\"\"\n    The Architecture object provides the model arch params.\n    \"\"\"\n    def __init__(self) -> None:\n        self.name: str = None\n        self.type: str = None\n        self.components: dict[str, Unit] = {}",
+        "peekOfCode": "class Discriminator(Unit):\n    \"\"\"Discriminator class.\"\"\"\nclass Architecture(object):\n    \"\"\"\n    The Architecture object provides the model arch params.\n    \"\"\"\n    def __init__(self) -> None:\n        self.name: str = None\n        self.type: str = None\n        self.w: int = None",
         "detail": "PLSx.autoencoder.architecture",
         "documentation": {}
     },
@@ -1218,7 +1603,7 @@
         "kind": 6,
         "importPath": "PLSx.autoencoder.architecture",
         "description": "PLSx.autoencoder.architecture",
-        "peekOfCode": "class Architecture(object):\n    \"\"\"\n    The Architecture object provides the model arch params.\n    \"\"\"\n    def __init__(self) -> None:\n        self.name: str = None\n        self.type: str = None\n        self.components: dict[str, Unit] = {}\n        self.connections: list[tuple[str, str]] = []\n    def build(self, src: Union[str, Path]) -> None:",
+        "peekOfCode": "class Architecture(object):\n    \"\"\"\n    The Architecture object provides the model arch params.\n    \"\"\"\n    def __init__(self) -> None:\n        self.name: str = None\n        self.type: str = None\n        self.w: int = None\n        self.components: dict[str, Unit] = {}\n        self.connections: list[tuple[str, str]] = []",
         "detail": "PLSx.autoencoder.architecture",
         "documentation": {}
     },
@@ -1232,11 +1617,11 @@
         "documentation": {}
     },
     {
-        "label": "Auttoencoder",
+        "label": "Autoencoder",
         "kind": 6,
         "importPath": "PLSx.autoencoder.autoencoder",
         "description": "PLSx.autoencoder.autoencoder",
-        "peekOfCode": "class Auttoencoder(Module):\n    \"\"\"Autoencoder class\"\"\"\n    def __init__(self, architecture: Architecture):\n        \"\"\"Initialize the Autoencoder.\"\"\"\n        super(Auttoencoder, self).__init__()\n        self.architecture = architecture",
+        "peekOfCode": "class Autoencoder(Module):\n    \"\"\"Autoencoder class\"\"\"\n    def __init__(self, architecture: Architecture):\n        \"\"\"Initialize the Autoencoder.\"\"\"\n        super(Autoencoder, self).__init__()\n        # common attributes\n        self.architecture = architecture\n        self.d0 = architecture.d0\n        self.d1 = architecture.d1\n        self.dn = architecture.dn",
         "detail": "PLSx.autoencoder.autoencoder",
         "documentation": {}
     },
@@ -1277,6 +1662,15 @@
         "documentation": {}
     },
     {
+        "label": "TestDataPrep",
+        "kind": 6,
+        "importPath": "PLSx.dataloader.test.test_data_prep",
+        "description": "PLSx.dataloader.test.test_data_prep",
+        "peekOfCode": "class TestDataPrep(TestCase):\n    \"\"\"Test items for DataPrep.\"\"\"\n    root = get_root(__file__, retrace=3)\n    def test_load_source(self):\n        \"\"\"Test load_source.\"\"\"\n        data_prep = DataPrep()\n        source = self.root / \"data\" / \"uniprot\" / \"UP000000212\" / \"UP000000212_1234679.xml\"\n        source = self.root / \"data\" / \"uniprot\" / \"UP000000212\" / \"UP000000212_1234679.xml\"\n        data_prep.load_source(source)\nif __name__ == \"__main__\":",
+        "detail": "PLSx.dataloader.test.test_data_prep",
+        "documentation": {}
+    },
+    {
         "label": "TestDataLoader",
         "kind": 6,
         "importPath": "PLSx.dataloader.test.test_dataloader",
@@ -1292,6 +1686,51 @@
         "description": "PLSx.dataloader.test.test_utils",
         "peekOfCode": "class TestUtils(TestCase):\n    \"\"\"Test items for DataLoader utils.\"\"\"\n    root = Path(dirname(__file__)).parent.parent\n    def test_read_fasta(self):\n        \"\"\"Test read_fasta.\"\"\"\n        filename = self.root / \"test_data\" / \"test_read_fasta.fasta\"\n        data = read_fasta(filename)\n        self.assertEqual(len(data), 5)\n        self.assertIsInstance(data, dict)\n    def test_write_fasta(self):",
         "detail": "PLSx.dataloader.test.test_utils",
+        "documentation": {}
+    },
+    {
+        "label": "DataPrep",
+        "kind": 6,
+        "importPath": "PLSx.dataloader.data_prep",
+        "description": "PLSx.dataloader.data_prep",
+        "peekOfCode": "class DataPrep:\n    root = get_root(__file__, retrace=2)\n    def __init__(self):\n        \"\"\"Initialize the DataPrep.\"\"\"\n        self.source_path = None\n        self.source = None\n    def load_source(self, path: Union[Path, str]) -> None:\n        \"\"\"Load source data.\"\"\"\n        if isinstance(path, str):\n            path = Path(path)",
+        "detail": "PLSx.dataloader.data_prep",
+        "documentation": {}
+    },
+    {
+        "label": "clean_tag",
+        "kind": 2,
+        "importPath": "PLSx.dataloader.data_prep",
+        "description": "PLSx.dataloader.data_prep",
+        "peekOfCode": "def clean_tag(tag: str, prefix: str = None) -> str:\n    \"\"\"Clean tag.\"\"\"\n    if prefix is None:\n        prefix = UNIPROT_PREFIX\n    return tag.replace(prefix, \"\")\nclass DataPrep:\n    root = get_root(__file__, retrace=2)\n    def __init__(self):\n        \"\"\"Initialize the DataPrep.\"\"\"\n        self.source_path = None",
+        "detail": "PLSx.dataloader.data_prep",
+        "documentation": {}
+    },
+    {
+        "label": "UNIPROT_PREFIX",
+        "kind": 5,
+        "importPath": "PLSx.dataloader.data_prep",
+        "description": "PLSx.dataloader.data_prep",
+        "peekOfCode": "UNIPROT_PREFIX = \"{http://uniprot.org/uniprot}\"\nTARGET_DOMAINS = [\n    # InterPro\n    \"IPR001721\",\n    \"IPR002912\",\n    \"IPR014864\",\n    \"IPR018449\",\n    \"IPR018717\",\n    \"IPR019455\",\n    \"IPR027795\",",
+        "detail": "PLSx.dataloader.data_prep",
+        "documentation": {}
+    },
+    {
+        "label": "TARGET_DOMAINS",
+        "kind": 5,
+        "importPath": "PLSx.dataloader.data_prep",
+        "description": "PLSx.dataloader.data_prep",
+        "peekOfCode": "TARGET_DOMAINS = [\n    # InterPro\n    \"IPR001721\",\n    \"IPR002912\",\n    \"IPR014864\",\n    \"IPR018449\",\n    \"IPR018717\",\n    \"IPR019455\",\n    \"IPR027795\",\n    \"IPR039557\",",
+        "detail": "PLSx.dataloader.data_prep",
+        "documentation": {}
+    },
+    {
+        "label": "Skip_list",
+        "kind": 5,
+        "importPath": "PLSx.dataloader.data_prep",
+        "description": "PLSx.dataloader.data_prep",
+        "peekOfCode": "Skip_list = [\n    \"bact\",\n    \"lact\",\n    \"activ\",\n    \"bact\",\n    \"fact\",\n    \"charact\",\n    \"actfrase\",\n    \"uact\",\n    \"interact\",",
+        "detail": "PLSx.dataloader.data_prep",
         "documentation": {}
     },
     {
@@ -1349,12 +1788,84 @@
         "documentation": {}
     },
     {
+        "label": "get_all_pfam_ids",
+        "kind": 2,
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "peekOfCode": "def get_all_pfam_ids():\n    \"\"\"Get all pfam ids from the pfam database.\"\"\"\n    table = get_root(__file__, retrace=2) / \"data\" / \"pfam\" / \"pfam_families.tsv\"\n    data = pd.read_csv(table, sep=\"\\t\")\n    print(data)",
+        "detail": "PLSx.dataloader.utils",
+        "documentation": {}
+    },
+    {
+        "label": "TrainSession",
+        "kind": 6,
+        "importPath": "PLSx.interface.train_session",
+        "description": "PLSx.interface.train_session",
+        "peekOfCode": "class TrainSession:\n    pass\ndef main(args):\n    \"\"\"Run main.\"\"\"\n    print(args)\nif __name__ == \"__main__\":\n    parser = TrainSessionArgParser()\n    parsed_args = parser.parsed()\n    main(parsed_args)",
+        "detail": "PLSx.interface.train_session",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "PLSx.interface.train_session",
+        "description": "PLSx.interface.train_session",
+        "peekOfCode": "def main(args):\n    \"\"\"Run main.\"\"\"\n    print(args)\nif __name__ == \"__main__\":\n    parser = TrainSessionArgParser()\n    parsed_args = parser.parsed()\n    main(parsed_args)",
+        "detail": "PLSx.interface.train_session",
+        "documentation": {}
+    },
+    {
+        "label": "TestArgParser",
+        "kind": 6,
+        "importPath": "PLSx.utils.test.test_custom_argparser",
+        "description": "PLSx.utils.test.test_custom_argparser",
+        "peekOfCode": "class TestArgParser(TestCase):\n    \"\"\"Test items for ArgParser class.\"\"\"\n    def test_custom_arg_parser(self):\n        \"\"\"CustomArgParser object returns args as a dict.\"\"\"\n        parser = CustomArgParser()\n        parser.add_argument(\"--verbose\", \"-v\", action=\"store_true\", help=\"Verbose\")\n        parser.add_argument(\"--name\", \"-n\", type=str, help=\"Name\", default=\"Dummy\")\n        args = parser.parse_args([\"--verbose\", \"--name\", \"ISACC\"])\n        self.assertTrue(args.verbose)\n        self.assertEqual(args.name, \"ISACC\")",
+        "detail": "PLSx.utils.test.test_custom_argparser",
+        "documentation": {}
+    },
+    {
         "label": "TestXXX",
         "kind": 6,
         "importPath": "PLSx.utils.test.test_template",
         "description": "PLSx.utils.test.test_template",
-        "peekOfCode": "class TestXXX(TestCase):\n    \"\"\"Test items for XXX class.\"\"\"\n    pass\nif __name__ == \"__main__\":\n    unittest_main()",
+        "peekOfCode": "class TestXXX(TestCase):\n    \"\"\"Test items for XXX class.\"\"\"\n    root = get_root(__file__, retrace=3)\nif __name__ == \"__main__\":\n    unittest_main()",
         "detail": "PLSx.utils.test.test_template",
+        "documentation": {}
+    },
+    {
+        "label": "CustomArgParser",
+        "kind": 6,
+        "importPath": "PLSx.utils.custom_argparser",
+        "description": "PLSx.utils.custom_argparser",
+        "peekOfCode": "class CustomArgParser(ArgumentParser):\n    \"\"\"Add help_value_pairs method to ArgumentParser object.\"\"\"\n    def get_help_value_dict(self) -> HelpValuePair:\n        \"\"\"Create and return dict of {option_help_message: option_value}.\"\"\"\n        parsed_args = self.parse_args()\n        help_value_pair_dict = {}\n        for value in self.__dict__[\"_option_string_actions\"].values():\n            if value.dest in parsed_args.__dict__.keys():\n                help_value_pair_dict[value.help] = parsed_args.__dict__[value.dest]\n        return help_value_pair_dict",
+        "detail": "PLSx.utils.custom_argparser",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultParser",
+        "kind": 6,
+        "importPath": "PLSx.utils.custom_argparser",
+        "description": "PLSx.utils.custom_argparser",
+        "peekOfCode": "class DefaultParser(object):\n    \"\"\"DefaultParser is the basic parser class. More specialized arg parsers will inherit from this class.\"\"\"\n    def __init__(self, desc: str) -> None:\n        \"\"\"Define instance variables, collect arguments.\"\"\"\n        self.parser = CustomArgParser(description=desc)\n        self._initialize()\n    def _initialize(self) -> None:\n        \"\"\"A virtual method.\"\"\"\n    def parsed(self) -> HelpValuePair:\n        \"\"\"Return description-value pair dictionary.\"\"\"",
+        "detail": "PLSx.utils.custom_argparser",
+        "documentation": {}
+    },
+    {
+        "label": "TrainSessionArgParser",
+        "kind": 6,
+        "importPath": "PLSx.utils.custom_argparser",
+        "description": "PLSx.utils.custom_argparser",
+        "peekOfCode": "class TrainSessionArgParser(DefaultParser):\n    \"\"\"Set description, options, and flags for TrainSession.\"\"\"\n    def __init__(self) -> None:\n        \"\"\"Define instance variables, collect arguments.\"\"\"\n        super().__init__(\"Train a protein sequence autoencoder\")\n    def _initialize(self) -> None:\n        self.parser.add_argument(\"-n\", \"--model_name\", type=str, help=\"Model Name\", required=True)\n        # self.parser.add_argument(\"-dss\", \"--dataset_ss\", type=str, help=\"Dataset_ss\", default=\"\")\n        # self.parser.add_argument(\n        #     \"-dclss\", \"--dataset_clss\", type=str, help=\"Dataset_clss\", default=\"\"",
+        "detail": "PLSx.utils.custom_argparser",
+        "documentation": {}
+    },
+    {
+        "label": "HelpValuePair",
+        "kind": 5,
+        "importPath": "PLSx.utils.custom_argparser",
+        "description": "PLSx.utils.custom_argparser",
+        "peekOfCode": "HelpValuePair = Dict[str, Any]\nclass CustomArgParser(ArgumentParser):\n    \"\"\"Add help_value_pairs method to ArgumentParser object.\"\"\"\n    def get_help_value_dict(self) -> HelpValuePair:\n        \"\"\"Create and return dict of {option_help_message: option_value}.\"\"\"\n        parsed_args = self.parse_args()\n        help_value_pair_dict = {}\n        for value in self.__dict__[\"_option_string_actions\"].values():\n            if value.dest in parsed_args.__dict__.keys():\n                help_value_pair_dict[value.help] = parsed_args.__dict__[value.dest]",
+        "detail": "PLSx.utils.custom_argparser",
         "documentation": {}
     },
     {
@@ -1385,12 +1896,66 @@
         "documentation": {}
     },
     {
+        "label": "Training",
+        "kind": 6,
+        "importPath": "PLSx.utils.demo",
+        "description": "PLSx.utils.demo",
+        "peekOfCode": "class Training:\n    def add_model(self, model):\n        self.model = model\n        #  train the  model\n        self.model.add_encoder()\n        self.model.add_decoder()\n        self.model.add_classifier()\n        self.model.add_devectorizer()\n    def train(self, dataset):\n        # general training path",
+        "detail": "PLSx.utils.demo",
+        "documentation": {}
+    },
+    {
         "label": "get_root",
         "kind": 2,
         "importPath": "PLSx.utils.file_manager",
         "description": "PLSx.utils.file_manager",
         "peekOfCode": "def get_root(file, retrace=0):\n    \"\"\"Get the root path.\"\"\"\n    return Path(file).resolve().parents[retrace]",
         "detail": "PLSx.utils.file_manager",
+        "documentation": {}
+    },
+    {
+        "label": "slide_window",
+        "kind": 2,
+        "importPath": "PLSx.utils.seq_utils",
+        "description": "PLSx.utils.seq_utils",
+        "peekOfCode": "def slide_window(input_vals: Tensor, w: int) -> Tensor:\n    \"\"\"Slide a window of w amino acids over the input sequence.\"\"\"\n    kernel_size = (input_vals.shape[1], w)\n    return unfold(input_vals.float().T[None, None, :, :], kernel_size=kernel_size)[0].T\ndef ndx_to_seq(seq: Tensor, keys: str = \"aa_keys\") -> str:\n    \"\"\"Convert a sequence of indices to a sequence of amino acids.\"\"\"\n    # TODO use numpy array instead of torch tensor\n    if not isinstance(seq, Tensor):\n        seq = tensor(seq)\n    return \"\".join([KEYS[keys][i] for i in seq.long()])",
+        "detail": "PLSx.utils.seq_utils",
+        "documentation": {}
+    },
+    {
+        "label": "ndx_to_seq",
+        "kind": 2,
+        "importPath": "PLSx.utils.seq_utils",
+        "description": "PLSx.utils.seq_utils",
+        "peekOfCode": "def ndx_to_seq(seq: Tensor, keys: str = \"aa_keys\") -> str:\n    \"\"\"Convert a sequence of indices to a sequence of amino acids.\"\"\"\n    # TODO use numpy array instead of torch tensor\n    if not isinstance(seq, Tensor):\n        seq = tensor(seq)\n    return \"\".join([KEYS[keys][i] for i in seq.long()])\ndef split_input_vals(input_vals: Tensor, input_keys: str, w: int) -> Tuple[Tensor, Tensor]:\n    target_vals_ss = None\n    target_vals_cl = None\n    if len(input_keys) == 3:",
+        "detail": "PLSx.utils.seq_utils",
+        "documentation": {}
+    },
+    {
+        "label": "split_input_vals",
+        "kind": 2,
+        "importPath": "PLSx.utils.seq_utils",
+        "description": "PLSx.utils.seq_utils",
+        "peekOfCode": "def split_input_vals(input_vals: Tensor, input_keys: str, w: int) -> Tuple[Tensor, Tensor]:\n    target_vals_ss = None\n    target_vals_cl = None\n    if len(input_keys) == 3:\n        if input_keys[1] == \"S\":\n            target_vals_ss = input_vals[:, w:-w].long()\n        elif input_keys[2] == \"S\":\n            target_vals_ss = input_vals[:, -w:].long()\n        if input_keys[1] == \"C\":\n            target_vals_cl = input_vals[:, w:-w].mean(axis=1).reshape((-1, 1))",
+        "detail": "PLSx.utils.seq_utils",
+        "documentation": {}
+    },
+    {
+        "label": "add_noise",
+        "kind": 2,
+        "importPath": "PLSx.utils.seq_utils",
+        "description": "PLSx.utils.seq_utils",
+        "peekOfCode": "def add_noise(one_hot_input: Tensor, input_noise: float, device: device) -> Tensor:\n    \"\"\"Add noise to a tensor of one-hot vectors.\"\"\"\n    ndx = randperm(one_hot_input.shape[1])\n    size = list(one_hot_input.shape)\n    size[-1] = 1\n    p = tensor(choice([1, 0], p=[input_noise, 1 - input_noise], size=size)).to(device)\n    return (one_hot_input[:, ndx, :] * p) + (one_hot_input * (1 - p))",
+        "detail": "PLSx.utils.seq_utils",
+        "documentation": {}
+    },
+    {
+        "label": "KEYS",
+        "kind": 5,
+        "importPath": "PLSx.utils.seq_utils",
+        "description": "PLSx.utils.seq_utils",
+        "peekOfCode": "KEYS = {\"aa_keys\": \"WYFMILVAGPSTCEDQNHRK*\", \"ss_keys\": \"CSTIGHBE*\"}\ndef slide_window(input_vals: Tensor, w: int) -> Tensor:\n    \"\"\"Slide a window of w amino acids over the input sequence.\"\"\"\n    kernel_size = (input_vals.shape[1], w)\n    return unfold(input_vals.float().T[None, None, :, :], kernel_size=kernel_size)[0].T\ndef ndx_to_seq(seq: Tensor, keys: str = \"aa_keys\") -> str:\n    \"\"\"Convert a sequence of indices to a sequence of amino acids.\"\"\"\n    # TODO use numpy array instead of torch tensor\n    if not isinstance(seq, Tensor):\n        seq = tensor(seq)",
+        "detail": "PLSx.utils.seq_utils",
         "documentation": {}
     },
     {

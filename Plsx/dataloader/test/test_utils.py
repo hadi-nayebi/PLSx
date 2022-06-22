@@ -11,7 +11,13 @@ from unittest import main as unittest_main
 
 from numpy import array
 
-from PLSx.dataloader.utils import read_fasta, read_json, write_fasta, write_json
+from PLSx.dataloader.utils import (
+    get_all_pfam_ids,
+    read_fasta,
+    read_json,
+    write_fasta,
+    write_json,
+)
 
 
 class TestUtils(TestCase):
@@ -109,6 +115,9 @@ class TestUtils(TestCase):
         }
         with self.assertRaises(IOError):
             read_json(filename)
+
+    def test_get_all_pfam_ids(self):
+        data = get_all_pfam_ids()
 
 
 if __name__ == "__main__":

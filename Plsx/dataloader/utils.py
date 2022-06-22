@@ -5,8 +5,11 @@ import json
 from pathlib import Path
 from typing import Any, Union
 
+import pandas as pd
 from numpy import ndarray
 from sqlalchemy import union
+
+from PLSx.utils.file_manager import get_root
 
 
 class NumpyEncoder(json.JSONEncoder):
@@ -91,3 +94,10 @@ def write_json(
             raise TypeError(f"use .json.gz to encode numpy ndarray's serialization. {e}")
     else:
         raise IOError("File format must be .gz or .json.gz")
+
+
+def get_all_pfam_ids():
+    """Get all pfam ids from the pfam database."""
+    table = get_root(__file__, retrace=2) / "data" / "pfam" / "pfam_families.tsv"
+    data = pd.read_csv(table, sep="\t")
+    print(data)
