@@ -9,7 +9,7 @@ import pandas as pd
 from numpy import ndarray
 from sqlalchemy import union
 
-from PLSx.utils.file_manager import get_root
+from Plsx.utils.file_manager import get_root
 
 
 class NumpyEncoder(json.JSONEncoder):

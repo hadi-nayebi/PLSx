@@ -5,7 +5,7 @@ from typing import Union
 import pandas as pd
 from Bio import SeqIO
 
-from PLSx.utils.file_manager import get_root
+from Plsx.utils.file_manager import get_root
 
 UNIPROT_PREFIX = "{http://uniprot.org/uniprot}"
 TARGET_DOMAINS = [

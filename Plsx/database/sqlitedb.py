@@ -4,7 +4,7 @@ from pathlib import Path
 
 from pandas import DataFrame
 
-from PLSx.database.database import Database
+from Plsx.database.database import Database
 
 
 class SqliteDB(Database):

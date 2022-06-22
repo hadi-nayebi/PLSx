@@ -14,4 +14,4 @@ from os import system
 
 from setuptools import find_packages, setup
 
-setup(name="PLSx", version=__version__, packages=find_packages())
+setup(name="Plsx", version=__version__, packages=find_packages())

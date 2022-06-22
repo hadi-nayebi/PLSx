@@ -12,8 +12,8 @@ print(sys.path)
 from unittest import TestCase
 from unittest import main as unittest_main
 
-from PLSx.dataloader.data_prep import DataPrep
-from PLSx.utils.file_manager import get_root
+from Plsx.dataloader.data_prep import DataPrep
+from Plsx.utils.file_manager import get_root
 
 
 class TestDataPrep(TestCase):

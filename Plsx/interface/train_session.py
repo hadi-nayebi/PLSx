@@ -2,7 +2,7 @@
 # coding: utf-8
 
 
-from PLSx.utils.custom_argparser import TrainSessionArgParser
+from Plsx.utils.custom_argparser import TrainSessionArgParser
 
 
 class TrainSession:

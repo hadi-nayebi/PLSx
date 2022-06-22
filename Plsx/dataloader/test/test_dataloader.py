@@ -10,7 +10,7 @@ from unittest.mock import patch
 
 from torch import Tensor, cuda, device
 
-from PLSx.dataloader.dataloader import DataLoader
+from Plsx.dataloader.dataloader import DataLoader
 
 
 class TestDataLoader(TestCase):

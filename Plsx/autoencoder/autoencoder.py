@@ -2,8 +2,8 @@ from torch import Tensor
 from torch.nn import Module
 from torch.nn.functional import one_hot
 
-from PLSx.autoencoder.architecture import Architecture
-from PLSx.utils.seq_utils import add_noise, slide_window, split_input_vals
+from Plsx.autoencoder.architecture import Architecture
+from Plsx.utils.seq_utils import add_noise, slide_window, split_input_vals
 
 
 class Autoencoder(Module):

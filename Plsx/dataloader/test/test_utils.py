@@ -11,7 +11,7 @@ from unittest import main as unittest_main
 
 from numpy import array
 
-from PLSx.dataloader.utils import (
+from Plsx.dataloader.utils import (
     get_all_pfam_ids,
     read_fasta,
     read_json,

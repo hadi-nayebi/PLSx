@@ -23,7 +23,7 @@ from torch.nn import (
 )
 from torch.nn.init import kaiming_normal_, xavier_normal_
 
-from PLSx.dataloader.utils import read_json
+from Plsx.dataloader.utils import read_json
 
 
 def get_activation(activation: str) -> Module:

@@ -9,7 +9,7 @@ from numpy import arange, array
 from numpy.random import choice, permutation
 from torch import cat, device, tensor
 
-from PLSx.dataloader.utils import read_json
+from Plsx.dataloader.utils import read_json
 
 
 class DataLoader(object):
