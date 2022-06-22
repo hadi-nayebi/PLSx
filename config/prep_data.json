@@ -20,13 +20,14 @@
         "intact",
         "contact",
         "actin",
-        "reactome",
+        "react",
         "tract",
         "compact",
         "actl6",
         "action",
         "acto",
-        "act_pep"
+        "act_pep",
+        "acth"
     ],
     "target_domains": {
         "InterPro": [

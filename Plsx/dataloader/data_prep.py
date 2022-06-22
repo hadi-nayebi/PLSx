@@ -36,7 +36,7 @@ class DataPrep:
             prstree = ETree.parse(path)
             print("Parsing XML file...")
             root = prstree.getroot()
-            all_act = []
+            all_act = set()
             for item in root.iter(f"{self.config['prefix']}entry"):
                 data = {}
                 acc = item.find(self.config["prefix"] + "accession").text
@@ -58,7 +58,7 @@ class DataPrep:
                         value = prop.attrib.get("value").lower()
                         if "act" in value:
                             if not any([pattern in value for pattern in self.config["skip_list"]]):
-                                all_act.append(
+                                all_act.add(
                                     (
                                         val.attrib.get("type"),
                                         val.attrib.get("id"),
