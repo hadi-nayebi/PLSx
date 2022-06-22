@@ -179,6 +179,22 @@
         "documentation": {}
     },
     {
+        "label": "TestCase",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "unittest",
+        "description": "unittest",
+        "isExtraImport": true,
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
         "label": "Module",
         "importPath": "torch.nn",
         "description": "torch.nn",
@@ -371,6 +387,14 @@
         "documentation": {}
     },
     {
+        "label": "get_all_pfam_ids",
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "isExtraImport": true,
+        "detail": "PLSx.dataloader.utils",
+        "documentation": {}
+    },
+    {
         "label": "read_fasta",
         "importPath": "PLSx.dataloader.utils",
         "description": "PLSx.dataloader.utils",
@@ -408,6 +432,38 @@
         "description": "PLSx.dataloader.utils",
         "isExtraImport": true,
         "detail": "PLSx.dataloader.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_root",
+        "importPath": "PLSx.utils.file_manager",
+        "description": "PLSx.utils.file_manager",
+        "isExtraImport": true,
+        "detail": "PLSx.utils.file_manager",
+        "documentation": {}
+    },
+    {
+        "label": "get_root",
+        "importPath": "PLSx.utils.file_manager",
+        "description": "PLSx.utils.file_manager",
+        "isExtraImport": true,
+        "detail": "PLSx.utils.file_manager",
+        "documentation": {}
+    },
+    {
+        "label": "get_root",
+        "importPath": "PLSx.utils.file_manager",
+        "description": "PLSx.utils.file_manager",
+        "isExtraImport": true,
+        "detail": "PLSx.utils.file_manager",
+        "documentation": {}
+    },
+    {
+        "label": "get_root",
+        "importPath": "PLSx.utils.file_manager",
+        "description": "PLSx.utils.file_manager",
+        "isExtraImport": true,
+        "detail": "PLSx.utils.file_manager",
         "documentation": {}
     },
     {
@@ -667,7 +723,31 @@
         "documentation": {}
     },
     {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
         "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -859,60 +939,52 @@
         "documentation": {}
     },
     {
-        "label": "dirname",
-        "importPath": "os.path",
-        "description": "os.path",
-        "isExtraImport": true,
-        "detail": "os.path",
-        "documentation": {}
-    },
-    {
-        "label": "dirname",
-        "importPath": "os.path",
-        "description": "os.path",
-        "isExtraImport": true,
-        "detail": "os.path",
-        "documentation": {}
-    },
-    {
-        "label": "dirname",
-        "importPath": "os.path",
-        "description": "os.path",
-        "isExtraImport": true,
-        "detail": "os.path",
-        "documentation": {}
-    },
-    {
-        "label": "dirname",
-        "importPath": "os.path",
-        "description": "os.path",
-        "isExtraImport": true,
-        "detail": "os.path",
-        "documentation": {}
-    },
-    {
-        "label": "sqlalchemy",
+        "label": "sqlite3",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "detail": "sqlalchemy",
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
         "documentation": {}
     },
     {
-        "label": "union",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "dirname",
+        "importPath": "os.path",
+        "description": "os.path",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
+        "detail": "os.path",
         "documentation": {}
     },
     {
-        "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "dirname",
+        "importPath": "os.path",
+        "description": "os.path",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "dirname",
+        "importPath": "os.path",
+        "description": "os.path",
+        "isExtraImport": true,
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "dirname",
+        "importPath": "os.path",
+        "description": "os.path",
+        "isExtraImport": true,
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "dirname",
+        "importPath": "os.path",
+        "description": "os.path",
+        "isExtraImport": true,
+        "detail": "os.path",
         "documentation": {}
     },
     {
@@ -941,6 +1013,39 @@
         "documentation": {}
     },
     {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "system",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "system",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "DataPrep",
+        "importPath": "PLSx.dataloader.data_prep",
+        "description": "PLSx.dataloader.data_prep",
+        "isExtraImport": true,
+        "detail": "PLSx.dataloader.data_prep",
+        "documentation": {}
+    },
+    {
         "label": "StringIO",
         "importPath": "io",
         "description": "io",
@@ -962,23 +1067,6 @@
         "description": "PLSx.dataloader.dataloader",
         "isExtraImport": true,
         "detail": "PLSx.dataloader.dataloader",
-        "documentation": {}
-    },
-    {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
-        "documentation": {}
-    },
-    {
-        "label": "system",
-        "importPath": "os",
-        "description": "os",
-        "isExtraImport": true,
-        "detail": "os",
         "documentation": {}
     },
     {
@@ -1011,6 +1099,31 @@
         "description": "numpy",
         "isExtraImport": true,
         "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "xml.etree.ElementTree",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "xml.etree.ElementTree",
+        "description": "xml.etree.ElementTree",
+        "detail": "xml.etree.ElementTree",
+        "documentation": {}
+    },
+    {
+        "label": "SeqIO",
+        "importPath": "Bio",
+        "description": "Bio",
+        "isExtraImport": true,
+        "detail": "Bio",
+        "documentation": {}
+    },
+    {
+        "label": "Entrez",
+        "importPath": "Bio",
+        "description": "Bio",
+        "isExtraImport": true,
+        "detail": "Bio",
         "documentation": {}
     },
     {
@@ -1069,6 +1182,22 @@
         "importPath": "json",
         "description": "json",
         "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "union",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
@@ -1262,14 +1391,6 @@
         "description": "django.template",
         "isExtraImport": true,
         "detail": "django.template",
-        "documentation": {}
-    },
-    {
-        "label": "Entrez",
-        "importPath": "Bio",
-        "description": "Bio",
-        "isExtraImport": true,
-        "detail": "Bio",
         "documentation": {}
     },
     {
@@ -1541,6 +1662,15 @@
         "documentation": {}
     },
     {
+        "label": "TestDataPrep",
+        "kind": 6,
+        "importPath": "PLSx.dataloader.test.test_data_prep",
+        "description": "PLSx.dataloader.test.test_data_prep",
+        "peekOfCode": "class TestDataPrep(TestCase):\n    \"\"\"Test items for DataPrep.\"\"\"\n    root = get_root(__file__, retrace=3)\n    def test_load_source(self):\n        \"\"\"Test load_source.\"\"\"\n        data_prep = DataPrep()\n        source = self.root / \"data\" / \"uniprot\" / \"UP000000212\" / \"UP000000212_1234679.xml\"\n        source = self.root / \"data\" / \"uniprot\" / \"UP000000212\" / \"UP000000212_1234679.xml\"\n        data_prep.load_source(source)\nif __name__ == \"__main__\":",
+        "detail": "PLSx.dataloader.test.test_data_prep",
+        "documentation": {}
+    },
+    {
         "label": "TestDataLoader",
         "kind": 6,
         "importPath": "PLSx.dataloader.test.test_dataloader",
@@ -1556,6 +1686,51 @@
         "description": "PLSx.dataloader.test.test_utils",
         "peekOfCode": "class TestUtils(TestCase):\n    \"\"\"Test items for DataLoader utils.\"\"\"\n    root = Path(dirname(__file__)).parent.parent\n    def test_read_fasta(self):\n        \"\"\"Test read_fasta.\"\"\"\n        filename = self.root / \"test_data\" / \"test_read_fasta.fasta\"\n        data = read_fasta(filename)\n        self.assertEqual(len(data), 5)\n        self.assertIsInstance(data, dict)\n    def test_write_fasta(self):",
         "detail": "PLSx.dataloader.test.test_utils",
+        "documentation": {}
+    },
+    {
+        "label": "DataPrep",
+        "kind": 6,
+        "importPath": "PLSx.dataloader.data_prep",
+        "description": "PLSx.dataloader.data_prep",
+        "peekOfCode": "class DataPrep:\n    root = get_root(__file__, retrace=2)\n    def __init__(self):\n        \"\"\"Initialize the DataPrep.\"\"\"\n        self.source_path = None\n        self.source = None\n    def load_source(self, path: Union[Path, str]) -> None:\n        \"\"\"Load source data.\"\"\"\n        if isinstance(path, str):\n            path = Path(path)",
+        "detail": "PLSx.dataloader.data_prep",
+        "documentation": {}
+    },
+    {
+        "label": "clean_tag",
+        "kind": 2,
+        "importPath": "PLSx.dataloader.data_prep",
+        "description": "PLSx.dataloader.data_prep",
+        "peekOfCode": "def clean_tag(tag: str, prefix: str = None) -> str:\n    \"\"\"Clean tag.\"\"\"\n    if prefix is None:\n        prefix = UNIPROT_PREFIX\n    return tag.replace(prefix, \"\")\nclass DataPrep:\n    root = get_root(__file__, retrace=2)\n    def __init__(self):\n        \"\"\"Initialize the DataPrep.\"\"\"\n        self.source_path = None",
+        "detail": "PLSx.dataloader.data_prep",
+        "documentation": {}
+    },
+    {
+        "label": "UNIPROT_PREFIX",
+        "kind": 5,
+        "importPath": "PLSx.dataloader.data_prep",
+        "description": "PLSx.dataloader.data_prep",
+        "peekOfCode": "UNIPROT_PREFIX = \"{http://uniprot.org/uniprot}\"\nTARGET_DOMAINS = [\n    # InterPro\n    \"IPR001721\",\n    \"IPR002912\",\n    \"IPR014864\",\n    \"IPR018449\",\n    \"IPR018717\",\n    \"IPR019455\",\n    \"IPR027795\",",
+        "detail": "PLSx.dataloader.data_prep",
+        "documentation": {}
+    },
+    {
+        "label": "TARGET_DOMAINS",
+        "kind": 5,
+        "importPath": "PLSx.dataloader.data_prep",
+        "description": "PLSx.dataloader.data_prep",
+        "peekOfCode": "TARGET_DOMAINS = [\n    # InterPro\n    \"IPR001721\",\n    \"IPR002912\",\n    \"IPR014864\",\n    \"IPR018449\",\n    \"IPR018717\",\n    \"IPR019455\",\n    \"IPR027795\",\n    \"IPR039557\",",
+        "detail": "PLSx.dataloader.data_prep",
+        "documentation": {}
+    },
+    {
+        "label": "Skip_list",
+        "kind": 5,
+        "importPath": "PLSx.dataloader.data_prep",
+        "description": "PLSx.dataloader.data_prep",
+        "peekOfCode": "Skip_list = [\n    \"bact\",\n    \"lact\",\n    \"activ\",\n    \"bact\",\n    \"fact\",\n    \"charact\",\n    \"actfrase\",\n    \"uact\",\n    \"interact\",",
+        "detail": "PLSx.dataloader.data_prep",
         "documentation": {}
     },
     {
@@ -1613,6 +1788,15 @@
         "documentation": {}
     },
     {
+        "label": "get_all_pfam_ids",
+        "kind": 2,
+        "importPath": "PLSx.dataloader.utils",
+        "description": "PLSx.dataloader.utils",
+        "peekOfCode": "def get_all_pfam_ids():\n    \"\"\"Get all pfam ids from the pfam database.\"\"\"\n    table = get_root(__file__, retrace=2) / \"data\" / \"pfam\" / \"pfam_families.tsv\"\n    data = pd.read_csv(table, sep=\"\\t\")\n    print(data)",
+        "detail": "PLSx.dataloader.utils",
+        "documentation": {}
+    },
+    {
         "label": "TrainSession",
         "kind": 6,
         "importPath": "PLSx.interface.train_session",
@@ -1644,7 +1828,7 @@
         "kind": 6,
         "importPath": "PLSx.utils.test.test_template",
         "description": "PLSx.utils.test.test_template",
-        "peekOfCode": "class TestXXX(TestCase):\n    \"\"\"Test items for XXX class.\"\"\"\n    pass\nif __name__ == \"__main__\":\n    unittest_main()",
+        "peekOfCode": "class TestXXX(TestCase):\n    \"\"\"Test items for XXX class.\"\"\"\n    root = get_root(__file__, retrace=3)\nif __name__ == \"__main__\":\n    unittest_main()",
         "detail": "PLSx.utils.test.test_template",
         "documentation": {}
     },
@@ -1709,6 +1893,15 @@
         "description": "PLSx.utils.custom_dataclasses",
         "peekOfCode": "def nested_deco(*args, **kwargs):\n    \"\"\"decorator for assigning nested dict to nested dataclass\"\"\"\n    def wrapper(check_class):\n        # passing class to investigate\n        check_class = dataclass(check_class, **kwargs)\n        o_init = check_class.__init__\n        def __init__(self, *args, **kwargs):\n            # getting class fields to filter extra keys\n            class_fields = {f.name for f in fields(check_class)}\n            for key in list(kwargs.keys()):",
         "detail": "PLSx.utils.custom_dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "Training",
+        "kind": 6,
+        "importPath": "PLSx.utils.demo",
+        "description": "PLSx.utils.demo",
+        "peekOfCode": "class Training:\n    def add_model(self, model):\n        self.model = model\n        #  train the  model\n        self.model.add_encoder()\n        self.model.add_decoder()\n        self.model.add_classifier()\n        self.model.add_devectorizer()\n    def train(self, dataset):\n        # general training path",
+        "detail": "PLSx.utils.demo",
         "documentation": {}
     },
     {
