@@ -5,6 +5,7 @@ import re
 import time
 import xml.etree.ElementTree as ETree
 from asyncore import write
+from os import system
 from pathlib import Path
 from typing import Union
 
@@ -75,6 +76,9 @@ class DataPrep:
         if self.is_target_domain_by_pr(pr):
             pr.save_file()
             self.stat[pr.checksum] = pr.name
+        else:
+            print(f"{pr.name} is not target domain")
+            system("clear")
 
     def load_source(self, path: Union[Path, str]) -> None:
         """Load source data."""
