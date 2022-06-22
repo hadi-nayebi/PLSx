@@ -1,6 +1,7 @@
 {
     "skip_db": [
-        "EnsemblBacteria"
+        "EnsemblBacteria",
+        "EMBL"
     ],
     "skip_ids":[
         "bact",
