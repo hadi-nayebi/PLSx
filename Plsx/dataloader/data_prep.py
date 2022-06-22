@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# coding: utf-8
+
 import xml.etree.ElementTree as ETree
 from pathlib import Path
 from typing import Union
@@ -116,3 +119,11 @@ class DataPrep:
         #     self.source_metadata["organism"].str.contains(
         #         "|".join(keyword), case=False)
         # ]
+
+
+if __name__ == "__main__":
+    data_prep = DataPrep()
+    source = data_prep.root / "data" / "uniprot" / "uniprot_sprot.xml"
+    if not source.exists():
+        raise ValueError(f"{source} does not exist")
+    data_prep.load_source(source)
