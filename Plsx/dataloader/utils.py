@@ -2,6 +2,7 @@
 
 import gzip
 import json
+import xml.etree.ElementTree as ETree
 from pathlib import Path
 from typing import Any, Dict, Union
 
@@ -102,3 +103,22 @@ def get_all_pfam_ids():
     table = get_root(__file__, retrace=2) / "data" / "pfam" / "pfam_families.tsv"
     data = pd.read_csv(table, sep="\t")
     print(data)
+
+
+def append_id(filename: Union[str, Path], extention: str) -> None:
+    """Append the id to the filename."""
+    p = Path(filename)
+    return "{0}_{2}{1}".format(Path.joinpath(p.parent, p.stem), p.suffix, extention)
+
+
+class XML_Obj:
+    def __init__(self, root):
+        self.root = ETree.Element(root)
+        self.root = ETree.SubElement(self.root, root)
+
+    def add_child(self, child):
+        self.root.append(child)
+
+    def save(self, filename):
+        tree = ETree.ElementTree(self.root)
+        tree.write(filename, encoding="utf-8", xml_declaration=True)

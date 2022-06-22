@@ -989,6 +989,22 @@
         "documentation": {}
     },
     {
+        "label": "XML_Obj",
+        "importPath": "Plsx.dataloader.utils",
+        "description": "Plsx.dataloader.utils",
+        "isExtraImport": true,
+        "detail": "Plsx.dataloader.utils",
+        "documentation": {}
+    },
+    {
+        "label": "append_id",
+        "importPath": "Plsx.dataloader.utils",
+        "description": "Plsx.dataloader.utils",
+        "isExtraImport": true,
+        "detail": "Plsx.dataloader.utils",
+        "documentation": {}
+    },
+    {
         "label": "read_json",
         "importPath": "Plsx.dataloader.utils",
         "description": "Plsx.dataloader.utils",
@@ -1969,6 +1985,15 @@
         "documentation": {}
     },
     {
+        "label": "XML_Obj",
+        "kind": 6,
+        "importPath": "Plsx.dataloader.utils",
+        "description": "Plsx.dataloader.utils",
+        "peekOfCode": "class XML_Obj:\n    def __init__(self, root):\n        self.root = ETree.Element(root)\n        self.root = ETree.SubElement(self.root, root)\n    def add_child(self, child):\n        self.root.append(child)\n    def save(self, filename):\n        tree = ETree.ElementTree(self.root)\n        tree.write(filename, encoding=\"utf-8\", xml_declaration=True)",
+        "detail": "Plsx.dataloader.utils",
+        "documentation": {}
+    },
+    {
         "label": "read_fasta",
         "kind": 2,
         "importPath": "Plsx.dataloader.utils",
@@ -2009,7 +2034,16 @@
         "kind": 2,
         "importPath": "Plsx.dataloader.utils",
         "description": "Plsx.dataloader.utils",
-        "peekOfCode": "def get_all_pfam_ids():\n    \"\"\"Get all pfam ids from the pfam database.\"\"\"\n    table = get_root(__file__, retrace=2) / \"data\" / \"pfam\" / \"pfam_families.tsv\"\n    data = pd.read_csv(table, sep=\"\\t\")\n    print(data)",
+        "peekOfCode": "def get_all_pfam_ids():\n    \"\"\"Get all pfam ids from the pfam database.\"\"\"\n    table = get_root(__file__, retrace=2) / \"data\" / \"pfam\" / \"pfam_families.tsv\"\n    data = pd.read_csv(table, sep=\"\\t\")\n    print(data)\ndef append_id(filename: Union[str, Path], extention: str) -> None:\n    \"\"\"Append the id to the filename.\"\"\"\n    p = Path(filename)\n    return \"{0}_{2}{1}\".format(Path.joinpath(p.parent, p.stem), p.suffix, extention)\nclass XML_Obj:",
+        "detail": "Plsx.dataloader.utils",
+        "documentation": {}
+    },
+    {
+        "label": "append_id",
+        "kind": 2,
+        "importPath": "Plsx.dataloader.utils",
+        "description": "Plsx.dataloader.utils",
+        "peekOfCode": "def append_id(filename: Union[str, Path], extention: str) -> None:\n    \"\"\"Append the id to the filename.\"\"\"\n    p = Path(filename)\n    return \"{0}_{2}{1}\".format(Path.joinpath(p.parent, p.stem), p.suffix, extention)\nclass XML_Obj:\n    def __init__(self, root):\n        self.root = ETree.Element(root)\n        self.root = ETree.SubElement(self.root, root)\n    def add_child(self, child):\n        self.root.append(child)",
         "detail": "Plsx.dataloader.utils",
         "documentation": {}
     },
