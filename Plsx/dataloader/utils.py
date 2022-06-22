@@ -3,7 +3,7 @@
 import gzip
 import json
 from pathlib import Path
-from typing import Any, Union
+from typing import Any, Dict, Union
 
 import pandas as pd
 from numpy import ndarray
@@ -48,7 +48,7 @@ def write_fasta(data: dict, filename: Union[Path, str], line_size: int = 60) -> 
             file.write(f"{seq}\n")
 
 
-def read_json(filename: Union[Path, str]) -> dict[str, Any]:
+def read_json(filename: Union[Path, str]) -> Dict[str, Any]:
     """Read json files and return a dict. (.json, .json.gz)"""
     if isinstance(filename, Path):
         filename = str(filename)

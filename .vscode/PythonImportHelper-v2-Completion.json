@@ -869,6 +869,14 @@
         "documentation": {}
     },
     {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Union",
         "importPath": "typing",
         "description": "typing",
@@ -1991,7 +1999,7 @@
         "kind": 2,
         "importPath": "Plsx.dataloader.utils",
         "description": "Plsx.dataloader.utils",
-        "peekOfCode": "def read_json(filename: Union[Path, str]) -> dict[str, Any]:\n    \"\"\"Read json files and return a dict. (.json, .json.gz)\"\"\"\n    if isinstance(filename, Path):\n        filename = str(filename)\n    if filename.endswith(\".json.gz\"):\n        with gzip.open(filename, \"r\") as file:\n            json_bytes = file.read()\n            json_str = json_bytes.decode(\"utf-8\")\n            return json.loads(json_str)\n    elif filename.endswith(\".json\"):",
+        "peekOfCode": "def read_json(filename: Union[Path, str]) -> Dict[str, Any]:\n    \"\"\"Read json files and return a dict. (.json, .json.gz)\"\"\"\n    if isinstance(filename, Path):\n        filename = str(filename)\n    if filename.endswith(\".json.gz\"):\n        with gzip.open(filename, \"r\") as file:\n            json_bytes = file.read()\n            json_str = json_bytes.decode(\"utf-8\")\n            return json.loads(json_str)\n    elif filename.endswith(\".json\"):",
         "detail": "Plsx.dataloader.utils",
         "documentation": {}
     },
