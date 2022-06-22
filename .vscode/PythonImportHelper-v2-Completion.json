@@ -1038,6 +1038,14 @@
         "documentation": {}
     },
     {
+        "label": "system",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
         "label": "DataPrep",
         "importPath": "PLSx.dataloader.data_prep",
         "description": "PLSx.dataloader.data_prep",
@@ -2243,7 +2251,7 @@
         "kind": 5,
         "importPath": "setup",
         "description": "setup",
-        "peekOfCode": "__version__ = \"0.1.0\"\n# from Plsx 0.1.0\n# run this command to update module\n# pip install -e .\n# imports\nfrom setuptools import find_packages, setup\nsetup(name=\"PLSx\", version=__version__, packages=find_packages())",
+        "peekOfCode": "__version__ = \"0.1.0\"\n# from Plsx 0.1.0\n# run this command to update module\n# pip install -e .\n# imports\nfrom os import system\nfrom setuptools import find_packages, setup\nsystem(\"pip install -r requirements.txt\")\nsetup(name=\"PLSx\", version=__version__, packages=find_packages())",
         "detail": "setup",
         "documentation": {}
     }

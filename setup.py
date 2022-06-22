@@ -10,6 +10,9 @@ __version__ = "0.1.0"
 
 
 # imports
+from os import system
+
 from setuptools import find_packages, setup
 
+system("pip install -r requirements.txt")
 setup(name="PLSx", version=__version__, packages=find_packages())
