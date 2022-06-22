@@ -1945,7 +1945,7 @@
         "kind": 6,
         "importPath": "Plsx.dataloader.data_prep",
         "description": "Plsx.dataloader.data_prep",
-        "peekOfCode": "class DataPrep:\n    root = get_root(__file__, retrace=2)\n    config = read_json(root / \"config\" / \"config.json\")\n    def __init__(self):\n        \"\"\"Initialize the DataPrep.\"\"\"\n        self.source_path = None\n        self.source = None\n    def load_source(self, path: Union[Path, str]) -> None:\n        \"\"\"Load source data.\"\"\"\n        if isinstance(path, str):",
+        "peekOfCode": "class DataPrep:\n    root = get_root(__file__, retrace=2)\n    config = read_json(root / \"config\" / \"prep_data.json\")\n    def __init__(self):\n        \"\"\"Initialize the DataPrep.\"\"\"\n        self.source_path = None\n        self.source = None\n    def load_source(self, path: Union[Path, str]) -> None:\n        \"\"\"Load source data.\"\"\"\n        if isinstance(path, str):",
         "detail": "Plsx.dataloader.data_prep",
         "documentation": {}
     },
@@ -1954,7 +1954,7 @@
         "kind": 2,
         "importPath": "Plsx.dataloader.data_prep",
         "description": "Plsx.dataloader.data_prep",
-        "peekOfCode": "def clean_tag(tag: str, prefix: str) -> str:\n    \"\"\"Clean tag.\"\"\"\n    return tag.replace(prefix, \"\")\nclass DataPrep:\n    root = get_root(__file__, retrace=2)\n    config = read_json(root / \"config\" / \"config.json\")\n    def __init__(self):\n        \"\"\"Initialize the DataPrep.\"\"\"\n        self.source_path = None\n        self.source = None",
+        "peekOfCode": "def clean_tag(tag: str, prefix: str) -> str:\n    \"\"\"Clean tag.\"\"\"\n    return tag.replace(prefix, \"\")\nclass DataPrep:\n    root = get_root(__file__, retrace=2)\n    config = read_json(root / \"config\" / \"prep_data.json\")\n    def __init__(self):\n        \"\"\"Initialize the DataPrep.\"\"\"\n        self.source_path = None\n        self.source = None",
         "detail": "Plsx.dataloader.data_prep",
         "documentation": {}
     },

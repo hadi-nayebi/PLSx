@@ -17,7 +17,7 @@ def clean_tag(tag: str, prefix: str) -> str:
 class DataPrep:
 
     root = get_root(__file__, retrace=2)
-    config = read_json(root / "config" / "config.json")
+    config = read_json(root / "config" / "prep_data.json")
 
     def __init__(self):
         """Initialize the DataPrep."""
