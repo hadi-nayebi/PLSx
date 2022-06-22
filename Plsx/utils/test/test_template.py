@@ -6,11 +6,13 @@
 from unittest import TestCase
 from unittest import main as unittest_main
 
+from PLSx.utils.file_manager import get_root
+
 
 class TestXXX(TestCase):
     """Test items for XXX class."""
 
-    pass
+    root = get_root(__file__, retrace=3)
 
 
 if __name__ == "__main__":

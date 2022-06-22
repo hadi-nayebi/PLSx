@@ -4,6 +4,7 @@ from pathlib import Path
 from typing import Optional, Union
 
 from pydantic import BaseModel, Extra
+from torch import Tensor, transpose
 from torch.nn import (
     ELU,
     Conv1d,
@@ -164,6 +165,7 @@ class Unit(BaseModel):
     """Unit class defines blueprint for building units of a model."""
 
     layers: list[Layer] = []
+    unit: Module = None
 
     class Config:
         arbitrary_types_allowed = True
@@ -222,9 +224,19 @@ class Unit(BaseModel):
         else:
             raise ValueError(f"{layer['type']} is not a valid layer.")
 
+    def forward(self, **kwargs) -> Tensor:
+        """Forward pass."""
+        x = self.unit.forward(kwargs["x"])
+        return x
+
 
 class Vectorizer(Unit):
     """Vectorizer class."""
+
+    def forward(self, **kwargs) -> Tensor:
+        """Forward pass."""
+        x = kwargs["x"].reshape((-1, kwargs["d0"]))
+        return self.unit.forward(x)
 
 
 class Devectorizer(Unit):
@@ -234,13 +246,30 @@ class Devectorizer(Unit):
 class Encoder(Unit):
     """Encoder class."""
 
+    def forward(self, **kwargs) -> Tensor:
+        """Forward pass."""
+        x = transpose(kwargs["x"].reshape(-1, kwargs["w"], kwargs["d1"]), 1, 2)
+        return self.unit.forward(x)
+
 
 class Decoder(Unit):
     """Decoder class."""
 
+    def forward(self, **kwargs) -> Tensor:
+        """Forward pass."""
+        x = self.unit.forward(kwargs["x"])
+        x = transpose(x, 1, 2).reshape(-1, kwargs["d1"])
+        return x
+
 
 class SSDecoder(Unit):
     """SSDecoder class."""
+
+    def forward(self, **kwargs) -> Tensor:
+        """Forward pass."""
+        x = self.unit.forward(kwargs["x"])
+        x = transpose(x, 1, 2).reshape(-1, kwargs["ds"])
+        return x
 
 
 class Classifier(Unit):
@@ -259,8 +288,10 @@ class Architecture(object):
     def __init__(self) -> None:
         self.name: str = None
         self.type: str = None
+        self.w: int = None
         self.components: dict[str, Unit] = {}
         self.connections: list[tuple[str, str]] = []
+        self.is_built: bool = False
 
     def build(self, src: Union[str, Path]) -> None:
         """build from file."""
@@ -271,6 +302,7 @@ class Architecture(object):
             assert self.is_valid_architecture(arch)
             self.name = arch["name"]
             self.type = arch["type"]
+            self.w = arch["window"]
             self.connections = [tuple(item) for item in arch["connections"]]
             # build components
             for key, item in arch["components"].items():
@@ -278,19 +310,55 @@ class Architecture(object):
 
     def get_model(self) -> dict[str, Module]:
         """build the model."""
-        model = {}
-        for key, unit in self.components.items():
-            model[key] = Sequential(*unit.make())
-        self.validate_connections()
-        return model
+        if not self.is_built:
+            for _, unit in self.components.items():
+                unit.unit = Sequential(*unit.make())
+            self.validate_connections()
+            self.is_built = True
 
     def validate_connections(self) -> None:
         """validate connections."""
         assert len(self.connections) > 0
         for src, dst in self.connections:
-            assert src in self.components.keys()
-            assert dst in self.components.keys()
-            assert self.components[src].output_shape() == self.components[dst].input_shape()
+            if not (src == "input" or dst == "output"):
+                assert src in self.components.keys()
+                assert dst in self.components.keys()
+                assert self.components[src].output_shape() == self.components[dst].input_shape()
+
+    @property
+    def d1(self) -> int:
+        """Return the arch params."""
+        d1 = None
+        if "vectorizer" in self.components.keys():
+            d1 = self.components.get("vectorizer").output_shape()
+        if "devectorizer" in self.components.keys():
+            assert self.components.get("devectorizer").input_shape() == d1
+        return d1
+
+    @property
+    def dn(self) -> int:
+        dn = None
+        if "encoder" in self.components.keys():
+            dn = self.components.get("encoder").output_shape()
+        if "decoder" in self.components.keys():
+            assert self.components.get("decoder").input_shape() == dn
+        return dn
+
+    @property
+    def d0(self) -> int:
+        d0 = None
+        if "vectorizer" in self.components.keys():
+            d0 = self.components.get("vectorizer").input_shape()
+        if "devectorizer" in self.components.keys():
+            assert self.components.get("devectorizer").output_shape() == d0
+        return d0
+
+    @property
+    def ds(self) -> int:
+        ds = None
+        if "ss_decoder" in self.components.keys():
+            ds = self.components.get("ss_decoder").output_shape()
+        return ds
 
     @staticmethod
     def build_units(type: str, config: list[dict[str, Union[str, int, bool]]]) -> Unit:
@@ -328,3 +396,25 @@ class Architecture(object):
         assert isinstance(arch["components"], dict)
         assert isinstance(arch["connections"], list)
         return True
+
+    def forward(self, x: Tensor, connections: list[tuple[str, str]] = None) -> Tensor:
+        """forward."""
+        assert isinstance(x, Tensor)
+        assert x.dim() == 3
+        assert x.shape[1] == self.w
+        assert x.shape[2] == self.d0
+        assert self.is_built
+        input_args = {"x": x, "d0": self.d0, "d1": self.d1, "w": self.w, "ds": self.ds}
+        vals = {}
+        if connections is None:
+            connections = self.connections
+        for connection in connections:
+            src, dst = connection
+            if src == "input":
+                vals[dst] = self.components[dst].forward(**input_args)
+            elif dst == "output":
+                vals[dst] = True
+            else:
+                input_args["x"] = vals[src]
+                vals[dst] = self.components[dst].forward(**input_args)
+        return vals
