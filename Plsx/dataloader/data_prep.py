@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+import re
 import time
 import xml.etree.ElementTree as ETree
 from asyncore import write
@@ -9,7 +10,9 @@ from typing import Union
 
 import numpy as np
 import pandas as pd
+import requests
 from Bio import SeqIO
+from requests import request
 from tqdm import tqdm
 
 from Plsx.dataloader.utils import XML_Obj, append_id, read_json, write_json
@@ -89,6 +92,22 @@ class DataPrep:
                 if len(self.stat) % 1000 == 1:
                     write_json(self.stat, self.root / "data" / "proteins" / "stat.json")
                     # time.sleep(10)
+
+    def get_fasta_files(self):
+        """Get xml file."""
+        urls = {}
+        base_url = "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes/"
+        for kingdom in ["Archaea/", "Bacteria/", "Eukaryota/", "Viruses/"]:
+            r = requests.get(base_url + kingdom)
+            if r.status_code == 200:
+                if kingdom not in urls.keys():
+                    urls[kingdom] = []
+                for item in re.findall(r">UP\d{9}/<", r.text):
+                    res = requests.get(base_url + kingdom + item[1:-2] + "/")
+                    if res.status_code == 200:
+                        fn = re.findall(r">UP\d{9}_\d*.fasta.gz<", res.text)
+                        urls[kingdom].append(base_url + kingdom + item[1:-2] + "/" + fn[0][1:-1])
+        write_json(urls, self.root / "data" / "proteins" / "urls.json")
 
     # def load_source(self, path: Union[Path, str]) -> None:
     #     """Load source data."""

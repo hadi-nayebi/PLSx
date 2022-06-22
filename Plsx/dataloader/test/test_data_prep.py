@@ -25,6 +25,12 @@ class TestDataPrep(TestCase):
         data_prep.load_source(source)
         self.assertTrue(data_prep.source)
 
+    def test_downloading_xml(self):
+        """Test downloading_xml."""
+        data_prep = DataPrep()
+        data_prep.get_fasta_files()
+        # self.assertTrue(True)
+
 
 if __name__ == "__main__":
     unittest_main()

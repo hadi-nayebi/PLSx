@@ -1402,6 +1402,31 @@
         "documentation": {}
     },
     {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "requests",
+        "description": "requests",
+        "isExtraImport": true,
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPError",
+        "importPath": "requests",
+        "description": "requests",
+        "isExtraImport": true,
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
         "label": "SeqIO",
         "importPath": "Bio",
         "description": "Bio",
@@ -1675,23 +1700,6 @@
         "description": "dataclasses_json",
         "isExtraImport": true,
         "detail": "dataclasses_json",
-        "documentation": {}
-    },
-    {
-        "label": "requests",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "requests",
-        "description": "requests",
-        "detail": "requests",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPError",
-        "importPath": "requests",
-        "description": "requests",
-        "isExtraImport": true,
-        "detail": "requests",
         "documentation": {}
     },
     {
