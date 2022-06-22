@@ -54,22 +54,21 @@ class DataPrep:
                 #         all_act.append(())
 
                 for val in item.iter(self.config["prefix"] + "dbReference"):
-                    for prop in val.iter(self.config["prefix"] + "property"):
-                        value = prop.attrib.get("value").lower()
-                        db = val.attrib.get("type")
-                        if "act" in value:
-                            rule1 = not any(
-                                [pattern in value for pattern in self.config["skip_ids"]]
-                            )
-                            rule2 = not db in self.config["skip_db"]
-                            if rule1 and rule2:
-                                all_act.add(
-                                    (
-                                        val.attrib.get("type"),
-                                        val.attrib.get("id"),
-                                        prop.attrib.get("value"),
+                    if not db in self.config["skip_db"]:
+                        for prop in val.iter(self.config["prefix"] + "property"):
+                            value = prop.attrib.get("value").lower()
+                            db = val.attrib.get("type")
+                            if "act" in value:
+                                if not any(
+                                    [pattern in value for pattern in self.config["skip_ids"]]
+                                ):
+                                    all_act.add(
+                                        (
+                                            val.attrib.get("type"),
+                                            val.attrib.get("id"),
+                                            prop.attrib.get("value"),
+                                        )
                                     )
-                                )
                 data["lineage"] = [
                     val.text
                     for val in item.find(self.config["prefix"] + "organism")
