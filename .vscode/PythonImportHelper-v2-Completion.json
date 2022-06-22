@@ -1902,7 +1902,7 @@
         "kind": 6,
         "importPath": "Plsx.dataloader.test.test_data_prep",
         "description": "Plsx.dataloader.test.test_data_prep",
-        "peekOfCode": "class TestDataPrep(TestCase):\n    \"\"\"Test items for DataPrep.\"\"\"\n    root = get_root(__file__, retrace=3)\n    def test_load_source(self):\n        \"\"\"Test load_source.\"\"\"\n        data_prep = DataPrep()\n        source = (\n            self.root / \"data\" / \"uniprot\" / \"UP000000212\" / \"UP000000212_1234679.xml\"\n        )\n        source = (",
+        "peekOfCode": "class TestDataPrep(TestCase):\n    \"\"\"Test items for DataPrep.\"\"\"\n    root = get_root(__file__, retrace=3)\n    def test_load_source(self):\n        \"\"\"Test load_source.\"\"\"\n        data_prep = DataPrep()\n        # source = (\n        #     self.root / \"data\" / \"uniprot\" / \"UP000000212\" / \"UP000000212_1234679.xml\"\n        # )\n        source = self.root / \"data\" / \"uniprot\" / \"uniprot_sprot.xml\"",
         "detail": "Plsx.dataloader.test.test_data_prep",
         "documentation": {}
     },
