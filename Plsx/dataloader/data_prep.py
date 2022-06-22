@@ -86,7 +86,7 @@ class DataPrep:
             root = prstree.getroot()
             for item in tqdm(root.iter(f"{self.config['prefix']}entry")):
                 self.add_to_dataset(item)
-                if len(self.stat) % 1000 == 0:
+                if len(self.stat) % 1000 == 1:
                     write_json(self.stat, self.root / "data" / "proteins" / "stat.json")
                     time.sleep(10)
 
