@@ -1,7 +1,18 @@
 {
     "skip_db": [
         "EnsemblBacteria",
-        "EMBL"
+        "EMBL",
+        "WormBase",
+        "EnsemblMetazoa",
+        "MGI",
+        "dictyBase",
+        "ZFIN",
+        "VGNC",
+        "SGD",
+        "CGD",
+        "Xenbase",
+        "RGD",
+        "HGNC"
     ],
     "skip_ids":[
         "bact",
@@ -27,14 +38,18 @@
         "react",
         "tract",
         "compact",
-        "actl6",
+        "actl",
         "action",
         "acto",
         "act_pep",
         "acth",
         "phact",
         "exact",
-        "actc1"
+        "actc1",
+        "delta_actx",
+        "coact",
+        "dact",
+        "trans_act"
     ],
     "target_domains": {
         "InterPro": [
