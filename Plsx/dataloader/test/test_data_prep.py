@@ -7,6 +7,8 @@ import sys
 from pathlib import Path
 
 sys.path.insert(1, Path(__file__).resolve().parents[3])
+print(Path(__file__).resolve().parents[3])
+print(sys.path)
 from unittest import TestCase
 from unittest import main as unittest_main
 
