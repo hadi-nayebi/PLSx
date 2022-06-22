@@ -4,6 +4,8 @@
 """Unit test for DataPrep."""
 
 import sys
+
+sys.path.insert(1, get_root(__file__, retrace=3))
 from os import system
 from os.path import dirname
 from pathlib import Path
@@ -28,5 +30,4 @@ class TestDataPrep(TestCase):
 
 
 if __name__ == "__main__":
-    sys.path.insert(1, TestDataPrep.root)
     unittest_main()
