@@ -997,6 +997,14 @@
         "documentation": {}
     },
     {
+        "label": "read_json",
+        "importPath": "Plsx.dataloader.utils",
+        "description": "Plsx.dataloader.utils",
+        "isExtraImport": true,
+        "detail": "Plsx.dataloader.utils",
+        "documentation": {}
+    },
+    {
         "label": "one_hot",
         "importPath": "torch.nn.functional",
         "description": "torch.nn.functional",
@@ -1929,7 +1937,7 @@
         "kind": 6,
         "importPath": "Plsx.dataloader.data_prep",
         "description": "Plsx.dataloader.data_prep",
-        "peekOfCode": "class DataPrep:\n    root = get_root(__file__, retrace=2)\n    def __init__(self):\n        \"\"\"Initialize the DataPrep.\"\"\"\n        self.source_path = None\n        self.source = None\n    def load_source(self, path: Union[Path, str]) -> None:\n        \"\"\"Load source data.\"\"\"\n        if isinstance(path, str):\n            path = Path(path)",
+        "peekOfCode": "class DataPrep:\n    root = get_root(__file__, retrace=2)\n    config = read_json(root / \"config\" / \"config.json\")\n    def __init__(self):\n        \"\"\"Initialize the DataPrep.\"\"\"\n        self.source_path = None\n        self.source = None\n    def load_source(self, path: Union[Path, str]) -> None:\n        \"\"\"Load source data.\"\"\"\n        if isinstance(path, str):",
         "detail": "Plsx.dataloader.data_prep",
         "documentation": {}
     },
@@ -1938,34 +1946,7 @@
         "kind": 2,
         "importPath": "Plsx.dataloader.data_prep",
         "description": "Plsx.dataloader.data_prep",
-        "peekOfCode": "def clean_tag(tag: str, prefix: str = None) -> str:\n    \"\"\"Clean tag.\"\"\"\n    if prefix is None:\n        prefix = UNIPROT_PREFIX\n    return tag.replace(prefix, \"\")\nclass DataPrep:\n    root = get_root(__file__, retrace=2)\n    def __init__(self):\n        \"\"\"Initialize the DataPrep.\"\"\"\n        self.source_path = None",
-        "detail": "Plsx.dataloader.data_prep",
-        "documentation": {}
-    },
-    {
-        "label": "UNIPROT_PREFIX",
-        "kind": 5,
-        "importPath": "Plsx.dataloader.data_prep",
-        "description": "Plsx.dataloader.data_prep",
-        "peekOfCode": "UNIPROT_PREFIX = \"{http://uniprot.org/uniprot}\"\nTARGET_DOMAINS = [\n    # InterPro\n    \"IPR001721\",\n    \"IPR002912\",\n    \"IPR014864\",\n    \"IPR018449\",\n    \"IPR018717\",\n    \"IPR019455\",\n    \"IPR027795\",",
-        "detail": "Plsx.dataloader.data_prep",
-        "documentation": {}
-    },
-    {
-        "label": "TARGET_DOMAINS",
-        "kind": 5,
-        "importPath": "Plsx.dataloader.data_prep",
-        "description": "Plsx.dataloader.data_prep",
-        "peekOfCode": "TARGET_DOMAINS = [\n    # InterPro\n    \"IPR001721\",\n    \"IPR002912\",\n    \"IPR014864\",\n    \"IPR018449\",\n    \"IPR018717\",\n    \"IPR019455\",\n    \"IPR027795\",\n    \"IPR039557\",",
-        "detail": "Plsx.dataloader.data_prep",
-        "documentation": {}
-    },
-    {
-        "label": "Skip_list",
-        "kind": 5,
-        "importPath": "Plsx.dataloader.data_prep",
-        "description": "Plsx.dataloader.data_prep",
-        "peekOfCode": "Skip_list = [\n    \"bact\",\n    \"lact\",\n    \"activ\",\n    \"bact\",\n    \"fact\",\n    \"charact\",\n    \"actfrase\",\n    \"uact\",\n    \"interact\",",
+        "peekOfCode": "def clean_tag(tag: str, prefix: str) -> str:\n    \"\"\"Clean tag.\"\"\"\n    return tag.replace(prefix, \"\")\nclass DataPrep:\n    root = get_root(__file__, retrace=2)\n    config = read_json(root / \"config\" / \"config.json\")\n    def __init__(self):\n        \"\"\"Initialize the DataPrep.\"\"\"\n        self.source_path = None\n        self.source = None",
         "detail": "Plsx.dataloader.data_prep",
         "documentation": {}
     },

@@ -1,0 +1,62 @@
+{
+    "skip_list":[
+        "bact",
+        "lact",
+        "activ",
+        "bact",
+        "fact",
+        "charact",
+        "actfrase",
+        "uact",
+        "interact",
+        "impact",
+        "vir_act",
+        "ggcat",
+        "pfl_act_enz",
+        "actrans",
+        "wall-act",
+        "actyl",
+        "actrfase",
+        "intact",
+        "contact",
+        "actin",
+        "reactome",
+        "tract"
+    ],
+    "target_domains": {
+        "InterPro": [
+            "IPR001721",
+            "IPR002912",
+            "IPR014864",
+            "IPR018449",
+            "IPR018717",
+            "IPR019455",
+            "IPR027795",
+            "IPR039557",
+            "IPR044074",
+            "IPR014160",
+            "IPR016540",
+            "IPR022986",
+            "IPR022988",
+            "IPR023860",
+            "IPR026249",
+            "IPR027271",
+            "IPR038110",
+            "IPR044561"
+        ],
+        "CDD": [
+            "cd04872"
+        ],
+        "PROSITE": [
+            "PS51671",
+            "PS51672"
+        ],
+        "SUPFAM": [
+
+        ],
+        "Pfam": [
+            "PF13840"
+        ]
+    },
+    "prefix": "{http://uniprot.org/uniprot}"
+}

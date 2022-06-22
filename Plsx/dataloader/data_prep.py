@@ -5,70 +5,19 @@ from typing import Union
 import pandas as pd
 from Bio import SeqIO
 
+from Plsx.dataloader.utils import read_json
 from Plsx.utils.file_manager import get_root
 
-UNIPROT_PREFIX = "{http://uniprot.org/uniprot}"
-TARGET_DOMAINS = [
-    # InterPro
-    "IPR001721",
-    "IPR002912",
-    "IPR014864",
-    "IPR018449",
-    "IPR018717",
-    "IPR019455",
-    "IPR027795",
-    "IPR039557",
-    "IPR044074",
-    "IPR014160",
-    "IPR016540",
-    "IPR022986",
-    "IPR022988",
-    "IPR023860",
-    "IPR026249",
-    "IPR027271",
-    "IPR038110",
-    "IPR044561",
-    # CDD
-    "cd04872",
-    # PROSITE
-    "PS51671",
-    "PS51672",
-    # SUPFAM
-    # Pfam
-    "PF13840",
-]
 
-Skip_list = [
-    "bact",
-    "lact",
-    "activ",
-    "bact",
-    "fact",
-    "charact",
-    "actfrase",
-    "uact",
-    "interact",
-    "impact",
-    "vir_act",
-    "ggcat",
-    "pfl_act_enz",
-    "actrans",
-    "wall-act",
-    "actyl",
-    "actrfase",
-]
-
-
-def clean_tag(tag: str, prefix: str = None) -> str:
+def clean_tag(tag: str, prefix: str) -> str:
     """Clean tag."""
-    if prefix is None:
-        prefix = UNIPROT_PREFIX
     return tag.replace(prefix, "")
 
 
 class DataPrep:
 
     root = get_root(__file__, retrace=2)
+    config = read_json(root / "config" / "config.json")
 
     def __init__(self):
         """Initialize the DataPrep."""
@@ -88,14 +37,14 @@ class DataPrep:
             print("Parsing XML file...")
             root = prstree.getroot()
             all_act = []
-            for item in root.iter(f"{UNIPROT_PREFIX}entry"):
+            for item in root.iter(f"{self.config['prefix']}entry"):
                 data = {}
-                acc = item.find(UNIPROT_PREFIX + "accession").text
+                acc = item.find(self.config["prefix"] + "accession").text
                 # data["db_refs"] = [
                 #     # (val.attrib.get("type"), val.attrib.get("id"))
                 #     val
-                #     for val in item.iter(UNIPROT_PREFIX + "dbReference")
-                #     # if val.attrib.get("id") in TARGET_DOMAINS
+                #     for val in item.iter(self.config['prefix'] + "dbReference")
+                #     # if val.attrib.get("id") in self.config["target_domains"]
                 # ]
                 # if len(data["db_refs"]) == 0:
                 #     continue
@@ -104,11 +53,11 @@ class DataPrep:
                 #         if
                 #         all_act.append(())
 
-                for val in item.iter(UNIPROT_PREFIX + "dbReference"):
-                    for prop in val.iter(UNIPROT_PREFIX + "property"):
+                for val in item.iter(self.config["prefix"] + "dbReference"):
+                    for prop in val.iter(self.config["prefix"] + "property"):
                         value = prop.attrib.get("value").lower()
                         if "act" in value:
-                            if not any([pattern in value for pattern in Skip_list]):
+                            if not any([pattern in value for pattern in self.config["skip_list"]]):
                                 all_act.append(
                                     (
                                         val.attrib.get("type"),
@@ -118,8 +67,8 @@ class DataPrep:
                                 )
                 data["lineage"] = [
                     val.text
-                    for val in item.find(UNIPROT_PREFIX + "organism")
-                    .find(UNIPROT_PREFIX + "lineage")
+                    for val in item.find(self.config["prefix"] + "organism")
+                    .find(self.config["prefix"] + "lineage")
                     .iter()
                     if "\n" not in val.text
                 ]
