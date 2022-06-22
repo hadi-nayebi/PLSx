@@ -1,6 +1,5 @@
 """Defines the DataLoader class and related I/O methods."""
 
-from ast import Num
 from itertools import cycle
 from os.path import dirname
 from pathlib import Path
