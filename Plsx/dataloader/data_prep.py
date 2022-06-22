@@ -95,7 +95,7 @@ class DataPrep:
                 #                 data[clean_tag(c.tag)] = c.text
                 # print(acc)
                 # break
-                self.source[acc] = data
+                # self.source[acc] = data
             print(all_act)
             print(len(all_act))
 

@@ -25,6 +25,7 @@ class TestDataPrep(TestCase):
         if not source.exists():
             self.skipTest("Source file not found.")
         data_prep.load_source(source)
+        self.assertTrue(data_prep.source)
 
 
 if __name__ == "__main__":
