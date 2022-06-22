@@ -59,11 +59,11 @@ class DataPrep:
                 return True
         return False
 
-    @limit(number=10)
-    @asyncfunc
+    # @limit(number=10)
+    # @asyncfunc
     def add_to_dataset(self, item: ETree.Element) -> None:
         """Add to dataset."""
-        time.sleep(np.random.uniform() * 60)
+        # time.sleep(np.random.uniform() * 60)
         seq = item.find(f"{self.config['prefix']}sequence").text
         acc = item.find(f"{self.config['prefix']}accession").text
         pr = Protein(acc)
@@ -88,7 +88,7 @@ class DataPrep:
                 self.add_to_dataset(item)
                 if len(self.stat) % 1000 == 1:
                     write_json(self.stat, self.root / "data" / "proteins" / "stat.json")
-                    time.sleep(10)
+                    # time.sleep(10)
 
     # def load_source(self, path: Union[Path, str]) -> None:
     #     """Load source data."""
