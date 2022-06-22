@@ -12,7 +12,15 @@
         "CGD",
         "Xenbase",
         "RGD",
-        "HGNC"
+        "HGNC",
+        "Allergome",
+        "PRINTS",
+        "Orphanet",
+        "FlyBase",
+        "HAMAP",
+        "PIRSF",
+        "DrugBank",
+        "Reactome"
     ],
     "skip_ids":[
         "bact",
@@ -49,7 +57,16 @@
         "delta_actx",
         "coact",
         "dact",
-        "trans_act"
+        "trans_act",
+        "ase_actb",
+        "cact",
+        "tscrpt-act",
+        "tscrpt_act",
+        "gt_act",
+        "utophagy_act",
+        "cataract",
+        "hox9_act",
+
     ],
     "target_domains": {
         "InterPro": [
