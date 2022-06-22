@@ -20,7 +20,9 @@
         "HAMAP",
         "PIRSF",
         "DrugBank",
-        "Reactome"
+        "Reactome",
+        "GO",
+        "PIR"
     ],
     "skip_ids":[
         "bact",
@@ -66,7 +68,7 @@
         "utophagy_act",
         "cataract",
         "hox9_act",
-
+        "uclease_act"
     ],
     "target_domains": {
         "InterPro": [
