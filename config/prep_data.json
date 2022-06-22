@@ -1,5 +1,8 @@
 {
-    "skip_list":[
+    "skip_db": [
+        "EnsemblBacteria"
+    ],
+    "skip_ids":[
         "bact",
         "lact",
         "activ",
@@ -27,7 +30,10 @@
         "action",
         "acto",
         "act_pep",
-        "acth"
+        "acth",
+        "phact",
+        "exact",
+        "actc1"
     ],
     "target_domains": {
         "InterPro": [

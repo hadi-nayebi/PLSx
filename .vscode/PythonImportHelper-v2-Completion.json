@@ -236,14 +236,6 @@
         "documentation": {}
     },
     {
-        "label": "union",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
         "label": "TestCase",
         "importPath": "django.test",
         "description": "django.test",

@@ -7,9 +7,10 @@ from typing import Any, Dict, Union
 
 import pandas as pd
 from numpy import ndarray
-from sqlalchemy import union
 
 from Plsx.utils.file_manager import get_root
+
+# from sqlalchemy import union
 
 
 class NumpyEncoder(json.JSONEncoder):
