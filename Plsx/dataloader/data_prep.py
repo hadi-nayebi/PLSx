@@ -3,14 +3,16 @@
 
 import time
 import xml.etree.ElementTree as ETree
+from asyncore import write
 from pathlib import Path
 from typing import Union
 
+import numpy as np
 import pandas as pd
 from Bio import SeqIO
 from tqdm import tqdm
 
-from Plsx.dataloader.utils import XML_Obj, append_id, read_json
+from Plsx.dataloader.utils import XML_Obj, append_id, read_json, write_json
 from Plsx.protein.protein import Protein
 from Plsx.utils.file_manager import get_root
 from Plsx.utils.parallel_jobs import asyncfunc, limit
@@ -61,6 +63,7 @@ class DataPrep:
     @asyncfunc
     def add_to_dataset(self, item: ETree.Element) -> None:
         """Add to dataset."""
+        time.sleep(np.random.uniform() * 60)
         seq = item.find(f"{self.config['prefix']}sequence").text
         acc = item.find(f"{self.config['prefix']}accession").text
         pr = Protein(acc)
@@ -68,8 +71,7 @@ class DataPrep:
         pr.update_uniprot_metadata()
         if self.is_target_domain_by_pr(pr):
             pr.save_file()
-            self.stat[pr.checksum]
-        time.sleep(0.1)
+            self.stat[pr.checksum] = pr.name
 
     def load_source(self, path: Union[Path, str]) -> None:
         """Load source data."""
@@ -84,6 +86,9 @@ class DataPrep:
             root = prstree.getroot()
             for item in tqdm(root.iter(f"{self.config['prefix']}entry")):
                 self.add_to_dataset(item)
+                if len(self.stat) % 1000 == 0:
+                    write_json(self.stat, self.root / "data" / "proteins" / "stat.json")
+                    time.sleep(10)
 
     # def load_source(self, path: Union[Path, str]) -> None:
     #     """Load source data."""
