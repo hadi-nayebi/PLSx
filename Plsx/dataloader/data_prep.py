@@ -127,3 +127,4 @@ if __name__ == "__main__":
     if not source.exists():
         raise ValueError(f"{source} does not exist")
     data_prep.load_source(source)
+    exit()
