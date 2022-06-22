@@ -27,6 +27,14 @@ class DataPrep:
         self.source_path = None
         self.source = None
 
+    def skip_db(self, db: str) -> bool:
+        """Skip db."""
+        return db in self.config["skip_db"]
+
+    def skip_ids(self, value: str) -> bool:
+        """Skip ids."""
+        return any([pattern in value for pattern in self.config["skip_ids"]])
+
     def load_source(self, path: Union[Path, str]) -> None:
         """Load source data."""
         if isinstance(path, str):
@@ -57,20 +65,19 @@ class DataPrep:
                 #         all_act.append(())
 
                 for val in item.iter(self.config["prefix"] + "dbReference"):
-                    if not val.attrib.get("type") in self.config["skip_db"]:
-                        for prop in val.iter(self.config["prefix"] + "property"):
-                            value = prop.attrib.get("value").lower()
-                            if "act" in value:
-                                if not any(
-                                    [pattern in value for pattern in self.config["skip_ids"]]
-                                ):
-                                    all_act.add(
-                                        (
-                                            val.attrib.get("type"),
-                                            val.attrib.get("id"),
-                                            prop.attrib.get("value"),
-                                        )
-                                    )
+                    if self.skip_db(val.attrib.get("type")):
+                        continue
+                    for prop in val.iter(self.config["prefix"] + "property"):
+                        value = prop.attrib.get("value").lower()
+                        if "act" not in value or self.skip_ids(value):
+                            continue
+                        all_act.add(
+                            (
+                                val.attrib.get("type"),
+                                val.attrib.get("id"),
+                                prop.attrib.get("value"),
+                            )
+                        )
                 data["lineage"] = [
                     val.text
                     for val in item.find(self.config["prefix"] + "organism")
