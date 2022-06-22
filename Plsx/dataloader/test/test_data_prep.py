@@ -4,11 +4,9 @@
 """Unit test for DataPrep."""
 
 import sys
-
-sys.path.insert(1, get_root(__file__, retrace=3))
-from os import system
-from os.path import dirname
 from pathlib import Path
+
+sys.path.insert(1, Path(__file__).resolve().parents[3])
 from unittest import TestCase
 from unittest import main as unittest_main
 
