@@ -104,6 +104,8 @@ class DataPrep:
             # for item in prstree.findall("entry"):
             #     print(item)
             #     break
+        del prstree
+        del root
 
     def get_families(self, keyword: Union[str, list]) -> None:
         """Get families."""
