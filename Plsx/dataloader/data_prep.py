@@ -54,10 +54,9 @@ class DataPrep:
                 #         all_act.append(())
 
                 for val in item.iter(self.config["prefix"] + "dbReference"):
-                    if not db in self.config["skip_db"]:
+                    if not val.attrib.get("type") in self.config["skip_db"]:
                         for prop in val.iter(self.config["prefix"] + "property"):
                             value = prop.attrib.get("value").lower()
-                            db = val.attrib.get("type")
                             if "act" in value:
                                 if not any(
                                     [pattern in value for pattern in self.config["skip_ids"]]
