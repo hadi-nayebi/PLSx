@@ -5,3 +5,5 @@ torchaudio
 pandas
 numpy
 biopython
+tqdm
+lxml

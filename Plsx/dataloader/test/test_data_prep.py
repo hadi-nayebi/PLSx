@@ -18,10 +18,8 @@ class TestDataPrep(TestCase):
     def test_load_source(self):
         """Test load_source."""
         data_prep = DataPrep()
-        # source = (
-        #     self.root / "data" / "uniprot" / "UP000000212" / "UP000000212_1234679.xml"
-        # )
-        source = self.root / "data" / "uniprot" / "uniprot_sprot.xml"
+        source = self.root / "data" / "uniprot" / "UP000000212" / "UP000000212_1234679.xml"
+        # source = self.root / "data" / "uniprot" / "uniprot_sprot.xml"
         if not source.exists():
             self.skipTest("Source file not found.")
         data_prep.load_source(source)

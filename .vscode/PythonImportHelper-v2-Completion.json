@@ -60,11 +60,27 @@
         "documentation": {}
     },
     {
+        "label": "system",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
         "label": "get_asgi_application",
         "importPath": "django.core.asgi",
         "description": "django.core.asgi",
         "isExtraImport": true,
         "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
         "documentation": {}
     },
     {
@@ -765,6 +781,22 @@
         "documentation": {}
     },
     {
+        "label": "tensor",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "Tensor",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
         "label": "cat",
         "importPath": "torch",
         "description": "torch",
@@ -806,6 +838,14 @@
     },
     {
         "label": "Generator",
+        "importPath": "collections.abc",
+        "description": "collections.abc",
+        "isExtraImport": true,
+        "detail": "collections.abc",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
         "importPath": "collections.abc",
         "description": "collections.abc",
         "isExtraImport": true,
@@ -1142,6 +1182,14 @@
         "documentation": {}
     },
     {
+        "label": "dirname",
+        "importPath": "os.path",
+        "description": "os.path",
+        "isExtraImport": true,
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
         "label": "pandas",
         "kind": 6,
         "isExtraImport": true,
@@ -1172,6 +1220,22 @@
         "description": "Plsx.dataloader.data_prep",
         "isExtraImport": true,
         "detail": "Plsx.dataloader.data_prep",
+        "documentation": {}
+    },
+    {
+        "label": "get_root",
+        "importPath": "Plsx.utils.file_manager",
+        "description": "Plsx.utils.file_manager",
+        "isExtraImport": true,
+        "detail": "Plsx.utils.file_manager",
+        "documentation": {}
+    },
+    {
+        "label": "get_root",
+        "importPath": "Plsx.utils.file_manager",
+        "description": "Plsx.utils.file_manager",
+        "isExtraImport": true,
+        "detail": "Plsx.utils.file_manager",
         "documentation": {}
     },
     {
@@ -1255,6 +1319,55 @@
         "documentation": {}
     },
     {
+        "label": "array",
+        "importPath": "numpy",
+        "description": "numpy",
+        "isExtraImport": true,
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "int8",
+        "importPath": "numpy",
+        "description": "numpy",
+        "isExtraImport": true,
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "zeros",
+        "importPath": "numpy",
+        "description": "numpy",
+        "isExtraImport": true,
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "array",
+        "importPath": "numpy",
+        "description": "numpy",
+        "isExtraImport": true,
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "int8",
+        "importPath": "numpy",
+        "description": "numpy",
+        "isExtraImport": true,
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
         "label": "xml.etree.ElementTree",
         "kind": 6,
         "isExtraImport": true,
@@ -1277,6 +1390,38 @@
         "description": "Bio",
         "isExtraImport": true,
         "detail": "Bio",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "Protein",
+        "importPath": "Plsx.protein.protein",
+        "description": "Plsx.protein.protein",
+        "isExtraImport": true,
+        "detail": "Plsx.protein.protein",
+        "documentation": {}
+    },
+    {
+        "label": "asyncfunc",
+        "importPath": "Plsx.utils.parallel_jobs",
+        "description": "Plsx.utils.parallel_jobs",
+        "isExtraImport": true,
+        "detail": "Plsx.utils.parallel_jobs",
+        "documentation": {}
+    },
+    {
+        "label": "limit",
+        "importPath": "Plsx.utils.parallel_jobs",
+        "description": "Plsx.utils.parallel_jobs",
+        "isExtraImport": true,
+        "detail": "Plsx.utils.parallel_jobs",
         "documentation": {}
     },
     {
@@ -1338,6 +1483,111 @@
         "documentation": {}
     },
     {
+        "label": "pickle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pickle",
+        "description": "pickle",
+        "detail": "pickle",
+        "documentation": {}
+    },
+    {
+        "label": "ImmutablePropertyError",
+        "importPath": "Plsx.protein.exceptions",
+        "description": "Plsx.protein.exceptions",
+        "isExtraImport": true,
+        "detail": "Plsx.protein.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "AA_PADDING_NDX",
+        "importPath": "Plsx.protein.utils",
+        "description": "Plsx.protein.utils",
+        "isExtraImport": true,
+        "detail": "Plsx.protein.utils",
+        "documentation": {}
+    },
+    {
+        "label": "SS_PADDING_NDX",
+        "importPath": "Plsx.protein.utils",
+        "description": "Plsx.protein.utils",
+        "isExtraImport": true,
+        "detail": "Plsx.protein.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_tax_id_from_uniprot_metadata",
+        "importPath": "Plsx.protein.utils",
+        "description": "Plsx.protein.utils",
+        "isExtraImport": true,
+        "detail": "Plsx.protein.utils",
+        "documentation": {}
+    },
+    {
+        "label": "is_array_int",
+        "importPath": "Plsx.protein.utils",
+        "description": "Plsx.protein.utils",
+        "isExtraImport": true,
+        "detail": "Plsx.protein.utils",
+        "documentation": {}
+    },
+    {
+        "label": "is_array_p",
+        "importPath": "Plsx.protein.utils",
+        "description": "Plsx.protein.utils",
+        "isExtraImport": true,
+        "detail": "Plsx.protein.utils",
+        "documentation": {}
+    },
+    {
+        "label": "is_protein_sequence",
+        "importPath": "Plsx.protein.utils",
+        "description": "Plsx.protein.utils",
+        "isExtraImport": true,
+        "detail": "Plsx.protein.utils",
+        "documentation": {}
+    },
+    {
+        "label": "is_ss_sequence",
+        "importPath": "Plsx.protein.utils",
+        "description": "Plsx.protein.utils",
+        "isExtraImport": true,
+        "detail": "Plsx.protein.utils",
+        "documentation": {}
+    },
+    {
+        "label": "ndx_to_seq",
+        "importPath": "Plsx.protein.utils",
+        "description": "Plsx.protein.utils",
+        "isExtraImport": true,
+        "detail": "Plsx.protein.utils",
+        "documentation": {}
+    },
+    {
+        "label": "seq_to_ndx",
+        "importPath": "Plsx.protein.utils",
+        "description": "Plsx.protein.utils",
+        "isExtraImport": true,
+        "detail": "Plsx.protein.utils",
+        "documentation": {}
+    },
+    {
+        "label": "base_logger",
+        "importPath": "Plsx.utils.base_logger",
+        "description": "Plsx.utils.base_logger",
+        "isExtraImport": true,
+        "detail": "Plsx.utils.base_logger",
+        "documentation": {}
+    },
+    {
+        "label": "DataPipeline",
+        "importPath": "Plsx.utils.data_pipeline_uniprot",
+        "description": "Plsx.utils.data_pipeline_uniprot",
+        "isExtraImport": true,
+        "detail": "Plsx.utils.data_pipeline_uniprot",
+        "documentation": {}
+    },
+    {
         "label": "CustomArgParser",
         "importPath": "PLSx.utils.custom_argparser",
         "description": "PLSx.utils.custom_argparser",
@@ -1351,6 +1601,15 @@
         "description": "PLSx.utils.custom_argparser",
         "isExtraImport": true,
         "detail": "PLSx.utils.custom_argparser",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
         "documentation": {}
     },
     {
@@ -1391,6 +1650,40 @@
         "description": "dataclasses_json",
         "isExtraImport": true,
         "detail": "dataclasses_json",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPError",
+        "importPath": "requests",
+        "description": "requests",
+        "isExtraImport": true,
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "wraps",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
         "documentation": {}
     },
     {
@@ -1926,7 +2219,7 @@
         "kind": 6,
         "importPath": "Plsx.dataloader.test.test_data_prep",
         "description": "Plsx.dataloader.test.test_data_prep",
-        "peekOfCode": "class TestDataPrep(TestCase):\n    \"\"\"Test items for DataPrep.\"\"\"\n    root = get_root(__file__, retrace=3)\n    def test_load_source(self):\n        \"\"\"Test load_source.\"\"\"\n        data_prep = DataPrep()\n        # source = (\n        #     self.root / \"data\" / \"uniprot\" / \"UP000000212\" / \"UP000000212_1234679.xml\"\n        # )\n        source = self.root / \"data\" / \"uniprot\" / \"uniprot_sprot.xml\"",
+        "peekOfCode": "class TestDataPrep(TestCase):\n    \"\"\"Test items for DataPrep.\"\"\"\n    root = get_root(__file__, retrace=3)\n    def test_load_source(self):\n        \"\"\"Test load_source.\"\"\"\n        data_prep = DataPrep()\n        source = self.root / \"data\" / \"uniprot\" / \"UP000000212\" / \"UP000000212_1234679.xml\"\n        # source = self.root / \"data\" / \"uniprot\" / \"uniprot_sprot.xml\"\n        if not source.exists():\n            self.skipTest(\"Source file not found.\")",
         "detail": "Plsx.dataloader.test.test_data_prep",
         "documentation": {}
     },
@@ -1953,7 +2246,7 @@
         "kind": 6,
         "importPath": "Plsx.dataloader.data_prep",
         "description": "Plsx.dataloader.data_prep",
-        "peekOfCode": "class DataPrep:\n    root = get_root(__file__, retrace=2)\n    config = read_json(root / \"config\" / \"prep_data.json\")\n    def __init__(self):\n        \"\"\"Initialize the DataPrep.\"\"\"\n        self.source_path = None\n        self.source = None\n    def skip_db(self, db: str) -> bool:\n        \"\"\"Skip db.\"\"\"\n        return db in self.config[\"skip_db\"]",
+        "peekOfCode": "class DataPrep:\n    root = get_root(__file__, retrace=2)\n    config = read_json(root / \"config\" / \"prep_data.json\")\n    def __init__(self):\n        \"\"\"Initialize the DataPrep.\"\"\"\n        self.source_path = None\n        self.source = None\n        self.stat = {}  # stat dict for DataPrep\n    def skip_db(self, db: str) -> bool:\n        \"\"\"Skip db.\"\"\"",
         "detail": "Plsx.dataloader.data_prep",
         "documentation": {}
     },
@@ -2066,6 +2359,141 @@
         "documentation": {}
     },
     {
+        "label": "Error",
+        "kind": 6,
+        "importPath": "Plsx.protein.exceptions",
+        "description": "Plsx.protein.exceptions",
+        "peekOfCode": "class Error(Exception):\n    \"\"\"Base class for other exceptions\"\"\"\n    pass\nclass ImmutablePropertyError(Error):\n    def __init__(self, **kwargs):\n        self.message = f\"{kwargs['attr']} is no longer mutable.\"\n        super().__init__(self.message)",
+        "detail": "Plsx.protein.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "ImmutablePropertyError",
+        "kind": 6,
+        "importPath": "Plsx.protein.exceptions",
+        "description": "Plsx.protein.exceptions",
+        "peekOfCode": "class ImmutablePropertyError(Error):\n    def __init__(self, **kwargs):\n        self.message = f\"{kwargs['attr']} is no longer mutable.\"\n        super().__init__(self.message)",
+        "detail": "Plsx.protein.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "Protein",
+        "kind": 6,
+        "importPath": "Plsx.protein.protein",
+        "description": "Plsx.protein.protein",
+        "peekOfCode": "class Protein:\n    root = get_root(__file__, retrace=2)\n    def __init__(self, name: str) -> None:\n        \"\"\"Initialize the Protein.\"\"\"\n        self._name = name\n        # proteins dir if does not exist, create it\n        proteins_dir = self.root / \"data\" / \"proteins\"\n        if not proteins_dir.exists():\n            proteins_dir.mkdir(parents=True)\n        # protein dir",
+        "detail": "Plsx.protein.protein",
+        "documentation": {}
+    },
+    {
+        "label": "is_ss_sequence",
+        "kind": 2,
+        "importPath": "Plsx.protein.utils",
+        "description": "Plsx.protein.utils",
+        "peekOfCode": "def is_ss_sequence(seq):\n    if isinstance(seq, str):\n        return all([char in KEYS[\"ss_keys\"] for char in seq])\n    return False\ndef is_protein_sequence(seq):\n    if isinstance(seq, str):\n        return all([char in KEYS[\"aa_keys\"] for char in seq])\n    return False\ndef is_array_int(seq, max_val=20):\n    if isinstance(seq, Iterable) and not isinstance(seq, str):",
+        "detail": "Plsx.protein.utils",
+        "documentation": {}
+    },
+    {
+        "label": "is_protein_sequence",
+        "kind": 2,
+        "importPath": "Plsx.protein.utils",
+        "description": "Plsx.protein.utils",
+        "peekOfCode": "def is_protein_sequence(seq):\n    if isinstance(seq, str):\n        return all([char in KEYS[\"aa_keys\"] for char in seq])\n    return False\ndef is_array_int(seq, max_val=20):\n    if isinstance(seq, Iterable) and not isinstance(seq, str):\n        seq = array(seq, dtype=int8)\n        is_min_zero = min(seq) >= 0\n        is_max_met = max(seq) <= max_val\n        are_all_int = all([isinstance(num, int8) for num in seq])",
+        "detail": "Plsx.protein.utils",
+        "documentation": {}
+    },
+    {
+        "label": "is_array_int",
+        "kind": 2,
+        "importPath": "Plsx.protein.utils",
+        "description": "Plsx.protein.utils",
+        "peekOfCode": "def is_array_int(seq, max_val=20):\n    if isinstance(seq, Iterable) and not isinstance(seq, str):\n        seq = array(seq, dtype=int8)\n        is_min_zero = min(seq) >= 0\n        is_max_met = max(seq) <= max_val\n        are_all_int = all([isinstance(num, int8) for num in seq])\n        return is_min_zero and is_max_met and are_all_int\n    return False\ndef is_array_p(value):\n    if isinstance(value, Iterable):",
+        "detail": "Plsx.protein.utils",
+        "documentation": {}
+    },
+    {
+        "label": "is_array_p",
+        "kind": 2,
+        "importPath": "Plsx.protein.utils",
+        "description": "Plsx.protein.utils",
+        "peekOfCode": "def is_array_p(value):\n    if isinstance(value, Iterable):\n        value = array(value, dtype=float)\n        is_min_zero = min(value) >= 0.0\n        is_max_one = max(value) <= 1.0\n        are_all_float = all([isinstance(num, float) for num in value])\n        return is_min_zero and is_max_one and are_all_float\n    return False\ndef seq_to_ndx(seq, keys=\"aa_keys\"):\n    return array([KEYS[keys].index(c) for c in seq], dtype=int8)",
+        "detail": "Plsx.protein.utils",
+        "documentation": {}
+    },
+    {
+        "label": "seq_to_ndx",
+        "kind": 2,
+        "importPath": "Plsx.protein.utils",
+        "description": "Plsx.protein.utils",
+        "peekOfCode": "def seq_to_ndx(seq, keys=\"aa_keys\"):\n    return array([KEYS[keys].index(c) for c in seq], dtype=int8)\ndef ndx_to_seq(seq, keys=\"aa_keys\"):\n    # TODO use numpy array instead of torch tensor\n    if not isinstance(seq, Tensor):\n        seq = tensor(seq)\n    return \"\".join([KEYS[keys][i] for i in seq.long()])\ndef load_protein(path):\n    with open(path, \"rb\") as f:\n        return pickle.load(f)",
+        "detail": "Plsx.protein.utils",
+        "documentation": {}
+    },
+    {
+        "label": "ndx_to_seq",
+        "kind": 2,
+        "importPath": "Plsx.protein.utils",
+        "description": "Plsx.protein.utils",
+        "peekOfCode": "def ndx_to_seq(seq, keys=\"aa_keys\"):\n    # TODO use numpy array instead of torch tensor\n    if not isinstance(seq, Tensor):\n        seq = tensor(seq)\n    return \"\".join([KEYS[keys][i] for i in seq.long()])\ndef load_protein(path):\n    with open(path, \"rb\") as f:\n        return pickle.load(f)\ndef get_tax_id_from_uniprot_metadata(metadata):\n    for item in metadata[\"dbReference\"]:",
+        "detail": "Plsx.protein.utils",
+        "documentation": {}
+    },
+    {
+        "label": "load_protein",
+        "kind": 2,
+        "importPath": "Plsx.protein.utils",
+        "description": "Plsx.protein.utils",
+        "peekOfCode": "def load_protein(path):\n    with open(path, \"rb\") as f:\n        return pickle.load(f)\ndef get_tax_id_from_uniprot_metadata(metadata):\n    for item in metadata[\"dbReference\"]:\n        if \"property\" in item.keys():\n            for val in item[\"property\"]:\n                if val[\"type\"] == \"NCBI_taxonomy_id\":\n                    return val[\"value\"]\n    return None",
+        "detail": "Plsx.protein.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_tax_id_from_uniprot_metadata",
+        "kind": 2,
+        "importPath": "Plsx.protein.utils",
+        "description": "Plsx.protein.utils",
+        "peekOfCode": "def get_tax_id_from_uniprot_metadata(metadata):\n    for item in metadata[\"dbReference\"]:\n        if \"property\" in item.keys():\n            for val in item[\"property\"]:\n                if val[\"type\"] == \"NCBI_taxonomy_id\":\n                    return val[\"value\"]\n    return None",
+        "detail": "Plsx.protein.utils",
+        "documentation": {}
+    },
+    {
+        "label": "KEYS",
+        "kind": 5,
+        "importPath": "Plsx.protein.utils",
+        "description": "Plsx.protein.utils",
+        "peekOfCode": "KEYS = {\"aa_keys\": \"WYFMILVAGPSTCEDQNHRK*\", \"ss_keys\": \"CSTIGHBE*\"}\nAA_PADDING_NDX = 20\nSS_PADDING_NDX = 8\ndef is_ss_sequence(seq):\n    if isinstance(seq, str):\n        return all([char in KEYS[\"ss_keys\"] for char in seq])\n    return False\ndef is_protein_sequence(seq):\n    if isinstance(seq, str):\n        return all([char in KEYS[\"aa_keys\"] for char in seq])",
+        "detail": "Plsx.protein.utils",
+        "documentation": {}
+    },
+    {
+        "label": "AA_PADDING_NDX",
+        "kind": 5,
+        "importPath": "Plsx.protein.utils",
+        "description": "Plsx.protein.utils",
+        "peekOfCode": "AA_PADDING_NDX = 20\nSS_PADDING_NDX = 8\ndef is_ss_sequence(seq):\n    if isinstance(seq, str):\n        return all([char in KEYS[\"ss_keys\"] for char in seq])\n    return False\ndef is_protein_sequence(seq):\n    if isinstance(seq, str):\n        return all([char in KEYS[\"aa_keys\"] for char in seq])\n    return False",
+        "detail": "Plsx.protein.utils",
+        "documentation": {}
+    },
+    {
+        "label": "SS_PADDING_NDX",
+        "kind": 5,
+        "importPath": "Plsx.protein.utils",
+        "description": "Plsx.protein.utils",
+        "peekOfCode": "SS_PADDING_NDX = 8\ndef is_ss_sequence(seq):\n    if isinstance(seq, str):\n        return all([char in KEYS[\"ss_keys\"] for char in seq])\n    return False\ndef is_protein_sequence(seq):\n    if isinstance(seq, str):\n        return all([char in KEYS[\"aa_keys\"] for char in seq])\n    return False\ndef is_array_int(seq, max_val=20):",
+        "detail": "Plsx.protein.utils",
+        "documentation": {}
+    },
+    {
+        "label": "ss_pattern_dict",
+        "kind": 5,
+        "importPath": "Plsx.ref.constants",
+        "description": "Plsx.ref.constants",
+        "peekOfCode": "ss_pattern_dict = {\n    \"(ACT-bbabba)\": ([\"bbabba\"], [\"ACT\"]),\n    \"(ACT-b(ACT-babbab)babba)\": ([\"b-babba\", \"b-babba\"], [\"ACT\", \"ACT\"]),\n    \"(ACT-b(UNK-babbab)babba)\": ([\"b-babba\", \"b-babba\"], [\"UNK\", \"ACT\"]),\n    \"(ACT-babbab)\": ([\"babbab\"], [\"ACT\"]),\n    \"(ACT-babbab)(ALS-babbab)\": ([\"babbab\", \"bbabbabb\"], [\"ACT\", \"ALS\"]),\n    \"(ACT-babbab)(ALS-babbab)(ACT-babbab)(ALS-babbab)\": (\n        [\"babbab\", \"bbabbabb\", \"babbab\", \"bbabbabb\"],\n        [\"ACT\", \"ALS\", \"ACT\", \"ALS\"],\n    ),",
+        "detail": "Plsx.ref.constants",
+        "documentation": {}
+    },
+    {
         "label": "TestArgParser",
         "kind": 6,
         "importPath": "Plsx.utils.test.test_custom_argparser",
@@ -2081,6 +2509,24 @@
         "description": "Plsx.utils.test.test_template",
         "peekOfCode": "class TestXXX(TestCase):\n    \"\"\"Test items for XXX class.\"\"\"\n    root = get_root(__file__, retrace=3)\nif __name__ == \"__main__\":\n    unittest_main()",
         "detail": "Plsx.utils.test.test_template",
+        "documentation": {}
+    },
+    {
+        "label": "Logger",
+        "kind": 6,
+        "importPath": "Plsx.utils.base_logger",
+        "description": "Plsx.utils.base_logger",
+        "peekOfCode": "class Logger:\n    root = get_root(__file__, retrace=2)\n    levels = {\"info\": logging.INFO}\n    def __init__(self, auto_config=True):\n        self.logger = logging\n        if auto_config:\n            self.set_basic_config()\n    def set_basic_config(self, log_file=\"base_logger.log\", level=\"info\"):\n        self.logger.basicConfig(\n            filename=self.root / \"logs\" / log_file,",
+        "detail": "Plsx.utils.base_logger",
+        "documentation": {}
+    },
+    {
+        "label": "base_logger",
+        "kind": 5,
+        "importPath": "Plsx.utils.base_logger",
+        "description": "Plsx.utils.base_logger",
+        "peekOfCode": "base_logger = Logger()",
+        "detail": "Plsx.utils.base_logger",
         "documentation": {}
     },
     {
@@ -2147,6 +2593,15 @@
         "documentation": {}
     },
     {
+        "label": "DataPipeline",
+        "kind": 6,
+        "importPath": "Plsx.utils.data_pipeline_uniprot",
+        "description": "Plsx.utils.data_pipeline_uniprot",
+        "peekOfCode": "class DataPipeline:\n    \"\"\"methods and tools to fetch data from online resources\"\"\"\n    def __init__(self):\n        self.seq_url = \"https://www.ebi.ac.uk/proteins/api/uniparc/sequence\"\n    def fetch_by_seq(self, seq):\n        headers = {\"Content-Type\": \"text/plain\", \"Accept\": \"application/json\"}\n        r = requests.post(self.seq_url, headers=headers, data=seq)\n        if not r.ok:\n            try:\n                r.raise_for_status()",
+        "detail": "Plsx.utils.data_pipeline_uniprot",
+        "documentation": {}
+    },
+    {
         "label": "Training",
         "kind": 6,
         "importPath": "Plsx.utils.demo",
@@ -2162,6 +2617,24 @@
         "description": "Plsx.utils.file_manager",
         "peekOfCode": "def get_root(file, retrace=0):\n    \"\"\"Get the root path.\"\"\"\n    return Path(file).resolve().parents[retrace]",
         "detail": "Plsx.utils.file_manager",
+        "documentation": {}
+    },
+    {
+        "label": "limit",
+        "kind": 2,
+        "importPath": "Plsx.utils.parallel_jobs",
+        "description": "Plsx.utils.parallel_jobs",
+        "peekOfCode": "def limit(number):\n    \"\"\"This decorator limits the number of simultaneous Threads\"\"\"\n    sem = threading.Semaphore(number)\n    def wrapper(func):\n        @wraps(func)\n        def wrapped(*args):\n            with sem:\n                return func(*args)\n        return wrapped\n    return wrapper",
+        "detail": "Plsx.utils.parallel_jobs",
+        "documentation": {}
+    },
+    {
+        "label": "asyncfunc",
+        "kind": 2,
+        "importPath": "Plsx.utils.parallel_jobs",
+        "description": "Plsx.utils.parallel_jobs",
+        "peekOfCode": "def asyncfunc(f):\n    \"\"\"This decorator executes a function in a Thread\"\"\"\n    @wraps(f)\n    def wrapper(*args, **kwargs):\n        thr = threading.Thread(target=f, args=args, kwargs=kwargs)\n        thr.start()\n    return wrapper",
+        "detail": "Plsx.utils.parallel_jobs",
         "documentation": {}
     },
     {
