@@ -123,38 +123,6 @@
         "documentation": {}
     },
     {
-        "label": "TestCase",
-        "importPath": "unittest",
-        "description": "unittest",
-        "isExtraImport": true,
-        "detail": "unittest",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "importPath": "unittest",
-        "description": "unittest",
-        "isExtraImport": true,
-        "detail": "unittest",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "unittest",
-        "description": "unittest",
-        "isExtraImport": true,
-        "detail": "unittest",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "importPath": "unittest",
-        "description": "unittest",
-        "isExtraImport": true,
-        "detail": "unittest",
-        "documentation": {}
-    },
-    {
         "label": "Sequential",
         "importPath": "torch.nn",
         "description": "torch.nn",
@@ -292,14 +260,6 @@
     },
     {
         "label": "Unit",
-        "importPath": "PLSx.autoencoder.architecture",
-        "description": "PLSx.autoencoder.architecture",
-        "isExtraImport": true,
-        "detail": "PLSx.autoencoder.architecture",
-        "documentation": {}
-    },
-    {
-        "label": "Architecture",
         "importPath": "PLSx.autoencoder.architecture",
         "description": "PLSx.autoencoder.architecture",
         "isExtraImport": true,
@@ -491,14 +451,6 @@
         "documentation": {}
     },
     {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
         "label": "BaseModel",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -528,62 +480,6 @@
         "description": "torch.nn.init",
         "isExtraImport": true,
         "detail": "torch.nn.init",
-        "documentation": {}
-    },
-    {
-        "label": "Module",
-        "importPath": "torch",
-        "description": "torch",
-        "isExtraImport": true,
-        "detail": "torch",
-        "documentation": {}
-    },
-    {
-        "label": "Tensor",
-        "importPath": "torch",
-        "description": "torch",
-        "isExtraImport": true,
-        "detail": "torch",
-        "documentation": {}
-    },
-    {
-        "label": "cuda",
-        "importPath": "torch",
-        "description": "torch",
-        "isExtraImport": true,
-        "detail": "torch",
-        "documentation": {}
-    },
-    {
-        "label": "device",
-        "importPath": "torch",
-        "description": "torch",
-        "isExtraImport": true,
-        "detail": "torch",
-        "documentation": {}
-    },
-    {
-        "label": "cat",
-        "importPath": "torch",
-        "description": "torch",
-        "isExtraImport": true,
-        "detail": "torch",
-        "documentation": {}
-    },
-    {
-        "label": "device",
-        "importPath": "torch",
-        "description": "torch",
-        "isExtraImport": true,
-        "detail": "torch",
-        "documentation": {}
-    },
-    {
-        "label": "tensor",
-        "importPath": "torch",
-        "description": "torch",
-        "isExtraImport": true,
-        "detail": "torch",
         "documentation": {}
     },
     {
@@ -725,6 +621,54 @@
         "documentation": {}
     },
     {
+        "label": "Tensor",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "cuda",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "cat",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "tensor",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
         "label": "DataLoader",
         "importPath": "PLSx.dataloader.dataloader",
         "description": "PLSx.dataloader.dataloader",
@@ -829,46 +773,6 @@
         "importPath": "json",
         "description": "json",
         "detail": "json",
-        "documentation": {}
-    },
-    {
-        "label": "dataclass",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
-        "isExtraImport": true,
-        "detail": "dataclasses",
-        "documentation": {}
-    },
-    {
-        "label": "fields",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
-        "isExtraImport": true,
-        "detail": "dataclasses",
-        "documentation": {}
-    },
-    {
-        "label": "is_dataclass",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
-        "isExtraImport": true,
-        "detail": "dataclasses",
-        "documentation": {}
-    },
-    {
-        "label": "Undefined",
-        "importPath": "dataclasses_json",
-        "description": "dataclasses_json",
-        "isExtraImport": true,
-        "detail": "dataclasses_json",
-        "documentation": {}
-    },
-    {
-        "label": "dataclass_json",
-        "importPath": "dataclasses_json",
-        "description": "dataclasses_json",
-        "isExtraImport": true,
-        "detail": "dataclasses_json",
         "documentation": {}
     },
     {
@@ -1061,24 +965,6 @@
         "documentation": {}
     },
     {
-        "label": "TestAutoencoder",
-        "kind": 6,
-        "importPath": "PLSx.autoencoder.test.test_autoencoder",
-        "description": "PLSx.autoencoder.test.test_autoencoder",
-        "peekOfCode": "class TestAutoencoder(TestCase):\n    \"\"\"Test items for Autoencoder class.\"\"\"\n    pass\nif __name__ == \"__main__\":\n    unittest_main()",
-        "detail": "PLSx.autoencoder.test.test_autoencoder",
-        "documentation": {}
-    },
-    {
-        "label": "TestLSTMAutoencoder",
-        "kind": 6,
-        "importPath": "PLSx.autoencoder.test.test_lstm_autoencoder",
-        "description": "PLSx.autoencoder.test.test_lstm_autoencoder",
-        "peekOfCode": "class TestLSTMAutoencoder(TestCase):\n    \"\"\"Test items for LSTMAutoencoder class.\"\"\"\n    pass\nif __name__ == \"__main__\":\n    unittest_main()",
-        "detail": "PLSx.autoencoder.test.test_lstm_autoencoder",
-        "documentation": {}
-    },
-    {
         "label": "Layer",
         "kind": 6,
         "importPath": "PLSx.autoencoder.architecture",
@@ -1232,15 +1118,6 @@
         "documentation": {}
     },
     {
-        "label": "Auttoencoder",
-        "kind": 6,
-        "importPath": "PLSx.autoencoder.autoencoder",
-        "description": "PLSx.autoencoder.autoencoder",
-        "peekOfCode": "class Auttoencoder(Module):\n    \"\"\"Autoencoder class\"\"\"\n    def __init__(self, architecture: Architecture):\n        \"\"\"Initialize the Autoencoder.\"\"\"\n        super(Auttoencoder, self).__init__()\n        self.architecture = architecture",
-        "detail": "PLSx.autoencoder.autoencoder",
-        "documentation": {}
-    },
-    {
         "label": "TestXXX",
         "kind": 6,
         "importPath": "PLSx.data_utils.test.test_template",
@@ -1355,33 +1232,6 @@
         "description": "PLSx.utils.test.test_template",
         "peekOfCode": "class TestXXX(TestCase):\n    \"\"\"Test items for XXX class.\"\"\"\n    pass\nif __name__ == \"__main__\":\n    unittest_main()",
         "detail": "PLSx.utils.test.test_template",
-        "documentation": {}
-    },
-    {
-        "label": "DefaultVal",
-        "kind": 6,
-        "importPath": "PLSx.utils.custom_dataclasses",
-        "description": "PLSx.utils.custom_dataclasses",
-        "peekOfCode": "class DefaultVal:  # -> https://stackoverflow.com/users/2128545/mikeschneeberger\n    val: Any\n@dataclass\nclass NoneRefersDefault:  # -> https://stackoverflow.com/users/2128545/mikeschneeberger\n    def __post_init__(self):\n        for field in fields(self):\n            # if a field of this data class defines a default value of type\n            # `DefaultVal`, then use its value in case the field after\n            # initialization has either not changed or is None.\n            if isinstance(field.default, DefaultVal):",
-        "detail": "PLSx.utils.custom_dataclasses",
-        "documentation": {}
-    },
-    {
-        "label": "NoneRefersDefault",
-        "kind": 6,
-        "importPath": "PLSx.utils.custom_dataclasses",
-        "description": "PLSx.utils.custom_dataclasses",
-        "peekOfCode": "class NoneRefersDefault:  # -> https://stackoverflow.com/users/2128545/mikeschneeberger\n    def __post_init__(self):\n        for field in fields(self):\n            # if a field of this data class defines a default value of type\n            # `DefaultVal`, then use its value in case the field after\n            # initialization has either not changed or is None.\n            if isinstance(field.default, DefaultVal):\n                field_val = getattr(self, field.name)\n                if isinstance(field_val, DefaultVal) or field_val is None:\n                    setattr(self, field.name, field.default.val)",
-        "detail": "PLSx.utils.custom_dataclasses",
-        "documentation": {}
-    },
-    {
-        "label": "nested_deco",
-        "kind": 2,
-        "importPath": "PLSx.utils.custom_dataclasses",
-        "description": "PLSx.utils.custom_dataclasses",
-        "peekOfCode": "def nested_deco(*args, **kwargs):\n    \"\"\"decorator for assigning nested dict to nested dataclass\"\"\"\n    def wrapper(check_class):\n        # passing class to investigate\n        check_class = dataclass(check_class, **kwargs)\n        o_init = check_class.__init__\n        def __init__(self, *args, **kwargs):\n            # getting class fields to filter extra keys\n            class_fields = {f.name for f in fields(check_class)}\n            for key in list(kwargs.keys()):",
-        "detail": "PLSx.utils.custom_dataclasses",
         "documentation": {}
     },
     {
