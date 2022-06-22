@@ -2541,7 +2541,7 @@
         "kind": 6,
         "importPath": "Plsx.utils.base_logger",
         "description": "Plsx.utils.base_logger",
-        "peekOfCode": "class Logger:\n    root = get_root(__file__, retrace=2)\n    levels = {\"info\": logging.INFO}\n    def __init__(self, auto_config=True):\n        self.logger = logging\n        if auto_config:\n            self.set_basic_config()\n    def set_basic_config(self, log_file=\"base_logger.log\", level=\"info\"):\n        self.logger.basicConfig(\n            filename=self.root / \"logs\" / log_file,",
+        "peekOfCode": "class Logger:\n    root = get_root(__file__, retrace=2)\n    levels = {\"info\": logging.INFO}\n    def __init__(self, auto_config=True):\n        self.logger = logging\n        if auto_config:\n            log_dir = self.root / \"logs\"\n            if not log_dir.exists():\n                log_dir.mkdir(parents=True)\n            self.set_basic_config()",
         "detail": "Plsx.utils.base_logger",
         "documentation": {}
     },

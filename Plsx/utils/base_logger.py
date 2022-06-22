@@ -13,6 +13,9 @@ class Logger:
     def __init__(self, auto_config=True):
         self.logger = logging
         if auto_config:
+            log_dir = self.root / "logs"
+            if not log_dir.exists():
+                log_dir.mkdir(parents=True)
             self.set_basic_config()
 
     def set_basic_config(self, log_file="base_logger.log", level="info"):
