@@ -21,7 +21,7 @@ class NumpyEncoder(json.JSONEncoder):
         return json.JSONEncoder.default(self, obj)  # no test coverage for this function
 
 
-def read_fasta(filename: Union[Path, str]) -> dict[str, str]:
+def read_fasta(filename: Union[Path, str]) -> Dict[str, str]:
     """Read fasta files and return a dict. (.fasta)"""
     data_dict = {}
     assert str(filename).endswith(".fasta"), "File format must be .fasta"

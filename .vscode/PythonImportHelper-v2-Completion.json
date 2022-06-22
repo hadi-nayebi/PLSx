@@ -1972,7 +1972,7 @@
         "kind": 6,
         "importPath": "Plsx.dataloader.utils",
         "description": "Plsx.dataloader.utils",
-        "peekOfCode": "class NumpyEncoder(json.JSONEncoder):\n    \"\"\"Encoder for numpy arrays.\"\"\"\n    def default(self, obj) -> Any:\n        if isinstance(obj, ndarray):\n            return obj.tolist()\n        return json.JSONEncoder.default(self, obj)  # no test coverage for this function\ndef read_fasta(filename: Union[Path, str]) -> dict[str, str]:\n    \"\"\"Read fasta files and return a dict. (.fasta)\"\"\"\n    data_dict = {}\n    assert str(filename).endswith(\".fasta\"), \"File format must be .fasta\"",
+        "peekOfCode": "class NumpyEncoder(json.JSONEncoder):\n    \"\"\"Encoder for numpy arrays.\"\"\"\n    def default(self, obj) -> Any:\n        if isinstance(obj, ndarray):\n            return obj.tolist()\n        return json.JSONEncoder.default(self, obj)  # no test coverage for this function\ndef read_fasta(filename: Union[Path, str]) -> Dict[str, str]:\n    \"\"\"Read fasta files and return a dict. (.fasta)\"\"\"\n    data_dict = {}\n    assert str(filename).endswith(\".fasta\"), \"File format must be .fasta\"",
         "detail": "Plsx.dataloader.utils",
         "documentation": {}
     },
@@ -1981,7 +1981,7 @@
         "kind": 2,
         "importPath": "Plsx.dataloader.utils",
         "description": "Plsx.dataloader.utils",
-        "peekOfCode": "def read_fasta(filename: Union[Path, str]) -> dict[str, str]:\n    \"\"\"Read fasta files and return a dict. (.fasta)\"\"\"\n    data_dict = {}\n    assert str(filename).endswith(\".fasta\"), \"File format must be .fasta\"\n    with open(filename, \"r\") as file:\n        for line in file.readlines():\n            if line.startswith(\">\"):\n                key = line.strip()[1:]\n                data_dict[key] = \"\"\n            else:",
+        "peekOfCode": "def read_fasta(filename: Union[Path, str]) -> Dict[str, str]:\n    \"\"\"Read fasta files and return a dict. (.fasta)\"\"\"\n    data_dict = {}\n    assert str(filename).endswith(\".fasta\"), \"File format must be .fasta\"\n    with open(filename, \"r\") as file:\n        for line in file.readlines():\n            if line.startswith(\">\"):\n                key = line.strip()[1:]\n                data_dict[key] = \"\"\n            else:",
         "detail": "Plsx.dataloader.utils",
         "documentation": {}
     },
